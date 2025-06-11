@@ -11,7 +11,6 @@
  *
  * @package WP_Bootstrap_Starter
  */
-
 get_header(); ?>
 <?php
 get_footer();
