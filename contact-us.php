@@ -20,9 +20,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-
 </section>
-
 <script>
 	jQuery(document).ready(function($) {
 		var cf7form = $('.wpcf7');
