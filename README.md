@@ -1,2 +1,2 @@
 # nuwera
-kakess ger anbidann
+new nuwera custom theme on WordPress
