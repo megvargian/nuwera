@@ -2,3 +2,4 @@
 /**
  * Template Name: Homepage
  */
+echo 'test';
