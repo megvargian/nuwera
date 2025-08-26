@@ -4,7 +4,7 @@
  */
 ?>
 <style>
-    h1{
+    h1, h2{
         color: white;
     }
 </style>
