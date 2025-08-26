@@ -5,7 +5,7 @@
 ?>
 <style>
     h1, h2{
-        color: white;
+        color: black;
     }
 </style>
 <h1>this is Nuwera aggaa !!! </h1>
