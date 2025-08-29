@@ -7,7 +7,7 @@ get_header();
 
 <main id="main" class="site-main">
 
-    <section id="home" style="text-align:center; padding:60px 0; background-image:url('./inc/assets/images/Nuwera-main-image.webp');">
+    <section id="home" style="text-align:center; padding:60px 0; background-image:url('<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp');">
         <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
     </section>
 
