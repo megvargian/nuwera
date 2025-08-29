@@ -6,28 +6,11 @@ get_header();
 ?>
 
 <main id="main" class="site-main">
+    
     <section id="home" style="text-align:center; padding:60px 0; background:#121925;">
         <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
-        <h1 style="color:#ebe2d0; font-family:'Albert Extrabold',sans-serif; margin-top:40px;">Nuwera</h1>
-        <p style="color:#ebe2d0; font-size:1.2em; margin-top:20px;">Heavy Metal band based in Lebanon</p>
-        <div style="margin-top:40px;">
-            <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank" style="margin:0 10px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify" width="40">
-            </a>
-            <a href="https://www.youtube.com/@nuwera" target="_blank" style="margin:0 10px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="40">
-            </a>
-            <a href="https://www.instagram.com/nnuwera/" target="_blank" style="margin:0 10px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="40">
-            </a>
-            <a href="https://www.facebook.com/nuweraofficial" target="_blank" style="margin:0 10px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="40">
-            </a>
-            <a href="https://www.tiktok.com/@nuweraa" target="_blank" style="margin:0 10px;">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Tiktok-logo.png" alt="TikTok" width="40">
-            </a>
-        </div>
     </section>
+
     <section id="latest-single" style="text-align:center; padding:60px 0; background:#1b1b1b;">
         <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Latest Single</h2>
         <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
