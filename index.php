@@ -12,7 +12,7 @@ get_header();
     </section>
 
     <section id="latest-single" style="text-align:center; padding:60px 0; background:#1b1b1b;">
-        <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Latest Single</h2>
+        <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Latestt Single</h2>
         <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
         <h3 style="color:#ebe2d0;">Groundless</h3>
         <p style="color:#ebe2d0;">Released June 2023</p>
