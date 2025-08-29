@@ -293,8 +293,9 @@ body.hide_scroll {
 }
 
 header {
+  background-color: transparent;
   z-index: 2;
-  position: relative;
+  position: fixed;
 }
 
 #home {
