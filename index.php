@@ -11,7 +11,7 @@ get_header();
         <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
     </section>
 
-    <section id="latest-single" style="text-align:center; padding:60px 0; background:#1b1b1b;">
+    <section id="latest-single" style="text-align:center; background:#1b1b1b;">
         <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Latest Single</h2>
         <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
         <h3 style="color:#ebe2d0;">Groundless</h3>
@@ -25,6 +25,7 @@ get_header();
             <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" style="color:#ff2b59; margin:0 10px;">Apple Music</a>
         </div>
     </section>
+
     <section id="about" style="text-align:center; padding:60px 0; background:#121925;">
         <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">About Us</h2>
         <p style="color:#ebe2d0; max-width:700px; margin:30px auto;">
