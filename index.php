@@ -2,6 +2,7 @@
 /**
  * Template Name: Homepage
  */
+$dir_name=get_template_directory_uri();
 ?>
 <html dir="ltr" lang="en-US" prefix="og: https://ogp.me/ns#" itemscope="" itemtype="http://schema.org/WebPage"
     class="svg wolf-core-no-touch wpm-bar no-touch lenis lenis-smooth" data-scroll-orientation="vertical">
