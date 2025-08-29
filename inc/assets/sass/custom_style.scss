@@ -313,4 +313,10 @@ header {
   height: 100dvh;
   background-size: cover;
   background-position: center;
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(50%, 10%);
+  }
 }

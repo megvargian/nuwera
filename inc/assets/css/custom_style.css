@@ -301,4 +301,10 @@ header {
   height: 100dvh;
   background-size: cover;
   background-position: center;
+}
+#home img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(50%, 10%);
 }/*# sourceMappingURL=custom_style.css.map */
