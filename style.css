@@ -311,6 +311,24 @@ th {
   src: url("./inc/assets/fonts/fa-solid-900.woff") format("woff"),
   url("./inc/assets/fonts/fa-solid-900.woff2") format("woff2"),
   url("./inc/assets/fonts/fa-solid-900.ttf") format("truetype");
-  font-weight: 900;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "47bd75f4ac9273bda3837bbfbfad8936.1ce2ef39";
+  src: url("./inc/assets/fonts/47bd75f4ac9273bda3837bbfbfad8936.1ce2ef39.woff") format("woff"),
+  url("./inc/assets/fonts/47bd75f4ac9273bda3837bbfbfad8936.1ce2ef39.woff2") format("woff2"),
+  url("./inc/assets/fonts/47bd75f4ac9273bda3837bbfbfad8936.1ce2ef39.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "fa-solid-900";
+  src: url("./inc/assets/fonts/fa-solid-900.woff") format("woff"),
+  url("./inc/assets/fonts/fa-solid-900.woff2") format("woff2"),
+  url("./inc/assets/fonts/fa-solid-900.ttf") format("truetype");
+  font-weight: normal;
   font-style: normal;
 }
