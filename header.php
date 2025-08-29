@@ -27,6 +27,6 @@
 	<div id="content" class="site-content">
 	<header style="text-align:center; padding:30px 0; background-color:transparent;">
         <a href="/" style="display:inline-block;">
-            <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:300px; width:100%; height:auto;">
+            <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="display:none; max-width:300px; width:100%; height:auto;">
         </a>
     </header>
