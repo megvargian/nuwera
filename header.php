@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site main_page_wrapper">
 	<div id="content" class="site-content">
-	<header style="text-align:center; padding:30px 0; background:#1b1b1b;">
+	<header style="text-align:center; padding:30px 0; background-color:transparent;">
         <a href="/" style="display:inline-block;">
             <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:300px; width:100%; height:auto;">
         </a>
