@@ -348,6 +348,12 @@ header {
 }
 .albums{
   background-color: #121925;
+  img {
+    transition: filter 0.3s ease;
+  }
+  a:hover{
+    filter: brightness(1.2) drop-shadow(0 0 10px #ff2b59);
+  }
   h2{
 	font-size: 2.5rem;
 	text-align: center;
