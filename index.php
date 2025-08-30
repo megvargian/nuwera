@@ -37,22 +37,22 @@ get_header();
     <section class="albums py-5">
         <div class="container">
             <div class="row gap-x-4">
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <a href="#">
                         <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 1" style="max-width:100%; height:auto;">
                         <h3 class="mt-3">Groundless</h3>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <a href="#">
-                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 2" style="max-width:100%; height:auto;">
-                        <h3 class="mt-3">Groundless</h3>
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Am-I-Alive-440x440.jpg" alt="Album 2" style="max-width:100%; height:auto;">
+                        <h3 class="mt-3">Am I Alive</h3>
                     </a>
                 </div>
-                <div class="col-4">
+                <div class="col-12 col-md-4">
                     <a href="#">
-                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 3" style="max-width:100%; height:auto;">
-                        <h3 class="mt-3">Groundless</h3>
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Lord-Fear-Square-440x440.webp" alt="Album 3" style="max-width:100%; height:auto;">
+                        <h3 class="mt-3">Lord Fear</h3>
                     </a>
                 </div>
             </div>

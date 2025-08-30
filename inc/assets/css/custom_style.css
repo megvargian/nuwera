@@ -362,4 +362,6 @@ header {
   font-family: "AlbertSans-ExtraBold";
   font-size: 1.2rem;
   text-align: left;
+  color: #fff;
+  text-transform: uppercase;
 }
