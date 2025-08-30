@@ -36,14 +36,31 @@ get_header();
     </section>
     <section class="albums py-5">
         <div class="container">
-            <div class="row text-center">
+            <div class="row text-center pb-5">
                 <h2>All Realeases</h2>
             </div>
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4">
                     <a href="#">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 1" style="max-width:100%; height:auto;">
-                        <h3 class="mt-3">Groundless</h3>
+                        <h3 class="my-3">Groundless</h3>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-spotify"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-spotify"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-spotify"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </a>
                 </div>
                 <div class="col-12 col-md-4">

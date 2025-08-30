@@ -378,3 +378,15 @@ header {
   color: #fff;
   text-transform: uppercase;
 }
+.albums .social-icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.albums .social-icons li {
+  margin: 0 5px;
+  font-size: 15px;
+}
+.albums .social-icons li a .fa-spotify:before {
+  content: "\f1bc";
+}

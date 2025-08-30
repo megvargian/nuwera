@@ -362,5 +362,20 @@ header {
 	color: #fff;
 	text-transform: uppercase;
   }
+  .social-icons{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	li{
+		margin: 0 5px;
+		font-size: 15px;
+	    a{
+			.fa-spotify:before {
+				content: "\f1bc";
+
+			}
+		}
+	}
+  }
 }
 
