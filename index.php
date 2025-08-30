@@ -34,19 +34,28 @@ get_header();
             </div>
         </div>
     </section>
-
-    <section id="about" style="text-align:center; padding:60px 0; background:#121925;">
-        <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">About Us</h2>
-        <p style="color:#ebe2d0; max-width:700px; margin:30px auto;">
-            Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup comprises Denyo on vocals, lead, and rhythm, Angelo Zeidan on lead and rhythm guitars, Serge Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums.
-        </p>
-    </section>
-    <section id="contact" style="text-align:center; padding:60px 0; background:#1b1b1b;">
-        <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Contact</h2>
-        <p style="color:#ebe2d0;">info@nuwera.band</p>
-        <div style="margin-top:20px;">
-            <a href="https://www.facebook.com/nuweraofficial" target="_blank" style="color:#ff2b59; margin:0 10px;">Facebook</a>
-            <a href="https://www.instagram.com/nnuwera/" target="_blank" style="color:#ff2b59; margin:0 10px;">Instagram</a>
+    <section class="albums py-5">
+        <div class="container">
+            <div class="row gap-x-4">
+                <div class="col-4">
+                    <a href="#">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 1" style="max-width:100%; height:auto;">
+                        <h3 class="mt-3">Groundless</h3>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 2" style="max-width:100%; height:auto;">
+                        <h3 class="mt-3">Groundless</h3>
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 3" style="max-width:100%; height:auto;">
+                        <h3 class="mt-3">Groundless</h3>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 </main>
