@@ -209,9 +209,9 @@ th {
 
  @font-face {
   font-family: "AlbertSans-ExtraBold";
-  src: url("./inc/assets/fonts/AlbertSans-ExtraBold.ttf") format("truetype"),
-  url("./inc/assets/fonts/AlbertSans-ExtraBold.woff2") format("woff2"),
-  url("./inc/assets/fonts/AlbertSans-ExtraBold.woff") format("woff");
+  src: url("./inc/assets/fonts/albert-extrabold.woff2") format("woff2"),
+      url("./inc/assets/fonts/albert-extrabold.woff") format("woff"),
+      url("./inc/assets/fonts/albert-extrabold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
