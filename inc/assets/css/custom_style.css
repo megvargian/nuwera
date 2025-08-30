@@ -301,6 +301,7 @@ header {
   height: 100dvh;
   background-size: cover;
   background-position: center;
+  position: relative;
   overflow: hidden;
 }
 #home #nuwera-logo {
@@ -318,7 +319,7 @@ header {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transform: scale(calc(1 + var(--scroll) / 4));
+  transform: scale(calc(1 + var(--scroll) / 2));
   z-index: 0;
 }
 
