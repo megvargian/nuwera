@@ -13,17 +13,25 @@ get_header();
     </section>
 
     <section id="latest-single" style="text-align:center; background:#1b1b1b;">
-        <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Latest Single</h2>
-        <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
-        <h3 style="color:#ebe2d0;">Groundless</h3>
-        <p style="color:#ebe2d0;">Released June 2023</p>
-        <div style="margin-top:20px;">
-            <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-        </div>
-        <div style="margin-top:20px;">
-            <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" style="color:#ff2b59; margin:0 10px;">Spotify</a>
-            <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" style="color:#ff2b59; margin:0 10px;">YouTube</a>
-            <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" style="color:#ff2b59; margin:0 10px;">Apple Music</a>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
+                </div>
+                <div class="col-6">
+                    <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">Latest Single</h2>
+                    <h3 style="color:#ebe2d0;">Groundless</h3>
+                    <p style="color:#ebe2d0;">Released June 2023</p>
+                    <div style="margin-top:20px;">
+                        <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div style="margin-top:20px;">
+                        <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" style="color:#ff2b59; margin:0 10px;">Spotify</a>
+                        <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" style="color:#ff2b59; margin:0 10px;">YouTube</a>
+                        <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" style="color:#ff2b59; margin:0 10px;">Apple Music</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
