@@ -387,6 +387,9 @@ header {
   margin: 0 5px;
   font-size: 15px;
 }
+.albums .social-icons li a {
+  color: #fff;
+}
 .albums .social-icons li a .fa-spotify:before {
   content: "\f1bc";
 }
