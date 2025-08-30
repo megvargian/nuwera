@@ -46,18 +46,15 @@ get_header();
                         <h3 class="my-3">Groundless</h3>
                         <ul class="social-icons">
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-spotify"></i>
+                                <a class="fab fa-spotify" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-spotify"></i>
+                                <a class="fab fa-youtube" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <i class="fa fa-spotify"></i>
+                                <a class="fab fa-apple" href="#">
                                 </a>
                             </li>
                         </ul>
