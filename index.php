@@ -43,6 +43,14 @@ get_header();
     </section>
 </main>
 
+<script>
+    window.addEventListener("scroll", () => {
+      const maxScroll = document.body.scrollHeight - window.innerHeight;
+      const scroll = window.scrollY / maxScroll; // 0 → 1
+      document.documentElement.style.setProperty("--scroll", scroll);
+    });
+  </script>
+
 <?php
 get_footer();
 ?>

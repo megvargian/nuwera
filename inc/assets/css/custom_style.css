@@ -307,6 +307,7 @@ header {
   top: 35%;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 #home #nuwera-crowd-img {
   position: absolute;
@@ -316,8 +317,9 @@ header {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  transform: scale(calc(1 + var(--progress) / 4));
+  transform: scale(calc(1 + var(--scroll) / 4));
   transition: transform 0.3s ease;
+  z-index: 0;
 }
 
 #latest-single {
