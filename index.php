@@ -40,7 +40,7 @@ get_header();
                 <h2>All Realeases</h2>
             </div>
             <div class="row gap-x-4">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="#">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Album 1" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
@@ -76,7 +76,7 @@ get_header();
                         </ul>
                     </a>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="#">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Am-I-Alive-440x440.jpg" alt="Album 2" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
@@ -108,7 +108,7 @@ get_header();
                         </ul>
                     </a>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="#">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Lord-Fear-Square-440x440.webp" alt="Album 3" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
