@@ -36,6 +36,9 @@ get_header();
     </section>
     <section class="albums py-5">
         <div class="container">
+            <div class="row text-center">
+                <h2>All Realeases</h2>
+            </div>
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4">
                     <a href="#">
