@@ -280,6 +280,13 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+
+ @font-face {
+  font-family: "AlbertSans-ExtraBold";
+  src: url("./inc/assets/fonts/AlbertSans-ExtraBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 /* @font-face {
   font-family: "victorian-two-regular";
   src: url("./inc/assets/fonts/victorian-designs-two-regular.ttf") format("truetype"),

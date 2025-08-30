@@ -172,7 +172,7 @@ p {
 body {
 	color: $text_black;
 	font-family: $montserrat-regular;
-	background-color: $text_white;
+	background-color: #1b1b1b;
 	overflow: auto;
 	overflow-x: hidden !important;
 }
@@ -336,4 +336,13 @@ header {
 #latest-single {
 	height: 100dvh;
 	align-content: center;
+}
+
+.albums{
+  background-color: #1b1b11;
+  h3{
+	font-family: $albert-extra-bold;
+	font-size: 1.2rem;
+	text-align: left;
+  }
 }
