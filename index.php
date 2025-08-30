@@ -50,11 +50,27 @@ get_header();
                                 </a>
                             </li>
                             <li>
-                                <a class="fab fa-youtube" href="#">
+                                <a class="fab fa-apple" href="#">
                                 </a>
                             </li>
                             <li>
-                                <a class="fab fa-apple" href="#">
+                                <a class="fab fa-deezer" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-itunes" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-amazon" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-bandcamp" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-youtube" href="#">
                                 </a>
                             </li>
                         </ul>
@@ -63,13 +79,65 @@ get_header();
                 <div class="col-12 col-md-4">
                     <a href="#">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Am-I-Alive-440x440.jpg" alt="Album 2" style="max-width:100%; height:auto;">
-                        <h3 class="mt-3">Am I Alive</h3>
+                        <h3 class="my-3">Am I Alive</h3>
+                        <ul class="social-icons">
+                            <li>
+                                <a class="fab fa-spotify" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-apple" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-itunes" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-amazon" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-bandcamp" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-youtube" href="#">
+                                </a>
+                            </li>
+                        </ul>
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
                     <a href="#">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Lord-Fear-Square-440x440.webp" alt="Album 3" style="max-width:100%; height:auto;">
-                        <h3 class="mt-3">Lord Fear</h3>
+                        <h3 class="my-3">Lord Fear</h3>
+                        <ul class="social-icons">
+                            <li>
+                                <a class="fab fa-spotify" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-apple" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-itunes" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-amazon" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-bandcamp" href="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="fab fa-youtube" href="#">
+                                </a>
+                            </li>
+                        </ul>
                     </a>
                 </div>
             </div>
