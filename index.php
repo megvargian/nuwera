@@ -7,8 +7,9 @@ get_header();
 
 <main id="main" class="site-main">
 
-    <section id="home" style="text-align:center; background-image:url('<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp');">
-        <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
+    <section id="home" style="text-align:center;">
+        <img id="nuwera-logo"src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
+        <img id="nuwera-crowd-img" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
     </section>
 
     <section id="latest-single" style="text-align:center; background:#1b1b1b;">
