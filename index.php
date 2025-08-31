@@ -226,7 +226,9 @@ get_header();
     </section>
     <section class="shop-now">
         <div class="container text-center py-5">
-            <h2 class="mb-4">Shop Now</h2>
+            <a href="#">
+                <h2>Shop Now</h2>
+            </a>
         </div>
     </section>
 </main>
