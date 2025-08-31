@@ -410,12 +410,12 @@ header {
 }
 .meet-the-band h3 {
   font-family: "AlbertSans-ExtraBold";
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-align: left;
   color: #fff;
   text-transform: uppercase;
 }
 .meet-the-band p {
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
