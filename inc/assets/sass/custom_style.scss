@@ -390,8 +390,8 @@ header {
 	text-transform: uppercase;
   }
   h3{
-	font-family: $albert-extra-bold;
-	font-size: 1rem;
+	font-family: $poppins-regular;
+	font-size: 1.1rem;
 	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
@@ -399,5 +399,6 @@ header {
   p{
 	color: #fff;
 	font-size: .8rem;
+	font-family: $poppins-regular;
   }
 }

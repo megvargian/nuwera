@@ -215,3 +215,10 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Poppins-regular";
+  src: url("./inc/assets/fonts/poppins-regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
