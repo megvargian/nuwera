@@ -437,4 +437,17 @@ header {
   font-family: "AlbertSans-ExtraBold";
   color: #000;
   text-transform: uppercase;
-}/*# sourceMappingURL=custom_style.css.map */
+}
+
+footer {
+  background-color: #fff;
+}
+footer a {
+  font-size: 1.5rem;
+  color: #000;
+  font-family: "AlbertSans-ExtraBold";
+  text-transform: uppercase;
+}
+footer a:hover {
+  text-decoration: underline;
+}
