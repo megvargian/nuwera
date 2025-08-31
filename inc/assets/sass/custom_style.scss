@@ -380,7 +380,7 @@ header {
 		padding-right: 8px;
 	}
 
-	a.apple::before {
+	a.apple-music::before {
 		content: "\f179";
 		font-family: "Font Awesome 6 Brands";
 		padding-right: 8px;
@@ -466,7 +466,7 @@ header {
 
 footer {
 	background-color: #fff;
-	a{
+	a {
 		font-size: 1.25rem;
 		color: #000;
 		font-family: $albert-extra-bold;
@@ -475,7 +475,7 @@ footer {
 	a:hover {
 		text-decoration: underline;
 	}
-	li{
+	li {
 		margin-right: 8px;
 	}
 }

@@ -372,7 +372,7 @@ header {
   font-family: "Font Awesome 6 Brands";
   padding-right: 8px;
 }
-#latest-single a.apple::before {
+#latest-single a.apple-music::before {
   content: "\f179";
   font-family: "Font Awesome 6 Brands";
   padding-right: 8px;
