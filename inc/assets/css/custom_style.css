@@ -297,6 +297,16 @@ header {
   position: fixed;
 }
 
+::-moz-selection {
+  background: #ff2b59;
+  color: #ffffff;
+}
+
+::selection {
+  background: #ff2b59;
+  color: #ffffff;
+}
+
 #home {
   height: 100dvh;
   background-color: #121925;
