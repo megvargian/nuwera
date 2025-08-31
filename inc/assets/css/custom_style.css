@@ -396,7 +396,7 @@ header {
 }
 .meet-the-band img {
   transition: filter 0.3s ease;
-  aspect-ratio: 3/2;
+  aspect-ratio: 116/137;
 }
 .meet-the-band a:hover {
   filter: brightness(1.15) saturate(1.2);
@@ -410,8 +410,12 @@ header {
 }
 .meet-the-band h3 {
   font-family: "AlbertSans-ExtraBold";
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   text-align: left;
   color: #fff;
   text-transform: uppercase;
+}
+.meet-the-band p {
+  color: #fff;
+  font-size: 1rem;
 }
