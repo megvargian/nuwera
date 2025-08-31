@@ -224,7 +224,7 @@ th {
 }
 
 @font-face {
-  font-family: 'Heaters';
+  font-family: 'Albert Extrabold';
   src: url('./inc/assets/fonts/albert-extrabold.woff2') format('woff2'),
        url('./inc/assets/fonts/albert-extrabold.woff') format('woff'),
        url('./inc/assets/fonts/albert-extrabold.ttf') format('truetype');
