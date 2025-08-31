@@ -445,12 +445,15 @@ header {
 footer{
 	background-color: #fff;
 	a{
-		font-size: 1.5rem;
+		font-size: 1.25rem;
 		color: #000;
 		font-family: $albert-extra-bold;
 		text-transform: uppercase;
 	}
 	a:hover{
 		text-decoration: underline;
+	}
+	li{
+		margin-right: 8px;
 	}
 }
