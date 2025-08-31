@@ -309,6 +309,12 @@ header {
 	position: fixed;
 }
 
+//highlight color
+::selection {
+	background: #ff2b59;
+	color: #ffffff;
+}
+
 #home {
 	height: 100dvh;
 	background-color: #121925;
@@ -336,41 +342,51 @@ header {
 #latest-single {
 	height: 100dvh;
 	align-content: center;
+	h3,
+	p {
+		color: #ebe2d0;
+	}
+	h3 {
+		font-size: 72px;
+		line-height: 0.9;
+		font-family: $albert-extra-bold;
+	}
 }
-.albums{
-  background-color: #121925;
-  img {
-    transition: filter 0.3s ease;
-  }
-  a:hover{
-    filter: brightness(1.15) saturate(1.2);
-  }
-  h2{
-	font-size: 2.5rem;
-	text-align: center;
-	font-family: $albert-extra-bold;
-	color: #fff;
-	text-transform: uppercase;
-  }
-  h3{
-	font-family: $albert-extra-bold;
-	font-size: 1.2rem;
-	text-align: left;
-	color: #fff;
-	text-transform: uppercase;
-  }
-  .social-icons{
-	display: flex;
-	justify-content: start;
-	align-items: center;
-	li{
-		margin: 0 5px;
-		font-size: 15px;
-	    a{
-			color: #fff;
+
+.albums {
+	background-color: #121925;
+	img {
+		transition: filter 0.3s ease;
+	}
+	a:hover {
+		filter: brightness(1.15) saturate(1.2);
+	}
+	h2 {
+		font-size: 2.5rem;
+		text-align: center;
+		font-family: $albert-extra-bold;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-family: $albert-extra-bold;
+		font-size: 1.2rem;
+		text-align: left;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	.social-icons {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		li {
+			margin: 0 5px;
+			font-size: 15px;
+			a {
+				color: #fff;
+			}
 		}
 	}
-  }
 }
 .meet-the-band{
   background-color: #121925;
@@ -402,7 +418,6 @@ header {
 	font-family: $poppins-regular;
   }
 }
-
 .shop-now{
 	padding: 5rem 0;
 	background-color: #fff;

@@ -326,6 +326,11 @@ header {
   position: fixed;
 }
 
+::selection {
+  background: #ff2b59;
+  color: #ffffff;
+}
+
 #home {
   height: 100dvh;
   background-color: #121925;
@@ -353,6 +358,15 @@ header {
 #latest-single {
   height: 100dvh;
   align-content: center;
+}
+#latest-single h3,
+#latest-single p {
+  color: #ebe2d0;
+}
+#latest-single h3 {
+  font-size: 72px;
+  line-height: 0.9;
+  font-family: "AlbertSans-ExtraBold";
 }
 
 .albums {
