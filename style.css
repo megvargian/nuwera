@@ -208,15 +208,6 @@ th {
 }
 
 @font-face {
-  font-family: "AlbertSans-ExtraBold";
-  src: url("./inc/assets/fonts/albert-extrabold.woff2") format("woff2"),
-      url("./inc/assets/fonts/albert-extrabold.woff") format("woff"),
-      url("./inc/assets/fonts/albert-extrabold.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Poppins-regular";
   src: url("./inc/assets/fonts/poppins-regular.ttf") format("truetype");
   font-weight: normal;
@@ -224,10 +215,10 @@ th {
 }
 
 @font-face {
-  font-family: 'Albert Extrabold';
-  src: url('./inc/assets/fonts/albert-extrabold.woff2') format('woff2'),
-       url('./inc/assets/fonts/albert-extrabold.woff') format('woff'),
-       url('./inc/assets/fonts/albert-extrabold.ttf') format('truetype');
+  font-family: "Albert Extrabold";
+  src: url("./inc/assets/fonts/albert-extrabold.woff2") format("woff2"),
+       url("./inc/assets/fonts/albert-extrabold.woff") format("woff"),
+       url("./inc/assets/fonts/albert-extrabold.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
