@@ -222,3 +222,12 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Heaters';
+  src: url('./inc/assets/fonts/albert-extrabold.woff2') format('woff2'),
+       url('./inc/assets/fonts/albert-extrabold.woff') format('woff'),
+       url('./inc/assets/fonts/albert-extrabold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
