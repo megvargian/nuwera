@@ -19,8 +19,8 @@ get_header();
                     <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
                 </div>
                 <div class="col-6">
-                    <h2 style="color:#ff2b59; font-family:'Heaters',sans-serif;">LATEST SINGLE</h2>
-                    <h3 style="color:#ebe2d0;">GROUNDLESS</h3>
+                    <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">LATEST SINGLE</h2>
+                    <h3>GROUNDLESS</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                     <div style="margin-top:20px;">
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>

@@ -336,7 +336,17 @@ header {
 #latest-single {
 	height: 100dvh;
 	align-content: center;
+	h3,
+	p{
+		color: #ebe2d0;
+	}
+	h3{
+		font-size: 72px;
+		line-height: 0.9;
+		font-family: $albert-extra-bold;
+	}
 }
+
 .albums{
   background-color: #121925;
   img {
