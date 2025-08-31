@@ -429,3 +429,16 @@ header {
 		text-transform: uppercase;
 	}
 }
+
+footer{
+	background-color: #fff;
+	a{
+		font-size: 1.5rem;
+		color: #000;
+		font-family: $albert-extra-bold;
+		text-transform: uppercase;
+	}
+	a:hover{
+		text-decoration: underline;
+	}
+}
