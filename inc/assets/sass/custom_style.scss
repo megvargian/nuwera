@@ -377,6 +377,7 @@ header {
   img {
     transition: filter 0.3s ease;
 	aspect-ratio: 116/137;
+	object-fit: cover;
   }
   a:hover{
     filter: brightness(1.15) saturate(1.2);
@@ -390,13 +391,13 @@ header {
   }
   h3{
 	font-family: $albert-extra-bold;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	text-align: left;
 	color: #fff;
 	text-transform: uppercase;
   }
   p{
 	color: #fff;
-	font-size: 1rem;
+	font-size: .8rem;
   }
 }
