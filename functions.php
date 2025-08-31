@@ -138,9 +138,9 @@ function wp_bootstrap_starter_scripts()
     if (is_front_page()) {
         // wp_enqueue_style( 'animate_headlines', get_template_directory_uri() . '/inc/assets/css/animate_headlines.css' );
     }
-    wp_enqueue_style('custom_style', get_template_directory_uri() . '/inc/assets/css/custom_style.css', array());
-    wp_enqueue_style('responsive_style', get_template_directory_uri() . '/inc/assets/css/responsive.css', array());
-    wp_enqueue_style('responsive_style', get_template_directory_uri() . '/inc/assets/css/all.min.css', array());
+    wp_enqueue_style('custom_style', get_template_directory_uri() . '/inc/assets/css/custom_style.css', array(), '3.9.0');
+    wp_enqueue_style('responsive_style', get_template_directory_uri() . '/inc/assets/css/responsive.css', array(), '3.9.0');
+    wp_enqueue_style('responsive_style', get_template_directory_uri() . '/inc/assets/css/all.min.css', array(), '3.9.0');
 
     wp_enqueue_script('jquery');
 
