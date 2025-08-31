@@ -215,7 +215,7 @@ th {
 }
 
 @font-face {
-  font-family: "Albert Extrabold";
+  font-family: "Albert";
   src: url("./inc/assets/fonts/albert-extrabold.woff2") format("woff2"),
        url("./inc/assets/fonts/albert-extrabold.woff") format("woff"),
        url("./inc/assets/fonts/albert-extrabold.ttf") format("truetype");
