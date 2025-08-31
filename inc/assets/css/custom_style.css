@@ -345,6 +345,12 @@ header {
   line-height: 0.9;
   font-family: "AlbertSans-ExtraBold";
 }
+#latest-single p {
+  font-size: 15px;
+  font-family: Gabarito-Regular;
+  margin-top: 0;
+  margin-bottom: 1.88em;
+}
 
 .albums {
   background-color: #121925;
