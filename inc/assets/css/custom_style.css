@@ -173,7 +173,7 @@ p {
 
 body {
   color: #000;
-  font-family: "montserrat-regular";
+  font-family: "Poppins-regular";
   background-color: #1b1b1b;
   overflow: auto;
   overflow-x: hidden !important;
@@ -410,8 +410,8 @@ header {
   text-transform: uppercase;
 }
 .meet-the-band h3 {
-  font-family: "AlbertSans-ExtraBold";
-  font-size: 1rem;
+  font-family: "Poppins-regular";
+  font-size: 1.1rem;
   text-align: left;
   color: #fff;
   text-transform: uppercase;
@@ -419,4 +419,5 @@ header {
 .meet-the-band p {
   color: #fff;
   font-size: 0.8rem;
+  font-family: "Poppins-regular";
 }
