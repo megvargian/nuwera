@@ -357,12 +357,33 @@ header {
 		margin-top: 0;
 		margin-bottom: 1.88em;
 	}
-	a{
+	a {
 		background-color: #ff2b59;
 		color: #ffffff;
 		font-size: 14px;
-        padding: 10px 32px;
-		margin:0 10px;
+		padding: 10px 32px;
+		margin: 0 10px;
+	}
+	a:hover {
+		background-color: #ebe2d0;
+		color: #121925;
+	}
+	a.spotify::before {
+		content: "\f1bc";
+		font-family: "Font Awesome 6 Brands";
+		padding-right: 8px;
+	}
+
+	a.youtube::before {
+		content: "\f167";
+		font-family: "Font Awesome 6 Brands";
+		padding-right: 8px;
+	}
+
+	a.apple::before {
+		content: "\f179";
+		font-family: "Font Awesome 6 Brands";
+		padding-right: 8px;
 	}
 }
 
@@ -401,40 +422,40 @@ header {
 		}
 	}
 }
-.meet-the-band{
-  background-color: #121925;
-  img {
-    transition: filter 0.3s ease;
-	aspect-ratio: 116/137;
-	object-fit: cover;
-  }
-  a:hover{
-    filter: brightness(1.15) saturate(1.2);
-  }
-  h2{
-	font-size: 2.5rem;
-	text-align: center;
-	font-family: $albert-extra-bold;
-	color: #fff;
-	text-transform: uppercase;
-  }
-  h3{
-	font-family: $poppins-regular;
-	font-size: 1.1rem;
-	text-align: left;
-	color: #fff;
-	font-weight: 600;
-  }
-  p{
-	color: #fff;
-	font-size: .8rem;
-	font-family: $poppins-regular;
-  }
+.meet-the-band {
+	background-color: #121925;
+	img {
+		transition: filter 0.3s ease;
+		aspect-ratio: 116/137;
+		object-fit: cover;
+	}
+	a:hover {
+		filter: brightness(1.15) saturate(1.2);
+	}
+	h2 {
+		font-size: 2.5rem;
+		text-align: center;
+		font-family: $albert-extra-bold;
+		color: #fff;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-family: $poppins-regular;
+		font-size: 1.1rem;
+		text-align: left;
+		color: #fff;
+		font-weight: 600;
+	}
+	p {
+		color: #fff;
+		font-size: 0.8rem;
+		font-family: $poppins-regular;
+	}
 }
-.shop-now{
+.shop-now {
 	padding: 18rem 0;
 	background-color: #fff;
-	 h2{
+	h2 {
 		font-size: 5rem;
 		text-align: center;
 		font-family: $albert-extra-bold;
@@ -443,7 +464,7 @@ header {
 	}
 }
 
-footer{
+footer {
 	background-color: #fff;
 	a{
 		font-size: 1.25rem;
@@ -451,7 +472,7 @@ footer{
 		font-family: $albert-extra-bold;
 		text-transform: uppercase;
 	}
-	a:hover{
+	a:hover {
 		text-decoration: underline;
 	}
 	li{

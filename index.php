@@ -26,9 +26,9 @@ get_header();
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                     <div style="margin-top:20px;">
-                        <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank">Spotify</a>
-                        <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank">YouTube</a>
-                        <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank">Apple Music</a>
+                        <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify">Spotify</a>
+                        <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youTube">YouTube</a>
+                        <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music">Apple Music</a>
                     </div>
                 </div>
             </div>
