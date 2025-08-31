@@ -414,10 +414,22 @@ header {
   font-size: 1.1rem;
   text-align: left;
   color: #fff;
-  text-transform: uppercase;
+  font-weight: 600;
 }
 .meet-the-band p {
   color: #fff;
   font-size: 0.8rem;
   font-family: "Poppins-regular";
+}
+
+.shop-now {
+  padding: 5rem 0;
+  background-color: #fff;
+}
+.shop-now h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "AlbertSans-ExtraBold";
+  color: #000;
+  text-transform: uppercase;
 }

@@ -394,11 +394,23 @@ header {
 	font-size: 1.1rem;
 	text-align: left;
 	color: #fff;
-	text-transform: uppercase;
+	font-weight: 600;
   }
   p{
 	color: #fff;
 	font-size: .8rem;
 	font-family: $poppins-regular;
   }
+}
+
+.shop-now{
+	padding: 5rem 0;
+	background-color: #fff;
+	 h2{
+		font-size: 3.5rem;
+		text-align: center;
+		font-family: $albert-extra-bold;
+		color: #000;
+		text-transform: uppercase;
+	}
 }
