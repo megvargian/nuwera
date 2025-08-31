@@ -224,8 +224,43 @@ th {
 }
 
 @font-face {
+	font-family: "Gabarito-Black";
+	src: url("./inc/assets/fonts/Gabarito-Black.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gabarito-Bold";
+	src: url("./inc/assets/fonts/Gabarito-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gabarito-ExtraBold";
+	src: url("./inc/assets/fonts/Gabarito-ExtraBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gabarito-Medium";
+	src: url("./inc/assets/fonts/Gabarito-Medium.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "Gabarito-Regular";
 	src: url("./inc/assets/fonts/Gabarito-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gabarito-SemiBold";
+	src: url("./inc/assets/fonts/Gabarito-SemiBold.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
