@@ -377,6 +377,7 @@ header {
   img {
     transition: filter 0.3s ease;
 	aspect-ratio: 116/137;
+	object-fit: cover;
   }
   a:hover{
     filter: brightness(1.15) saturate(1.2);
