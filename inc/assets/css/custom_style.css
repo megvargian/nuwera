@@ -390,6 +390,27 @@ header {
 .albums .social-icons li a {
   color: #fff;
 }
-.albums .social-icons li a .fa-spotify:before {
-  content: "\f1bc";
+
+.meet-the-band {
+  background-color: #121925;
+}
+.meet-the-band img {
+  transition: filter 0.3s ease;
+}
+.meet-the-band a:hover {
+  filter: brightness(1.15) saturate(1.2);
+}
+.meet-the-band h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: "AlbertSans-ExtraBold";
+  color: #fff;
+  text-transform: uppercase;
+}
+.meet-the-band h3 {
+  font-family: "AlbertSans-ExtraBold";
+  font-size: 1.2rem;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
 }

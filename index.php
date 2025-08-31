@@ -143,6 +143,50 @@ get_header();
             </div>
         </div>
     </section>
+    <section class="meet-the-band py-5">
+        <div class="container">
+            <div class="row text-center pb-5">
+                <h2>Meet The Band</h2>
+            </div>
+            <div class="row gap-x-4">
+                <div class="col">
+                    <a href="#" class="band-member">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3758-1536x1024.jpg" alt="Denyo">
+                        <h3>Denyo</h3>
+                        <p>Vocals/Thythm</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="band-member">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
+                        <h3>Serge Achkarian</h3>
+                        <p>Bassist</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="band-member">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/10/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
+                        <h3>Antoine Bayram</h3>
+                        <p>Drummer</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="band-member">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/10/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
+                        <h3>Angelo Zeidan</h3>
+                        <p>Lead Guitar</p>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="#" class="band-member">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/10/MIKE4328-1536x1024.jpg" alt="Member 5">
+                        <h3>Rick Garabedian</h3>
+                        <p>Synth/Keys</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <script>
