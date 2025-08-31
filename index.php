@@ -148,7 +148,7 @@ get_header();
             <div class="row text-center pb-5">
                 <h2>Meet The Band</h2>
             </div>
-            <div class="row justify-content-center">
+            <div class="row justify-content-center gap-x-4">
                 <div class="col-12 col-md-2 mb-4 mb-md-0">
                     <a href="#" class="band-member">
                         <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3758-1536x1024.jpg" alt="Denyo">
