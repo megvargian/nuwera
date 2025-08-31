@@ -10,8 +10,8 @@
  */
 ?>
     </div><!-- #content -->
-    <footer>
-        <div class="container">
+    <footer class="pb-5">
+        <div class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col">
                     <a href="mailto:info@nuwera.band">info@nuwera.band</a>
