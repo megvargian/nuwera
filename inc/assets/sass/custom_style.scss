@@ -376,6 +376,7 @@ header {
   background-color: #121925;
   img {
     transition: filter 0.3s ease;
+	aspect-ratio: 3/2;
   }
   a:hover{
     filter: brightness(1.15) saturate(1.2);

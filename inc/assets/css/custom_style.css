@@ -396,6 +396,7 @@ header {
 }
 .meet-the-band img {
   transition: filter 0.3s ease;
+  aspect-ratio: 3/2;
 }
 .meet-the-band a:hover {
   filter: brightness(1.15) saturate(1.2);
