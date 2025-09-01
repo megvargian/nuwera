@@ -1,1 +1,8 @@
-/*# sourceMappingURL=responsive.css.map */
+@media (max-width: 767px) {
+  .shop-now {
+    padding: 8rem;
+  }
+  .shop-now h2 {
+    font-size: 2.5rem;
+  }
+}
