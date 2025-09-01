@@ -13,7 +13,7 @@
     <footer class="pb-5">
         <div class="container-fluid">
             <div class="row justify-content-between">
-                <div class="col">
+                <div class="col d-flex justify-content-center justify-content-md-start align-items-center mb-md-0 mb-4">
                     <a href="mailto:info@nuwera.band">info@nuwera.band</a>
                 </div>
                 <div class="col">
