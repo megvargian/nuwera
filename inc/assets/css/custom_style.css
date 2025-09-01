@@ -512,5 +512,5 @@ footer li {
   transition: transform 0.2s;
   width: 60px;
   z-index: 10;
-  rotate: -45deg;
+  rotate: -90deg;
 }
