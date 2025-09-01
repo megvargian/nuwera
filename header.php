@@ -29,7 +29,7 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site main_page_wrapper position-relative">
-        <a href="#header" id="back-to-top-link" class="scroll-to back-to-top-visible">
+        <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible">
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clippath="url(#clip0_77_1481)">
                     <path d="M0.180725 23H62.1807" stroke="#272727" stroke-width="2"></path>
@@ -51,3 +51,16 @@
                         alt="Nuwera Logo" style="display:none; max-width:300px; width:100%; height:auto;">
                 </a>
             </header>
+
+<script>
+	jQuery(function($) {
+		// Hide #back-to-top-link when near the top
+		$(window).on('scroll', function() {
+			if ($(window).scrollTop() < 100) {
+				$('#back-to-top-link').fadeOut();
+			} else {
+				$('#back-to-top-link').fadeIn();
+			}
+		});
+	});
+</script>
