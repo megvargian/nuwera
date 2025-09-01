@@ -480,3 +480,20 @@ footer {
 		margin-right: 8px;
 	}
 }
+
+#back-to-top-link.back-to-top-visible {
+    transform: translateY(0);
+}
+
+#back-to-top-link {
+    background: none !important;
+    bottom: 70px;
+    display: block;
+    height: auto;
+    position: fixed;
+    right: 40px;
+    transform: translateY(200px);
+    transition: transform .2s;
+    width: 60px;
+    z-index: 10;
+}

@@ -11,24 +11,43 @@
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
+
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nuwera - Heavy Metal Band</title>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://nuwera.band/wp-content/uploads/2024/09/cropped-Nuwera-Logo-White-192x192.png" sizes="192x192">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<?php wp_head(); ?>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Nuwera - Heavy Metal Band</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://nuwera.band/wp-content/uploads/2024/09/cropped-Nuwera-Logo-White-192x192.png"
+        sizes="192x192">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <?php wp_head(); ?>
 </head>
+
 <body <?php body_class(); ?>>
-<div id="page" class="site main_page_wrapper">
-	<div id="content" class="site-content">
-	<header style="text-align:center; padding:30px 0; background-color:transparent;">
-        <a href="/" style="display:inline-block;">
-            <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="display:none; max-width:300px; width:100%; height:auto;">
-        </a>
-    </header>
+    <div id="page" class="site main_page_wrapper position-relative">
+        <a href="#header" id="back-to-top-link" class="scroll-to back-to-top-visible">
+            <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clippath="url(#clip0_77_1481)">
+                    <path d="M0.180725 23H62.1807" stroke="#272727" stroke-width="2"></path>
+                    <path d="M62.1807 23C49.3401 23 38.9307 12.7025 38.9307 0" stroke="#272727" stroke-width="2"></path>
+                    <path d="M38.9307 46C38.9307 33.2974 49.3401 23 62.1807 23" stroke="#272727" stroke-width="2">
+                    </path>
+                </g>
+                <defs>
+                    <clipPath id="clip0_77_1481">
+                        <rect width="62" height="46" fill="#272727" transform="translate(0.180725)"></rect>
+                    </clipPath>
+                </defs>
+            </svg>
+		</a>
+        <div id="content" class="site-content">
+            <header id="header" style="text-align:center; padding:30px 0; background-color:transparent;">
+                <a href="/" style="display:inline-block;">
+                    <img src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png"
+                        alt="Nuwera Logo" style="display:none; max-width:300px; width:100%; height:auto;">
+                </a>
+            </header>
