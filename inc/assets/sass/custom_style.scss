@@ -387,8 +387,30 @@ header {
 		padding-right: 8px;
 	}
 
+	#vinyl-wrapper{
+		position: relative;
+	}
+
+	#latest-single-large-pic{
+		position: absolute;
+		top: 50%;
+		left: 1px;
+		z-index: 2;
+	}
+
+	#latest-single-vinyl-pic{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		z-index: 0;
+	}
+
 	#vinyl{
+		position: absolute;
+		top: 50%;
+		left: 50%;
 		animation: disc_spin 3.5s linear infinite;
+		z-index: 1;
 	}
 }
 

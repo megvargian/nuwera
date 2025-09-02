@@ -378,8 +378,27 @@ header {
   font-family: "Font Awesome 6 Brands";
   padding-right: 8px;
 }
+#latest-single #vinyl-wrapper {
+  position: relative;
+}
+#latest-single #latest-single-large-pic {
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  z-index: 2;
+}
+#latest-single #latest-single-vinyl-pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+}
 #latest-single #vinyl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   animation: disc_spin 3.5s linear infinite;
+  z-index: 1;
 }
 
 @keyframes disc_spin {

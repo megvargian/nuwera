@@ -15,9 +15,10 @@ get_header();
     <section id="latest-single" style="text-align:center; background:#1b1b1b;">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-6">
-                    <img src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
+                <div class="col-6" id="vinyl-wrapper">
+                    <img id="latest-single-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
                     <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
+                    <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
                 </div>
                 <div class="col-6">
                     <h2 style="color:#ff2b59; font-family:'Albert Extrabold',sans-serif;">LATEST SINGLE</h2>
