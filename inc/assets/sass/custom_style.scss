@@ -386,6 +386,16 @@ header {
 		font-family: "Font Awesome 6 Brands";
 		padding-right: 8px;
 	}
+
+	#vinyl{
+		animation: disc_spin 3.5s linear infinite;
+	}
+}
+
+@keyframes disc_spin{
+	100%{
+		transform: rotate (360deg);
+	}
 }
 
 .albums {

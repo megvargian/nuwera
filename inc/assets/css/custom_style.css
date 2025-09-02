@@ -401,7 +401,15 @@ header {
   font-family: "Font Awesome 6 Brands";
   padding-right: 8px;
 }
+#latest-single #vinyl {
+  animation: disc_spin 3.5s linear infinite;
+}
 
+@keyframes disc_spin {
+  100% {
+    transform: rotate 360deg;
+  }
+}
 .albums {
   background-color: #121925;
 }
