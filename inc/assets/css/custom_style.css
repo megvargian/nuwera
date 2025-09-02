@@ -381,29 +381,32 @@ header {
 #latest-single #vinyl-wrapper {
   position: relative;
 }
-#latest-single #latest-single-large-pic {
+#latest-single #latest-single-large-pic,
+#latest-single #latest-single-vinyl-pic,
+#latest-single #vinyl {
   position: absolute;
-  left: 1px;
+  top: 50%;
+  transform: translateX(-50%);
+}
+#latest-single #latest-single-large-pic {
   z-index: 2;
   max-width: 375px;
+  left: 1px;
   width: 100%;
   height: auto;
   margin: 30px 0;
 }
 #latest-single #latest-single-vinyl-pic {
-  position: absolute;
+  z-index: 0;
   left: 50%;
   width: 40%;
   height: auto;
-  z-index: 0;
-  transform: translate(-50%, -50%);
 }
 #latest-single #vinyl {
-  position: absolute;
+  z-index: 1;
+  animation: disc_spin 3.5s linear infinite;
   left: 50%;
   max-width: 375px;
-  animation: disc_spin 3.5s linear infinite;
-  z-index: 1;
 }
 
 @keyframes disc_spin {
