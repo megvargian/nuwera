@@ -382,8 +382,7 @@ header {
   position: relative;
 }
 #latest-single #latest-single-large-pic,
-#latest-single #latest-single-vinyl-pic,
-#latest-single #vinyl {
+#latest-single #latest-single-vinyl-pic {
   position: absolute;
   top: 50%;
   transform: translateX(-50%);
@@ -396,12 +395,14 @@ header {
 }
 #latest-single #vinyl {
   z-index: 1;
+  position: absolute;
+  top: 50%;
   animation: disc_spin 3.5s linear infinite;
 }
 
 @keyframes disc_spin {
   100% {
-    transform: rotate(360deg);
+    transform: translateX(-50%) rotate(360deg);
   }
 }
 .albums {
