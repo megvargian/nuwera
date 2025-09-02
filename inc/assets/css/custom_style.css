@@ -395,7 +395,10 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 40%;
+  height: auto;
   z-index: 0;
+  transform: translate(-50%, -50%);
 }
 #latest-single #vinyl {
   position: absolute;
