@@ -16,7 +16,7 @@ get_header();
         <div class="container-fluid">
             <div class="row">
                 <div class="col-6" id="vinyl-wrapper">
-                    <img id="latest-single-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless" style="max-width:375px; width:100%; height:auto; margin:30px 0;">
+                    <img id="latest-single-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
                     <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
                     <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
                 </div>

@@ -386,6 +386,10 @@ header {
   top: 50%;
   left: 1px;
   z-index: 2;
+  max-width: 375px;
+  width: 100%;
+  height: auto;
+  margin: 30px 0;
 }
 #latest-single #latest-single-vinyl-pic {
   position: absolute;
