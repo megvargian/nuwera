@@ -393,7 +393,6 @@ header {
 
 	#latest-single-large-pic,
 	#latest-single-vinyl-pic{
-		position: absolute;
 		top: 50%;
 		transform: translateX(-50%);
 	}
@@ -408,7 +407,6 @@ header {
 
 	#vinyl{
 		z-index: 1;
-		position: absolute;
 		top: 50%;
 		animation: disc_spin 3.5s linear infinite;
 	}
