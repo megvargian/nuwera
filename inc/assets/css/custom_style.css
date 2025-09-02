@@ -383,7 +383,6 @@ header {
 }
 #latest-single #latest-single-large-pic {
   position: absolute;
-  top: 50%;
   left: 1px;
   z-index: 2;
   max-width: 375px;
@@ -393,7 +392,6 @@ header {
 }
 #latest-single #latest-single-vinyl-pic {
   position: absolute;
-  top: 50%;
   left: 50%;
   width: 40%;
   height: auto;
@@ -402,7 +400,6 @@ header {
 }
 #latest-single #vinyl {
   position: absolute;
-  top: 50%;
   left: 50%;
   max-width: 375px;
   animation: disc_spin 3.5s linear infinite;
