@@ -401,28 +401,15 @@ header {
 
 	#latest-single-large-pic{
 		z-index: 2;
-
-		max-width:375px; 
-		left: 1px;
-		width:100%; 
-		height:auto; 
-		margin:30px 0;
 	}
 
 	#latest-single-vinyl-pic{
 		z-index: 0;
-
-		left: 50%;
-		width: 40%;
-		height: auto;
 	}
 
 	#vinyl{
 		z-index: 1;
 		animation: disc_spin 3.5s linear infinite;
-		
-		left: 50%;
-		max-width: 375px;
 	}
 }
 
