@@ -382,6 +382,8 @@ header {
   position: relative;
   width: 25rem;
   height: 25rem;
+  right: 15rem;
+  transform: translateX(-50%);
 }
 #latest-single #vinyl {
   position: absolute;
@@ -400,6 +402,7 @@ header {
   z-index: 0;
 }
 #latest-single #latest-single-vinyl-large-pic {
+  position: relative;
   width: 25rem;
   height: 25rem;
   z-index: 2;
