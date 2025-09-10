@@ -12,7 +12,7 @@ get_header();
         <img id="nuwera-crowd-img" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
     </section>
 
-    <section id="latest-single" class="align-items-center text-center">
+    <section id="latest-single" class="align-content-center text-center">
         <div class="container">
             <div class="row">
                 <div class="col-6" >
