@@ -340,6 +340,19 @@ header {
 #latest-single p {
   color: #ebe2d0;
 }
+#latest-single h2, #latest-single h3 {
+  text-transform: uppercase;
+}
+#latest-single h2 {
+  color: #ff2b59;
+  font-family: "Albert Extrabold";
+}
+#latest-single h3 {
+  word-wrap: break-word;
+  font-size: 60px;
+  line-height: 0.9;
+  font-family: "AlbertSans-ExtraBold";
+}
 #latest-single p {
   font-size: 15px;
   font-family: "Gabarito-Regular";
@@ -402,13 +415,6 @@ header {
   height: 25rem;
   z-index: 2;
 }
-#latest-single #latest-single-second-col #latest-single-second-col-title {
-  word-wrap: break-word;
-  font-size: 60px;
-  line-height: 0.9;
-  font-family: "AlbertSans-ExtraBold";
-}
-
 @keyframes disc_spin {
   0% {
     transform: translateX(-50%) rotate(0deg);
@@ -479,6 +485,9 @@ header {
   word-wrap: break-word;
   font-size: 48px;
   line-height: 1.3;
+}
+#about-us h3 {
+  font-size: 89px;
 }
 #about-us h4 {
   font-size: 32px;
