@@ -13,7 +13,7 @@ get_header();
     </section>
 
     <section id="latest-single" style="text-align:center; background:#1b1b1b;">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-6" >
                     <div id="vinyl-wrapper">
