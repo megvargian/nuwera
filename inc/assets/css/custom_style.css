@@ -407,6 +407,9 @@ header {
   height: 25rem;
   z-index: 2;
 }
+#latest-single #latest-single-second-col #latest-single-second-col-title {
+  word-wrap: break-word;
+}
 
 @keyframes disc_spin {
   0% {
