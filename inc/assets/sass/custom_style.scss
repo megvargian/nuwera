@@ -389,34 +389,7 @@ header {
 
 	#vinyl-wrapper {
 		position: relative;
-	}
-
-	#latest-single-large-pic,
-	#latest-single-vinyl-pic {
-		position: absolute;
-		top: 50%;
-		transform: translateX(-50%);
-		width: 15rem;
-	}
-
-	#latest-single-large-pic {
-		z-index: 2;
-		left: 10rem;
-		transform: translateY(-50%);
-	}
-
-	#latest-single-vinyl-pic {
-		z-index: 0;
-	}
-
-	#vinyl {
-		z-index: 1;
-		position: absolute;
-		top: 50%;
-		animation: disc_spin 3.5s linear infinite;
-		width: 15rem;
-		left: 17.5rem;
-		transform: translateY(-50%);
+		background-image: src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg";
 	}
 }
 

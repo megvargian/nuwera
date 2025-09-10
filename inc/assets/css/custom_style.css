@@ -381,30 +381,6 @@ header {
 #latest-single #vinyl-wrapper {
   position: relative;
 }
-#latest-single #latest-single-large-pic,
-#latest-single #latest-single-vinyl-pic {
-  position: absolute;
-  top: 50%;
-  transform: translateX(-50%);
-  width: 15rem;
-}
-#latest-single #latest-single-large-pic {
-  z-index: 2;
-  left: 10rem;
-  transform: translateY(-50%);
-}
-#latest-single #latest-single-vinyl-pic {
-  z-index: 0;
-}
-#latest-single #vinyl {
-  z-index: 1;
-  position: absolute;
-  top: 50%;
-  animation: disc_spin 3.5s linear infinite;
-  width: 15rem;
-  left: 17.5rem;
-  transform: translateY(-50%);
-}
 
 @keyframes disc_spin {
   0% {
