@@ -389,7 +389,12 @@ header {
 
 	#vinyl-wrapper {
 		position: relative;
-		background-image: src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg";
+		background-image: src=
+			"https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg";
+		#vinyl {
+			max-height: 100%;
+			max-width: 100%;
+		}
 	}
 }
 
