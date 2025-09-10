@@ -334,16 +334,11 @@ header {
 
 #latest-single {
   height: 100dvh;
-  align-content: center;
+  background-color: #1b1b1b;
 }
 #latest-single h3,
 #latest-single p {
   color: #ebe2d0;
-}
-#latest-single h3 {
-  font-size: 72px;
-  line-height: 0.9;
-  font-family: "AlbertSans-ExtraBold";
 }
 #latest-single p {
   font-size: 15px;
@@ -409,6 +404,9 @@ header {
 }
 #latest-single #latest-single-second-col #latest-single-second-col-title {
   word-wrap: break-word;
+  font-size: 60px;
+  line-height: 0.9;
+  font-family: "AlbertSans-ExtraBold";
 }
 
 @keyframes disc_spin {

@@ -341,15 +341,10 @@ header {
 
 #latest-single {
 	height: 100dvh;
-	align-content: center;
+	background-color: #1b1b1b;
 	h3,
 	p {
 		color: #ebe2d0;
-	}
-	h3 {
-		font-size: 72px;
-		line-height: 0.9;
-		font-family: $albert-extra-bold;
 	}
 	p {
 		font-size: 15px;
@@ -420,6 +415,9 @@ header {
 	#latest-single-second-col{
 		#latest-single-second-col-title{
 			word-wrap: break-word;
+			font-size: 60px;
+			line-height: 0.9;
+			font-family: $albert-extra-bold;
 		}
 	}
 }
