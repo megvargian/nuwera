@@ -389,12 +389,8 @@ header {
 
 	#vinyl-wrapper {
 		position: relative;
-		background-image: url("https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg");
-		background-size: cover;
-		background-position: center;
 		width: 25rem;
 		height: 25rem;
-		z-index: 2;
 	}
 	#vinyl {
 		position: absolute;
@@ -411,6 +407,11 @@ header {
 		left: 100%;
 		animation: disc_spin_2 3.5s linear infinite;
 		z-index: 0;
+	}
+	#latest-single-vinyl-large-pic{
+		width: 25rem;
+		height: 25rem;
+		z-index: 2;
 	}
 }
 
