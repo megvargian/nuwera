@@ -385,14 +385,21 @@ header {
   background-position: center;
   width: 25rem;
   height: 25rem;
+  z-index: 2;
 }
 #latest-single #vinyl {
   position: absolute;
   max-height: 100%;
   max-width: 100%;
-  right: 50%;
-  transform: translateX(-50%);
+  left: 100%;
   animation: disc_spin 3.5s linear infinite;
+  z-index: 1;
+}
+#latest-single #latest-single-vinyl-pic {
+  position: absolute;
+  left: 100%;
+  animation: disc_spin 3.5s linear infinite;
+  z-index: 0;
 }
 
 @keyframes disc_spin {

@@ -18,7 +18,7 @@ get_header();
                 <div class="col-6" >
                     <div id="vinyl-wrapper">
                         <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
-                        <!-- <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless"> -->
+                        <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
                     </div>
                 </div>
                 <div class="col-6">
