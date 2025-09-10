@@ -393,8 +393,10 @@ header {
   		background-size: cover;
   		background-position: center; 
 		width: 25rem;
+		height: 25rem;
 	}
 	#vinyl {
+		position: absolute;
 		max-height: 100%;
 		max-width: 100%;
 		right: 50%;
