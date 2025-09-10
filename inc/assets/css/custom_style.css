@@ -465,6 +465,9 @@ header {
   height: 100dvh;
   background-color: #1b1b1b;
 }
+#about-us img {
+  width: 100%;
+}
 
 .meet-the-band {
   background-color: #121925;
