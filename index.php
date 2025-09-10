@@ -151,7 +151,7 @@ get_header();
         <div class="container">
             <div class="row">   
                 <div class="col-7">
-                    <div class="w-100 align-content-center">
+                    <div class="w-100 h-100 align-content-center">
                         <h3>Our Story</h3>
                         <h2>About Us</h2>
                         <p>
