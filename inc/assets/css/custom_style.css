@@ -468,12 +468,20 @@ header {
 #about-us img {
   width: 100%;
 }
-#about-us h2 {
+#about-us h2, #about-us h3, #about-us h4 {
   text-transform: uppercase;
+}
+#about-us h2, #about-us h4 {
+  color: #ebe2d0;
+  font-family: "AlbertSans-ExtraBold";
+}
+#about-us h2 {
   word-wrap: break-word;
   font-size: 48px;
   line-height: 1.3;
-  font-family: "AlbertSans-ExtraBold";
+}
+#about-us h4 {
+  font-size: 32px;
 }
 
 .meet-the-band {
