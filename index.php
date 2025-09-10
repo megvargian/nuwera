@@ -147,16 +147,19 @@ get_header();
             </div>
         </div>
     </section>
-    <section id="about-us" class="align-content-center">
+    <section id="about-us" class="align-content-center text-white">
         <div class="container">
             <div class="row">   
                 <div class="col-7">
-                    <h3>Our Story</h3>
-                    <h2>About Us</h2>
-                    <p>
-                        Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup comprises Denyo on vocals, lead, and rhythm, Angelo Zeidan on lead and rhythm guitars, Serge Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums. Initially, the band consisted of entirely different members, most notably Raed Khairallah on drums and Garen Krikorian on bass. After some live events, Denyo shifted his musical focus to his newer project, 'Vahakn.' However, this dormant period served as the catalyst for Nuwera's revival in 2020, emerging with a renewed commitment and an entirely new lineup of dedicated musicians.
-                    </p>
-                    <h3>Follow Us</h3>
+                    <div class="w-100 align-content-center">
+                        <h3>Our Story</h3>
+                        <h2>About Us</h2>
+                        <p>
+                            Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup comprises Denyo on vocals, lead, and rhythm, Angelo Zeidan on lead and rhythm guitars, Serge Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums. Initially, the band consisted of entirely different members, most notably Raed Khairallah on drums and Garen Krikorian on bass. After some live events, Denyo shifted his musical focus to his newer project, 'Vahakn.' However, this dormant period served as the catalyst for Nuwera's revival in 2020, emerging with a renewed commitment and an entirely new lineup of dedicated musicians.
+                        </p>
+                        <h3>Follow Us</h3>
+                    </div>
+
                 </div>
                 <div class="col-5">
                     <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
