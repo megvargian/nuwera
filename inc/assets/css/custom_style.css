@@ -476,8 +476,10 @@ header {
 #about-us h2, #about-us h3, #about-us h4 {
   text-transform: uppercase;
 }
-#about-us h2, #about-us h4 {
+#about-us p, #about-us h2, #about-us h4 {
   color: #ebe2d0;
+}
+#about-us h2, #about-us h4 {
   font-family: "AlbertSans-ExtraBold";
 }
 #about-us h2 {
@@ -491,6 +493,10 @@ header {
 }
 #about-us h4 {
   font-size: 32px;
+}
+#about-us p {
+  font-family: "Gabarito-Regular";
+  font-size: 15px;
 }
 
 .meet-the-band {

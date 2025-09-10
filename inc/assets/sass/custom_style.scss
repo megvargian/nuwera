@@ -492,8 +492,10 @@ header {
 	h2,h3,h4{
 		text-transform: uppercase;
 	}
-	h2,h4{
+	p,h2,h4{
 		color: #ebe2d0;
+	}
+	h2,h4{
 		font-family: $albert-extra-bold;
 	}
 	h2{
@@ -507,6 +509,10 @@ header {
 	}
 	h4{
 		font-size: 32px;
+	}
+	p{
+		font-family: $gabarito-regular;
+		font-size: 15px;
 	}
 }
 
