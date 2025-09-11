@@ -22,7 +22,6 @@ get_header();
                 <div class="release-content w-100" style="color:#fff;">
                     <div class="mt-4 w-100">
 						<div class="release-meta w-100" style="color:#fff;">
-							<iframe class="w-100" height="515" src="https://www.youtube.com/embed/L2yj8JaljfY?si=pQN05L8N6Qsd2iRF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 							<?php
 							the_content();
 							?>
