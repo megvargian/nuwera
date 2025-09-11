@@ -30,7 +30,7 @@ get_header();
 					</div>
 				</div>
 				<div class="social-share mt-4">
-					<ul class="d-flex justify-content-start align-items-center">
+					<ul class="d-flex justify-content-start align-items-center flex-wrap">
 						<li>
 							<a class="fab fa-spotify" href="#">
 								<span class="sr-only">Share on Spotify</span>
