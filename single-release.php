@@ -81,6 +81,7 @@ get_header();
 	align-items: center;
 	color: #fff;
 	min-width: 100px;
+	margin-bottom: 10px;
 }
 
 .social-share ul li a span{
