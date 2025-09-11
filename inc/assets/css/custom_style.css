@@ -625,6 +625,10 @@ footer li {
   min-width: 100px;
   margin-bottom: 10px;
 }
+.single-release .social-share ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
 .single-release .social-share ul li a span {
   display: none;
 }

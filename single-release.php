@@ -4,7 +4,7 @@ get_header();
 <div class="container py-5 single-release">
     <?php while ( have_posts() ) : the_post(); ?>
         <div class="row align-items-start">
-            <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
                 <?php if ( has_post_thumbnail() ) : ?>
                     <div class="release-cover-img mt-4">
                         <?php the_post_thumbnail('large', ['class' => 'img-fluid w-100']); ?>
@@ -18,7 +18,7 @@ get_header();
 					<p class="release-label" style="color:#fff;"><strong>Label:</strong> Digital download</p>
 				</div>
             </div>
-            <div class="col-12 col-lg-7">
+            <div class="col-12 col-lg-6">
                 <div class="release-content w-100" style="color:#fff;">
                     <div class="mt-4 w-100">
 						<div class="release-meta w-100" style="color:#fff;">
