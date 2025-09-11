@@ -12,10 +12,9 @@ get_header();
                 <?php endif; ?>
             </div>
             <div class="col-12 col-lg-7">
-                <div class="release-content" style="color:#fff;">
-                    <div class="mt-4">
-						<h2 class="fw-bold" style="color:#fff;"><?php the_title(); ?></h2>
-						<div class="release-meta" style="color:#fff;">
+                <div class="release-content w-100" style="color:#fff;">
+                    <div class="mt-4 w-100">
+						<div class="release-meta w-100" style="color:#fff;">
 							<?php
 							the_content();
 							?>
