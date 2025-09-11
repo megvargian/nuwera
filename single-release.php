@@ -6,7 +6,7 @@ get_header();
         <div class="row align-items-start">
             <div class="col-12 col-lg-5 mb-4 mb-lg-0">
                 <?php if ( has_post_thumbnail() ) : ?>
-                    <div class="release-cover-img">
+                    <div class="release-cover-img mt-4">
                         <?php the_post_thumbnail('large', ['class' => 'img-fluid w-100']); ?>
                     </div>
                 <?php endif; ?>
