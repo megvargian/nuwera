@@ -11,9 +11,9 @@ get_header();
                     </div>
                 <?php endif; ?>
 				<div class="release-info mt-4" style="color:#fff;">
-					<h1 class="release-title" style="color:#fff;"><?php the_title(); ?></h1>
-					<p class="release-date" style="color:#fff;"><strong>Release Date: 3 March 2022</strong></p>
-					<p class="release-artist" style="color:#fff;"><strong>Artist: Nuwera</strong></p>
+					<h1 class="release-title mb-3" style="color:#fff;"><?php the_title(); ?></h1>
+					<p class="release-date" style="color:#fff;"><strong>Release Date:</strong>3 March 2022</p>
+					<p class="release-artist" style="color:#fff;"><strong>Artist:</strong> Nuwera</p>
 					<p class="release-artist" style="color:#fff;"><strong>Genres:</strong> Hard Rock, Heavy Metal, Metal, Nu Metal, Rock</p>
 					<p class="release-label" style="color:#fff;"><strong>Label:</strong> Digital download</p>
 				</div>
