@@ -591,3 +591,37 @@ footer {
 	z-index: 10;
 	rotate: -90deg;
 }
+
+
+.single-release {
+	p{
+		font-family: $poppins-regular;
+		font-size: 1rem;
+		margin-bottom: 10px;
+	}
+	h1{
+		font-family: $albert-extra-bold;
+		font-size: 1.5rem;
+		text-transform: uppercase;
+		color: #fff;
+	}
+	.social-share ul{
+		list-style: none;
+	}
+	.social-share ul li a{
+		font-size: 15px;
+		margin-right: 5px;
+		min-height: 50px;
+		background-color: #ff2b59;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		color: #fff;
+		min-width: 100px;
+		margin-bottom: 10px;
+	}
+
+	.social-share ul li a span{
+		display: none;
+	}
+}

@@ -36,28 +36,23 @@ get_header();
 							</a>
 						</li>
 						<li>
-							<a class="fab fa-spotify" href="#">
-								<span class="sr-only">Share on Spotify</span>
+							<a class="fab fa-apple" href="#">
+								<span class="sr-only">Share on Apple Music</span>
 							</a>
 						</li>
 						<li>
-							<a class="fab fa-spotify" href="#">
-								<span class="sr-only">Share on Spotify</span>
+							<a class="fab fa-amazon" href="#">
+								<span class="sr-only">Share on Amazon Music</span>
 							</a>
 						</li>
 						<li>
-							<a class="fab fa-spotify" href="#">
-								<span class="sr-only">Share on Spotify</span>
+							<a class="fab fa-bandcamp" href="#">
+								<span class="sr-only">Share on Bandcamp</span>
 							</a>
 						</li>
 						<li>
-							<a class="fab fa-spotify" href="#">
-								<span class="sr-only">Share on Spotify</span>
-							</a>
-						</li>
-						<li>
-							<a class="fab fa-spotify" href="#">
-								<span class="sr-only">Share on Spotify</span>
+							<a class="fab fa-youtube" href="#">
+								<span class="sr-only">Share on YouTube</span>
 							</a>
 						</li>
 					</ul>
@@ -66,27 +61,5 @@ get_header();
 		</div>
 	<?php endwhile; ?>
 </div>
-
-<style>
-.social-share ul{
-	list-style: none;
-}
-.social-share ul li a{
-	font-size: 15px;
-	margin-right: 5px;
-	min-height: 50px;
-	background-color: #ff2b59;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-	min-width: 100px;
-	margin-bottom: 10px;
-}
-
-.social-share ul li a span{
-	display: none;
-}
-</style>
 <?php
 get_footer();
