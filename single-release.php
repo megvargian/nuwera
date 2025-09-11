@@ -22,6 +22,7 @@ get_header();
                 <div class="release-content w-100" style="color:#fff;">
                     <div class="mt-4 w-100">
 						<div class="release-meta w-100" style="color:#fff;">
+							<iframe class="w-100" src="https://www.youtube.com/embed/L2yj8JaljfY?si=pQN05L8N6Qsd2iRF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 							<?php
 							the_content();
 							?>
@@ -29,7 +30,7 @@ get_header();
 					</div>
 				</div>
 				<div class="social-share mt-4">
-					<ul class="d-flex justify-content-center align-items-center">
+					<ul class="d-flex justify-content-start align-items-center">
 						<li>
 							<a class="fab fa-spotify" href="#">
 								<span class="sr-only">Share on Spotify</span>
@@ -80,6 +81,7 @@ get_header();
 	justify-content: center;
 	align-items: center;
 	color: #fff;
+	min-width: 100px;
 }
 
 .social-share ul li a span{
