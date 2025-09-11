@@ -10,6 +10,13 @@ get_header();
                         <?php the_post_thumbnail('large', ['class' => 'img-fluid w-100']); ?>
                     </div>
                 <?php endif; ?>
+				<div class="release-info mt-4" style="color:#fff;">
+					<h1 class="release-title" style="color:#fff;"><?php the_title(); ?></h1>
+					<p class="release-date" style="color:#fff;"><strong>Release Date: 3 March 2022</strong></p>
+					<p class="release-artist" style="color:#fff;"><strong>Artist: Nuwera</strong></p>
+					<p class="release-artist" style="color:#fff;"><strong>Genres:</strong> Hard Rock, Heavy Metal, Metal, Nu Metal, Rock</p>
+					<p class="release-label" style="color:#fff;"><strong>Label:</strong> Digital download</p>
+				</div>
             </div>
             <div class="col-12 col-lg-7">
                 <div class="release-content w-100" style="color:#fff;">
@@ -21,9 +28,63 @@ get_header();
 						</div>
 					</div>
 				</div>
+				<div class="social-share mt-4">
+					<ul class="d-flex justify-content-center align-items-center">
+						<li>
+							<a class="fab fa-spotify" href="#">
+								<span class="sr-only">Share on Spotify</span>
+							</a>
+						</li>
+						<li>
+							<a class="fab fa-spotify" href="#">
+								<span class="sr-only">Share on Spotify</span>
+							</a>
+						</li>
+						<li>
+							<a class="fab fa-spotify" href="#">
+								<span class="sr-only">Share on Spotify</span>
+							</a>
+						</li>
+						<li>
+							<a class="fab fa-spotify" href="#">
+								<span class="sr-only">Share on Spotify</span>
+							</a>
+						</li>
+						<li>
+							<a class="fab fa-spotify" href="#">
+								<span class="sr-only">Share on Spotify</span>
+							</a>
+						</li>
+						<li>
+							<a class="fab fa-spotify" href="#">
+								<span class="sr-only">Share on Spotify</span>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	<?php endwhile; ?>
 </div>
+
+<style>
+.social-share ul{
+	list-style: none;
+}
+.social-share ul li a{
+	font-size: 15px;
+	margin-right: 5px;
+	min-height: 50px;
+	background-color: #ff2b59;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.social-share ul li a span{
+	display: none;
+}
+</style>
 <?php
 get_footer();
