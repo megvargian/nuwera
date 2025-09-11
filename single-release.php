@@ -61,5 +61,10 @@ get_header();
 		</div>
 	<?php endwhile; ?>
 </div>
+<style>
+	body{
+		background-color: #121925;
+	}
+</style>
 <?php
 get_footer();
