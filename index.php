@@ -9,12 +9,8 @@ get_header();
         <img id="nuwera-logo"src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
         <img id="nuwera-crowd-img" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
     </section>
-<<<<<<< Updated upstream
 
     <section id="latest-single" class="align-content-center text-center py-5">
-=======
-    <section id="latest-single" class="align-content-center text-center">
->>>>>>> Stashed changes
         <div class="container">
             <div class="row">
                 <div class="col-6" >
