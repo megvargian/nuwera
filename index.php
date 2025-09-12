@@ -177,7 +177,7 @@ get_header();
 
                 </div>
                 <div class="col-6">
-                    <div class="justify-content-center align-items-center w-100">
+                    <div class="justify-content-center align-content-center w-100 h-100">
                         <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
                     </div>
                 </div>
