@@ -66,6 +66,13 @@ $get_all_fields = get_fields();
 								</a>
 							</li>
 						<?php } ?>
+						<?php if($get_all_fields['deezer']){?>
+							<li>
+								<a class="fab fa-deezer" href="<?php echo $get_all_fields['deezer']; ?>">
+									<span class="sr-only">Share on Deezer</span>
+								</a>
+							</li>
+						<?php } ?>
 					</ul>
 				</div>
 			</div>
