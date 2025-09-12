@@ -351,6 +351,7 @@ header {
 	}
 	h2{
 		color: #ff2b59;
+		font-family: $heaters;
 	}
 	h3{
 		word-wrap: break-word;
@@ -511,7 +512,7 @@ header {
 		font-size: 32px;
 	}
 	p{
-		font-family: $gabarito-regular;
+		font-family: $poppins-regular;
 		font-size: 15px;
 	}
 	svg{

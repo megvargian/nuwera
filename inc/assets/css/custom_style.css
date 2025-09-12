@@ -367,6 +367,7 @@ header {
 }
 #latest-single h2 {
   color: #ff2b59;
+  font-family: "heaters";
 }
 #latest-single h3 {
   word-wrap: break-word;
@@ -518,7 +519,7 @@ header {
   font-size: 32px;
 }
 #about-us p {
-  font-family: "Gabarito-Regular";
+  font-family: "Poppins-Regular";
   font-size: 15px;
 }
 #about-us svg {
