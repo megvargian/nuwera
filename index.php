@@ -12,7 +12,7 @@ get_header();
         <img id="nuwera-crowd-img" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
     </section>
 
-    <section id="latest-single" class="align-content-center text-center">
+    <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container">
             <div class="row">
                 <div class="col-6" >
@@ -147,7 +147,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section id="about-us" class="align-content-center text-white">
+    <section id="about-us" class="align-content-center text-white py-5">
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -179,7 +179,7 @@ get_header();
 
                 </div>
                 <div class="col-6">
-                    <div class="justify-content-center align-items-center">
+                    <div class="justify-content-center align-items-center w-100">
                         <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
                     </div>
                 </div>
