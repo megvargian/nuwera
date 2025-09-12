@@ -178,8 +178,10 @@ get_header();
                     </div>
 
                 </div>
-                <div class="col-5">
-                    <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
+                <div class="col-6">
+                    <div class="justify-content-center align-items-center">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
+                    </div>
                 </div>
             </div>
         </div>
