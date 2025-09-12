@@ -13,12 +13,12 @@
     <footer class="pb-5">
         <section class="py-5" style="background-color: #000;">
             <div class="container py-5">
-                <div class="row justify-content-center">
+                <div class="row pt-5 justify-content-center">
                     <div class="col-4">
                         <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Nuwera-Name-Only-White.webp" alt="Nuwera">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pb-5">
                     <div class="col-12">
                         <ul class="d-flex justify-content-center align-items-center flex-wrap">
                             <li class="mr-4">
