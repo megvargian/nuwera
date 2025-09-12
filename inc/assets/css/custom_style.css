@@ -470,6 +470,7 @@ header {
 }
 #about-us img {
   width: 70%;
+  height: auto;
 }
 #about-us h2, #about-us h3, #about-us h4 {
   text-transform: uppercase;
