@@ -219,35 +219,35 @@ get_header();
             <div class="row justify-content-center gap-x-4 d-md-flex d-none">
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.jpg" alt="Denyo">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.webp" alt="Denyo">
                         <h3 class="my-3">Denyo</h3>
                         <p>Vocals/Thythm</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/ach_bassist/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.webp" alt="Serge Achkarian">
                         <h3 class="my-3">Serge Achkarian</h3>
                         <p>Bassist</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/antouunnn/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.webp" alt="Antoine Bayram">
                         <h3 class="my-3">Antoine Bayram</h3>
                         <p>Drummer</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/angelozeidan/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp" alt="Angelo Zeidan">
                         <h3 class="my-3">Angelo Zeidan</h3>
                         <p>Lead Guitar</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/rick.garabedian/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.jpg" alt="Rick Garabedian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.webp" alt="Rick Garabedian">
                         <h3 class="my-3">Rick Garabedian</h3>
                         <p>Synth/Keys</p>
                     </a>
@@ -256,35 +256,35 @@ get_header();
             <div class="row justify-content-center gap-x-4 d-md-none d-flex">
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.jpg" alt="Denyo">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.webp" alt="Denyo">
                         <h3 class="my-3">Denyo</h3>
                         <p>Vocals/Thythm</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/ach_bassist/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.webp" alt="Serge Achkarian">
                         <h3 class="my-3">Serge Achkarian</h3>
                         <p>Bassist</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/antouunnn/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.webp" alt="Antoine Bayram">
                         <h3 class="my-3">Antoine Bayram</h3>
                         <p>Drummer</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/angelozeidan/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp" alt="Angelo Zeidan">
                         <h3 class="my-3">Angelo Zeidan</h3>
                         <p>Lead Guitar</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/rick.garabedian/" class="band-member">
-                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.jpg" alt="Rick Garabedian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.webp" alt="Rick Garabedian">
                         <h3 class="my-3">Rick Garabedian</h3>
                         <p>Synth/Keys</p>
                     </a>
