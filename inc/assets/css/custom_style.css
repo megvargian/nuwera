@@ -500,6 +500,11 @@ header {
   font-family: "Poppins-Regular";
   font-size: 15px;
 }
+#about-us ul li {
+  display: inline;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 #about-us svg {
   fill: #EBE2D0;
   width: 25px;

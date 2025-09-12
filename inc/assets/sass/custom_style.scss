@@ -516,6 +516,13 @@ header {
 		font-family: $poppins-regular;
 		font-size: 15px;
 	}
+	ul{
+		li{
+			display: inline; 
+			margin-left: 0.5rem;
+			margin-right: 0.5rem;
+		}
+	}
 	svg{
 		fill: #EBE2D0;
 		width: 25px;
