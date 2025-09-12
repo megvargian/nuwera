@@ -1,6 +1,6 @@
 <?php
 get_header();
-$get_all_fields = get_feilds();
+$get_all_fields = get_fields();
 ?>
 <div class="container py-5 single-release">
     <?php while ( have_posts() ) : the_post(); ?>
