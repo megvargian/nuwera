@@ -264,3 +264,11 @@ th {
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "heaters";
+	src: url("./inc/assets/fonts/heaters.woff") format("woff"),
+	 url("./inc/assets/fonts/heaters.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
