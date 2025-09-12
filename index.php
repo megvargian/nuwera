@@ -153,11 +153,11 @@ get_header();
                 <div class="col-7">
                     <div class="w-100 h-100 align-content-center">
                         <h3>Our Story</h3>
-                        <h2>About Us</h2>
-                        <p>
+                        <h2 class="pt-4">About Us</h2>
+                        <p class="pb-5 pt-3">
                             Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup comprises Denyo on vocals, lead, and rhythm, Angelo Zeidan on lead and rhythm guitars, Serge Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums. Initially, the band consisted of entirely different members, most notably Raed Khairallah on drums and Garen Krikorian on bass. After some live events, Denyo shifted his musical focus to his newer project, 'Vahakn.' However, this dormant period served as the catalyst for Nuwera's revival in 2020, emerging with a renewed commitment and an entirely new lineup of dedicated musicians.
                         </p>
-                        <h4>Follow Us</h4>
+                        <h4 class="pt-5">Follow Us</h4>
                     </div>
 
                 </div>

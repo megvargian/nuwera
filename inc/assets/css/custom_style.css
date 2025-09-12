@@ -356,7 +356,6 @@ header {
 }
 
 #latest-single {
-  height: 100dvh;
   background-color: #1b1b1b;
 }
 #latest-single h3,
@@ -490,7 +489,6 @@ header {
 }
 
 #about-us {
-  height: 100dvh;
   background-color: #1b1b1b;
 }
 #about-us img {
