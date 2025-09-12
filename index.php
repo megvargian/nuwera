@@ -157,7 +157,7 @@ get_header();
                         </p>
                         <h4 class="pt-5">Follow Us</h4>
                         <div class="row">
-                            <ul>
+                            <ul class="px-0 pt-3">
                                 <li>
                                     <a href="https://www.youtube.com/@nuwera" target="_blank">
                                         <svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">

@@ -499,11 +499,12 @@ header {
 #about-us p {
   font-family: "Poppins-Regular";
   font-size: 15px;
+  line-height: 1.8;
 }
 #about-us ul li {
   display: inline;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
 }
 #about-us svg {
   fill: #EBE2D0;
