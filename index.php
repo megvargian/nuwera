@@ -150,7 +150,7 @@ get_header();
     <section id="about-us" class="align-content-center text-white py-5">
         <div class="container">
             <div class="row">   
-                <div class="col-7">
+                <div class="col-6">
                     <div class="w-100 h-100 align-content-center">
                         <h3>Our Story</h3>
                         <h2 class="pt-4">About Us</h2>
@@ -178,7 +178,7 @@ get_header();
                     </div>
 
                 </div>
-                <div class="col-5">
+                <div class="col-6">
                     <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
                 </div>
             </div>
