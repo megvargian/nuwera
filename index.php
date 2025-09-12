@@ -150,7 +150,7 @@ get_header();
     <section id="about-us" class="align-content-center text-white">
         <div class="container">
             <div class="row">
-                <div class="col-7">
+                <div class="col-6">
                     <div class="w-100 h-100 align-content-center">
                         <h3>Our Story</h3>
                         <h2 class="pt-4">About Us</h2>
