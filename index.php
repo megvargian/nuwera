@@ -182,13 +182,13 @@ get_header();
                                         </svg>
                                     </a>
                                 </li>
-                                <li> 
+                                <li>
                                     <a href="https://www.tiktok.com/@nuweraa" target="_blank">
                                         <svg class="e-font-icon-svg e-fab-tiktok" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z">
                                             </path>
                                         </svg>
-                                    </a>        
+                                    </a>
                                 </li>
                                 <li>
                                     <a href="https://www.instagram.com/nnuwera/" target="_blank">
@@ -205,7 +205,7 @@ get_header();
                 </div>
                 <div class="col-6">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="MIKE">
+                        <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="Nuwera">
                     </div>
                 </div>
             </div>
@@ -219,35 +219,35 @@ get_header();
             <div class="row justify-content-center gap-x-4 d-md-flex d-none">
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3758-1536x1024.jpg" alt="Denyo">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.jpg" alt="Denyo">
                         <h3 class="my-3">Denyo</h3>
                         <p>Vocals/Thythm</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/ach_bassist/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
                         <h3 class="my-3">Serge Achkarian</h3>
                         <p>Bassist</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/antouunnn/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
                         <h3 class="my-3">Antoine Bayram</h3>
                         <p>Drummer</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/angelozeidan/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
                         <h3 class="my-3">Angelo Zeidan</h3>
                         <p>Lead Guitar</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
                     <a href="https://www.instagram.com/rick.garabedian/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE4328-1536x1024.jpg" alt="Rick Garabedian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.jpg" alt="Rick Garabedian">
                         <h3 class="my-3">Rick Garabedian</h3>
                         <p>Synth/Keys</p>
                     </a>
@@ -256,35 +256,35 @@ get_header();
             <div class="row justify-content-center gap-x-4 d-md-none d-flex">
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3758-1536x1024.jpg" alt="Denyo">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.jpg" alt="Denyo">
                         <h3 class="my-3">Denyo</h3>
                         <p>Vocals/Thythm</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/ach_bassist/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.jpg" alt="Serge Achkarian">
                         <h3 class="my-3">Serge Achkarian</h3>
                         <p>Bassist</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/antouunnn/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.jpg" alt="Antoine Bayram">
                         <h3 class="my-3">Antoine Bayram</h3>
                         <p>Drummer</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/angelozeidan/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.jpg" alt="Angelo Zeidan">
                         <h3 class="my-3">Angelo Zeidan</h3>
                         <p>Lead Guitar</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
                     <a href="https://www.instagram.com/rick.garabedian/" class="band-member">
-                        <img class="w-100 d-block" src="https://nuwera.band/wp-content/uploads/2024/10/MIKE4328-1536x1024.jpg" alt="Rick Garabedian">
+                        <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.jpg" alt="Rick Garabedian">
                         <h3 class="my-3">Rick Garabedian</h3>
                         <p>Synth/Keys</p>
                     </a>
