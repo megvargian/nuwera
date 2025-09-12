@@ -11,7 +11,6 @@
 ?>
     </div><!-- #content -->
     <footer class="pb-5">
-        <?php if(is_singular('releases')){ ?>
         <section class="py-5" style="background-color: #000;">
             <div class="container py-5">
                 <div class="row justify-content-center">
@@ -67,7 +66,6 @@
                 </div>
             </div>
         </section>
-        <?php } ?>
         <div class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col d-flex justify-content-center justify-content-md-start align-items-center mb-md-0 mb-4">
