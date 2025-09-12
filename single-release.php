@@ -1,5 +1,6 @@
 <?php
 get_header();
+$get_all_fields = get_feilds();
 ?>
 <div class="container py-5 single-release">
     <?php while ( have_posts() ) : the_post(); ?>
@@ -30,31 +31,41 @@ get_header();
 				</div>
 				<div class="social-share mt-4">
 					<ul class="d-flex justify-content-start align-items-center flex-wrap">
-						<li>
-							<a class="fab fa-spotify" href="#">
-								<span class="sr-only">Share on Spotify</span>
-							</a>
-						</li>
-						<li>
-							<a class="fab fa-apple" href="#">
-								<span class="sr-only">Share on Apple Music</span>
-							</a>
-						</li>
-						<li>
-							<a class="fab fa-amazon" href="#">
-								<span class="sr-only">Share on Amazon Music</span>
-							</a>
-						</li>
-						<li>
-							<a class="fab fa-bandcamp" href="#">
-								<span class="sr-only">Share on Bandcamp</span>
-							</a>
-						</li>
-						<li>
-							<a class="fab fa-youtube" href="#">
-								<span class="sr-only">Share on YouTube</span>
-							</a>
-						</li>
+						<?php if($get_all_fields['shopify']){?>
+							<li>
+								<a class="fab fa-spotify" href="<?php echo $get_all_fields['shopify']; ?>">
+									<span class="sr-only">Share on Spotify</span>
+								</a>
+							</li>
+						<?php } ?>
+						<?php if($get_all_fields['apple']){?>
+							<li>
+								<a class="fab fa-apple" href="<?php echo $get_all_fields['apple']; ?>">
+									<span class="sr-only">Share on Apple Music</span>
+								</a>
+							</li>
+						<?php } ?>
+						<?php if($get_all_fields['amazon']){?>
+							<li>
+								<a class="fab fa-amazon" href="<?php echo $get_all_fields['amazon']; ?>">
+									<span class="sr-only">Share on Amazon Music</span>
+								</a>
+							</li>
+						<?php } ?>
+						<?php if($get_all_fields['bandcamp']){?>
+							<li>
+								<a class="fab fa-bandcamp" href="<?php echo $get_all_fields['bandcamp']; ?>">
+									<span class="sr-only">Share on Bandcamp</span>
+								</a>
+							</li>
+						<?php } ?>
+						<?php if($get_all_fields['youtube']){?>
+							<li>
+								<a class="fab fa-youtube" href="<?php echo $get_all_fields['youtube']; ?>">
+									<span class="sr-only">Share on YouTube</span>
+								</a>
+							</li>
+						<?php } ?>
 					</ul>
 				</div>
 			</div>
