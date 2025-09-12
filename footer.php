@@ -15,7 +15,7 @@
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-4">
-                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Nuwera-Name-Only-White" alt="Nuwera">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Nuwera-Name-Only-White.webp" alt="Nuwera">
                     </div>
                 </div>
                 <div class="row">
