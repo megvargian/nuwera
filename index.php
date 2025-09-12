@@ -4,15 +4,17 @@
  */
 get_header();
 ?>
-
 <main id="main" class="site-main">
-
     <section id="home" style="text-align:center;">
         <img id="nuwera-logo"src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
         <img id="nuwera-crowd-img" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
     </section>
+<<<<<<< Updated upstream
 
     <section id="latest-single" class="align-content-center text-center py-5">
+=======
+    <section id="latest-single" class="align-content-center text-center">
+>>>>>>> Stashed changes
         <div class="container">
             <div class="row">
                 <div class="col-6" >
@@ -45,7 +47,7 @@ get_header();
             </div>
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
-                    <a href="#">
+                    <a href="<?php echo get_permalink(17214); ?>">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Groundless" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
                         <ul class="social-icons">
@@ -81,7 +83,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
-                    <a href="#">
+                    <a href="<?php echo get_permalink(17223); ?>">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Am-I-Alive-440x440.jpg" alt="Am I Alive" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
                         <ul class="social-icons">
@@ -113,7 +115,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
-                    <a href="#">
+                    <a href="<?php echo get_permalink(17245); ?>">
                         <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Lord-Fear-Square-440x440.webp" alt="Lord Fear" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
                         <ul class="social-icons">
@@ -275,7 +277,6 @@ get_header();
         </div>
     </section>
 </main>
-
 <script>
     window.addEventListener("scroll", () => {
       const maxScroll = document.body.scrollHeight - window.innerHeight;
