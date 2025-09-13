@@ -6,7 +6,7 @@ get_header();
 ?>
 <main id="main" class="site-main">
     <section id="home" style="text-align:center;">
-        <img id="nuwera-logo"src="https://nuwera.band/wp-content/uploads/2024/09/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
+        <img id="nuwera-logo"src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-Name-Only-White-500x132.png" alt="Nuwera Logo" style="max-width:500px; width:100%; height:auto;">
         <img id="nuwera-crowd-img" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
     </section>
 
@@ -16,9 +16,9 @@ get_header();
                 <div class="col-6" >
                     <div class="d-flex align-items-center justify-content-start h-100 w-100">
                         <div id="vinyl-wrapper">
-                            <img id="latest-single-vinyl-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="GROUNDLESS">
+                            <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.jpg" alt="GROUNDLESS">
                             <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
-                            <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
+                            <img id="latest-single-vinyl-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.jpg" alt="Groundless">
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ get_header();
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17214); ?>">
-                        <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-440x440.jpg" alt="Groundless" style="max-width:100%; height:auto;">
+                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.jpg" alt="Groundless" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
                         <ul class="social-icons">
                             <li>
@@ -90,7 +90,7 @@ get_header();
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17223); ?>">
-                        <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Am-I-Alive-440x440.jpg" alt="Am I Alive" style="max-width:100%; height:auto;">
+                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.jpg" alt="Am I Alive" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
                         <ul class="social-icons">
                             <li>
@@ -122,7 +122,7 @@ get_header();
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17245); ?>">
-                        <img class="w-100" src="https://nuwera.band/wp-content/uploads/2024/09/Lord-Fear-Square-440x440.webp" alt="Lord Fear" style="max-width:100%; height:auto;">
+                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Lord-Fear-Square-440x440.webp" alt="Lord Fear" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
                         <ul class="social-icons">
                             <li>
@@ -215,7 +215,7 @@ get_header();
                 </div>
                 <div class="col-6">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img src="https://nuwera.band/wp-content/uploads/2024/09/MIKE3972-scaled.jpg" alt="Nuwera">
+                        <img src="<?php echo get_template_directory_uri();?>/inc/assets/images/MIKE3972-scaled.jpg" alt="Nuwera">
                     </div>
                 </div>
             </div>
