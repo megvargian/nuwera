@@ -26,7 +26,7 @@ get_header();
                             <img id="latest-single-vinyl-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="Groundless">
                         </div>
                     </div>
-                </div>                
+                </div>
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="w-100"></iframe>
@@ -258,7 +258,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/ach_bassist/" class="band-member">
+                    <a href="https://www.instagram.com/serge_achkharian/" class="band-member">
                         <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.webp" alt="Serge Achkarian">
                         <h3 class="my-3">Serge Achkarian</h3>
                         <p>Bassist</p>
@@ -295,7 +295,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/ach_bassist/" class="band-member">
+                    <a href="https://www.instagram.com/serge_achkharian/" class="band-member">
                         <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.webp" alt="Serge Achkarian">
                         <h3 class="my-3">Serge Achkarian</h3>
                         <p>Bassist</p>
