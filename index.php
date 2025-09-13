@@ -33,14 +33,14 @@ get_header();
                     </div>
                     <div class="mt-4">
                         <ul>
-                            <li>
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify me-3">Spotify</a>
+                            <li class="mx-4">
+                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify">Spotify</a>
                             </li>
-                            <li>
-                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube me-3">YouTube</a>
+                            <li class="mx-4">
+                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube">YouTube</a>
                             </li>
-                            <li>
-                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music me-3">Apple</a>
+                            <li class="mx-4">
+                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music">Apple</a>
                             </li>
                         </ul>
                     </div>
@@ -54,13 +54,13 @@ get_header();
                     </div>
                     <div class="mt-4">
                         <ul>
-                            <li class="mx-4 mx-lg-0 me-lg-3">
+                            <li class="me-3">
                                 <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify">Spotify</a>
                             </li>
-                            <li class="mx-4 mx-lg-0 me-lg-3">
+                            <li class="me-3">
                                 <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube">YouTube</a>
                             </li>
-                            <li class="mx-4 mx-lg-0 me-lg-3">
+                            <li class="me-3">
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music">Apple</a>
                             </li>
                         </ul>
