@@ -14,7 +14,7 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-6" >
-                    <div class="d-flex align-content-center justify-content-center">
+                    <div class="d-flex flex-wrap align-content-center justify-content-center h-100 w-100">
                         <div id="vinyl-wrapper">
                             <img id="latest-single-vinyl-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="GROUNDLESS">
                             <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
