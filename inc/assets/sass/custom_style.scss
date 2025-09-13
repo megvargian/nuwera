@@ -494,6 +494,7 @@ header {
 		width: 70%;
 		height: 90%;
 		object-fit: cover;
+		transform: translate3d(0, calc(-10vh * var(--scroll)), 0);
 	}
 	h2,h3,h4{
 		text-transform: uppercase;
