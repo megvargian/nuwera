@@ -14,6 +14,11 @@
     font-size: 80px;
   }
 }
+@media screen and (max-width: 991px) {
+  #latest-single li {
+    width: 100%;
+  }
+}
 @media (max-width: 767px) {
   #home {
     height: 30dvh;
