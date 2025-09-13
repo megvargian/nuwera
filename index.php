@@ -16,9 +16,9 @@ get_header();
                 <div class="col-6" >
                     <div class="d-flex align-items-center justify-content-start h-100 w-100">
                         <div id="vinyl-wrapper">
-                            <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.jpg" alt="GROUNDLESS">
+                            <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="GROUNDLESS">
                             <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
-                            <img id="latest-single-vinyl-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.jpg" alt="Groundless">
+                            <img id="latest-single-vinyl-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="Groundless">
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ get_header();
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17214); ?>">
-                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.jpg" alt="Groundless" style="max-width:100%; height:auto;">
+                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.webp" alt="Groundless" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
                         <ul class="social-icons">
                             <li>
