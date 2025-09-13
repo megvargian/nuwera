@@ -13,7 +13,30 @@ get_header();
     <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container-xl">
             <div class="row">
-                <div class="col-6" >
+                <div class="col-12 d-lg-none">
+                    <h2>latest single</h2>
+                    <h3 class="mb-4">groundless</h3>
+                    <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
+                </div>                
+                <div class="col-12 d-lg-none">
+                    <div class="mt-4">
+                        <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="w-100"></iframe>
+                    </div>
+                    <div class="mt-4">
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify me-3">Spotify</a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube me-3">YouTube</a>
+                            </li>
+                            <li>
+                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music me-3">Apple</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6" >
                     <div class="d-flex align-items-center justify-content-start h-100 w-100">
                         <div id="vinyl-wrapper">
                             <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="GROUNDLESS">
@@ -22,7 +45,7 @@ get_header();
                         </div>
                     </div>
                 </div>
-                <div class="col-6 text-left" id="latest-single-second-col">
+                <div class="d-none d-lg-block col-lg-6 text-left " id="latest-single-second-col-desktop">
                     <h2>latest single</h2>
                     <h3 class="mb-4">groundless</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
