@@ -402,22 +402,22 @@ header {
 
 	#vinyl-wrapper {
 		position: relative;
-		width: 25rem;
-		height: 25rem;
+		width: 25vw;
+		height: 25vw;
 		// right: 15rem;
 		// transform: translateX(-50%);
 	}
 	#vinyl {
 		position: absolute;
-		max-height: 100%;
-		max-width: 100%;
+		width:25vw;
+		height:25vw;
 		left: 100%;
 		animation: disc_spin 3.5s linear infinite;
 		z-index: 1;
 	}
 	#latest-single-vinyl-pic {
 		position: absolute;
-		width: 10rem;
+		width: 10vw;
 		top: 50%;
 		left: 100%;
 		animation: disc_spin_2 3.5s linear infinite;
@@ -425,8 +425,8 @@ header {
 	}
 	#latest-single-vinyl-large-pic{
 		position: relative;
-		width: 25rem;
-		height: 25rem;
+		width:25vw;
+		height:25vw;
 		z-index: 2;
 	}
 }
