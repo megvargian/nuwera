@@ -499,7 +499,10 @@ header {
 }
 #about-us img {
   width: 70%;
-  height: auto;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: translate3d(0, calc(-10vh * var(--scroll)), 0);
 }
 #about-us h2, #about-us h3, #about-us h4 {
   text-transform: uppercase;
