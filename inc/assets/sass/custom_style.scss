@@ -335,7 +335,7 @@ header {
 		height: 100%;
 		object-fit: cover;
 		transform: scale(calc(1 + var(--scroll) / 2));
-		transition: transform 0.2s ease-out;
+		transition: transform 0.1s linear 0s;
 		z-index: 0;
 	}
 }
@@ -488,13 +488,13 @@ header {
 #about-us{
 	background-color: #1b1b1b;
 	img{
-		position: absolute;
 		width: 70%;
-		// height: 90%;
+		height: 90%;
 		object-fit: cover;
 		// transform: translateY(calc(var(--scroll) * -10%));
 		
-		transform: scale(calc(1 + var(--about-us-scroll) / 2));
+		transform: scale(calc(1 + var(--about-us-scroll) / 5));
+		transition: transform 0.1s linear 0s;
 	}
 	h2,h3,h4{
 		text-transform: uppercase;
