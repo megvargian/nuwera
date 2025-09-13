@@ -11,6 +11,13 @@
 }
 
 @media (max-width: 767px) {
+    #home{
+        height: 30dvh;
+        #nuwera-logo {
+            width: 80%;
+        }   
+    }
+
     .shop-now{
         padding: 8rem;
         h2 {
