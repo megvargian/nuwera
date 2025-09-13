@@ -428,6 +428,12 @@ header {
 
 	#latest-single-second-col{
 	}
+
+	ul{
+		li{
+			display: inline; 
+		}
+	}
 }
 
 @keyframes disc_spin {

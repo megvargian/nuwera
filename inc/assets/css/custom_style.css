@@ -415,6 +415,10 @@ header {
   height: 25rem;
   z-index: 2;
 }
+#latest-single ul li {
+  display: inline;
+}
+
 @keyframes disc_spin {
   0% {
     transform: translateX(-50%) rotate(0deg);
