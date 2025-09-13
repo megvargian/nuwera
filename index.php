@@ -90,7 +90,7 @@ get_header();
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17223); ?>">
-                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.jpg" alt="Am I Alive" style="max-width:100%; height:auto;">
+                        <img class="w-100" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.webp" alt="Am I Alive" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
                         <ul class="social-icons">
                             <li>
@@ -215,7 +215,7 @@ get_header();
                 </div>
                 <div class="col-6">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img src="<?php echo get_template_directory_uri();?>/inc/assets/images/MIKE3972-scaled.jpg" alt="Nuwera">
+                        <img src="<?php echo get_template_directory_uri();?>/inc/assets/images/MIKE3972-scaled.webp" alt="Nuwera">
                     </div>
                 </div>
             </div>
