@@ -254,7 +254,7 @@ get_header();
                     <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
                         <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.webp" alt="Denyo">
                         <h3 class="my-3">Denyo</h3>
-                        <p>Vocals/Thythm</p>
+                        <p>Vocals/Rhythm</p>
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
@@ -291,7 +291,7 @@ get_header();
                     <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
                         <img class="w-100 d-block" src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.webp" alt="Denyo">
                         <h3 class="my-3">Denyo</h3>
-                        <p>Vocals/Thythm</p>
+                        <p>Vocals/Rhythm</p>
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
