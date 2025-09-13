@@ -215,7 +215,7 @@ get_header();
                 </div>
                 <div class="col-6">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                        <img src="<?php echo get_template_directory_uri();?>/inc/assets/images/MIKE3972-scaled.webp" alt="Nuwera">
+                        <img src="<?php echo get_template_directory_uri();?>/inc/assets/images/MIKE3972-scaled.webp" alt="Nuwera" id="about-us-img">
                     </div>
                 </div>
             </div>
@@ -316,6 +316,24 @@ get_header();
       const scroll = window.scrollY / maxScroll; // 0 → 1
       document.documentElement.style.setProperty("--scroll", scroll);
     });
+
+    // about us scroll
+        const elem = document.querySelector("#about-us-img");
+
+        window.addEventListener("scroll", () => {
+            const rect = elem.getBoundingClientRect();
+            const elemHeight = rect.height;
+            const viewportHeight = window.innerHeight;
+
+            // Calculate scroll relative to the element
+            let aboutUsScroll = (viewportHeight - rect.top) / (viewportHeight + elemHeight);
+
+            // Clamp between 0 and 1
+            aboutUsScroll = Math.min(Math.max(aboutUsScroll, 0), 1);
+
+            // Set the CSS variable
+            document.documentElement.style.setProperty("--about-us-scroll", aboutUsScroll);
+        });
   </script>
 
 <?php

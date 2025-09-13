@@ -475,11 +475,11 @@ header {
   background-color: #1b1b1b;
 }
 #about-us img {
+  position: absolute;
   width: 70%;
-  height: 90%;
   -o-object-fit: cover;
      object-fit: cover;
-  transform: translateY(calc(var(--scroll) * -10%));
+  transform: scale(calc(1 + var(--about-us-scroll) / 2));
 }
 #about-us h2, #about-us h3, #about-us h4 {
   text-transform: uppercase;
