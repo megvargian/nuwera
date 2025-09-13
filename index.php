@@ -19,7 +19,7 @@ get_header();
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                 </div>
                 <div class="col-12 col-lg-6" >
-                    <div class="d-flex align-items-center justify-content-start h-100 w-100">
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100">
                         <div id="vinyl-wrapper">
                             <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="GROUNDLESS">
                             <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">

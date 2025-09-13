@@ -18,9 +18,6 @@
   #latest-single li {
     width: 100%;
   }
-  #latest-single #vinyl-wrapper {
-    justify-content: center !important;
-  }
 }
 @media (max-width: 767px) {
   #home {
