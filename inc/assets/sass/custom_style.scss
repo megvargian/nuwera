@@ -378,15 +378,15 @@ header {
 		background-color: #ff2b59;
 		padding: 8px 30px;
 	}
+	li:hover {
+		background-color: #ebe2d0;
+		color: #121925;
+	}
 	a {
 		display: inline-block;
 		font-family: $poppins-regular;
 		color: #ffffff;
 		font-size: 14px;
-	}
-	a:hover {
-		background-color: #ebe2d0;
-		color: #121925;
 	}
 	a.spotify::before {
 		content: "\f1bc";

@@ -371,15 +371,15 @@ header {
   background-color: #ff2b59;
   padding: 8px 30px;
 }
+#latest-single li:hover {
+  background-color: #ebe2d0;
+  color: #121925;
+}
 #latest-single a {
   display: inline-block;
   font-family: "Poppins-Regular";
   color: #ffffff;
   font-size: 14px;
-}
-#latest-single a:hover {
-  background-color: #ebe2d0;
-  color: #121925;
 }
 #latest-single a.spotify::before {
   content: "\f1bc";
