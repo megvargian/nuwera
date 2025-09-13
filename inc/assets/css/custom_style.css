@@ -415,7 +415,8 @@ header {
   z-index: 2;
 }
 #latest-single ul li {
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @keyframes disc_spin {
