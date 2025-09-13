@@ -491,9 +491,10 @@ header {
 		width: 70%;
 		height: 90%;
 		object-fit: cover;
+		//check this animation later
 		// transform: translateY(calc(var(--scroll) * -10%));
 		
-		transform: scale(calc(1 + var(--about-us-scroll) / 5));
+		transform: scale(calc(1 + var(--about-us-scroll) / 10));
 		transition: transform 0.1s linear 0s;
 	}
 	h2,h3,h4{

@@ -480,7 +480,7 @@ header {
   height: 90%;
   -o-object-fit: cover;
      object-fit: cover;
-  transform: scale(calc(1 + var(--about-us-scroll) / 5));
+  transform: scale(calc(1 + var(--about-us-scroll) / 10));
   transition: transform 0.1s linear 0s;
 }
 #about-us h2, #about-us h3, #about-us h4 {
