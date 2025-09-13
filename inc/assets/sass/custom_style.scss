@@ -322,6 +322,9 @@ header {
 	overflow: hidden;
 	#nuwera-logo {
 		position: absolute;
+		max-width: 500px;
+		width: 100%;
+		height: auto;
 		top: 35%;
 		left: 50%;
 		transform: translateX(-50%);
