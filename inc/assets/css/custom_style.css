@@ -399,7 +399,7 @@ header {
   position: absolute;
   width: 25vw;
   height: 25vw;
-  left: 100%;
+  left: 90%;
   animation: disc_spin 3.5s linear infinite;
   z-index: 1;
 }
@@ -407,7 +407,7 @@ header {
   position: absolute;
   width: 10vw;
   top: 50%;
-  left: 100%;
+  left: 90%;
   animation: disc_spin_2 3.5s linear infinite;
   z-index: 0;
 }
