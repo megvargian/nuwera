@@ -1,3 +1,11 @@
+@media (max-width: 1199px) {
+  #latest-single h3 {
+    font-size: 50px;
+  }
+  #latest-single h2 {
+    font-size: 80px;
+  }
+}
 @media (max-width: 767px) {
   #home {
     height: 30dvh;
