@@ -2,12 +2,20 @@
 @charset "utf-8";
 
 @media (max-width: 1359px) {
+    #latest-single{
+        h3{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 90px;
+        }
+    }
 }
 
 @media (max-width: 1199px) {
     #latest-single{
         h3{
-            font-size: 50px;
+            font-size: 45px;
         }
         h2{
             font-size: 80px;
