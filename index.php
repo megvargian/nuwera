@@ -11,7 +11,7 @@ get_header();
     </section>
 
     <section id="latest-single" class="align-content-center text-center py-5">
-        <div class="container-fluid">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-6" >
                     <div class="d-flex align-items-center justify-content-start h-100 w-100">
