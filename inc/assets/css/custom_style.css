@@ -400,13 +400,13 @@ header {
 }
 #latest-single #vinyl-wrapper {
   position: relative;
-  width: clamp(12rem, 30vw, 28rem);
-  height: clamp(12rem, 30vw, 28rem);
+  width: clamp(10rem, 30vw, 28rem);
+  height: clamp(10rem, 30vw, 28rem);
 }
 #latest-single #vinyl {
   position: absolute;
-  width: clamp(12rem, 30vw, 28rem);
-  height: clamp(12rem, 30vw, 28rem);
+  width: clamp(10rem, 30vw, 28rem);
+  height: clamp(10rem, 30vw, 28rem);
   left: 90%;
   animation: disc_spin 3.5s linear infinite;
   z-index: 1;
@@ -421,8 +421,8 @@ header {
 }
 #latest-single #latest-single-vinyl-large-pic {
   position: relative;
-  width: clamp(12rem, 30vw, 28rem);
-  height: clamp(12rem, 30vw, 28rem);
+  width: clamp(10rem, 30vw, 28rem);
+  height: clamp(10rem, 30vw, 28rem);
   z-index: 2;
   box-shadow: 0 10px 3px -9px rgba(0, 0, 0, 0.77);
 }
