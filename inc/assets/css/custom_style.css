@@ -367,13 +367,15 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+#latest-single li {
+  background-color: #ff2b59;
+  padding: 8px 30px;
+}
 #latest-single a {
   display: inline-block;
-  background-color: #ff2b59;
   font-family: "Poppins-Regular";
   color: #ffffff;
   font-size: 14px;
-  padding: 8px 30px;
 }
 #latest-single a:hover {
   background-color: #ebe2d0;
