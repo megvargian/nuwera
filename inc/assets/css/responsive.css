@@ -32,6 +32,12 @@
   #home #nuwera-logo {
     width: 80%;
   }
+  #latest-single h3 {
+    font-size: 35px;
+  }
+  #latest-single h2 {
+    font-size: 60px;
+  }
   .shop-now {
     padding: 8rem;
   }
