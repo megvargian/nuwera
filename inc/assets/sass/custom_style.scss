@@ -350,9 +350,7 @@ header {
 		text-transform: uppercase;
 	}
 	h2{
-		//fix font size when font is fixed
-		// font-size: 100px;
-		font-size: 50px;
+		font-size: 100px;
 		color: #ff2b59;
 		font-family: $heaters;
 	}
@@ -406,8 +404,6 @@ header {
 		position: relative;
 		width: clamp(15rem, 30vw, 28rem);
 		height: clamp(15rem, 30vw, 28rem);
-		// right: 15rem;
-		// transform: translateX(-50%);
 	}
 	#vinyl {
 		position: absolute;
