@@ -329,6 +329,7 @@ header {
   -o-object-fit: cover;
      object-fit: cover;
   transform: scale(calc(1 + var(--scroll) / 2));
+  transition: transform 0.2s ease-out;
   z-index: 0;
 }
 
