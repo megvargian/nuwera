@@ -380,7 +380,9 @@ header {
 	}
 	li:hover {
 		background-color: #ebe2d0;
-		color: #121925;
+		a{
+			color: #121925;
+		}
 	}
 	a {
 		display: inline-block;

@@ -373,6 +373,8 @@ header {
 }
 #latest-single li:hover {
   background-color: #ebe2d0;
+}
+#latest-single li:hover a {
   color: #121925;
 }
 #latest-single a {
