@@ -36,7 +36,7 @@ get_header();
                                 <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube me-3">YouTube</a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music me-3">Apple Music</a>
+                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music me-3">Apple</a>
                             </li>
                         </ul>
                     </div>

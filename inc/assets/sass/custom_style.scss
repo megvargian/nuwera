@@ -366,12 +366,17 @@ header {
 		margin-top: 0;
 		margin-bottom: 1.88em;
 	}
+	ul{
+		display: flex;
+		flex-wrap: wrap;
+	}
 	a {
+		display: inline-block;
 		background-color: #ff2b59;
 		font-family: $poppins-regular;
 		color: #ffffff;
 		font-size: 14px;
-		padding: 10px 32px;
+		padding: 8px 30px;
 	}
 	a:hover {
 		background-color: #ebe2d0;
@@ -423,12 +428,6 @@ header {
 		width: 25rem;
 		height: 25rem;
 		z-index: 2;
-	}
-
-	#latest-single-second-col{
-	}
-
-	ul{
 	}
 }
 
