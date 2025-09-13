@@ -311,28 +311,11 @@ get_header();
     </section>
 </main>
 <script>
-    // window.addEventListener("scroll", () => {
-    //   const maxScroll = document.body.scrollHeight - window.innerHeight;
-    //   const scroll = window.scrollY / maxScroll; // 0 → 1
-    //   document.documentElement.style.setProperty("--scroll", scroll);
-    // });
-
-            const elem = document.querySelector("#nuwera-crowd-img");
-
-        window.addEventListener("scroll", () => {
-            const rect = elem.getBoundingClientRect();
-            const elemHeight = rect.height;
-            const viewportHeight = window.innerHeight;
-
-            // Calculate scroll relative to the element
-            let nuweraScroll = (viewportHeight - rect.top) / (viewportHeight + elemHeight);
-
-            // Clamp between 0 and 1
-            nuweraScroll = Math.min(Math.max(nuweraScroll, 0), 1);
-
-            // Set the CSS variable
-            document.documentElement.style.setProperty("--nuwera-scroll", nuweraScroll);
-        });
+    window.addEventListener("scroll", () => {
+      const maxScroll = document.body.scrollHeight - window.innerHeight;
+      const scroll = window.scrollY / maxScroll; // 0 → 1
+      document.documentElement.style.setProperty("--scroll", scroll);
+    });
 
     // about us scroll
         const elem = document.querySelector("#about-us-img");
