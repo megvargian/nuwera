@@ -15,6 +15,12 @@
   }
 }
 @media screen and (max-width: 991px) {
+  #latest-single h3 {
+    font-size: 40px;
+  }
+  #latest-single h2 {
+    font-size: 70px;
+  }
   #latest-single li {
     width: 100%;
   }
