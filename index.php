@@ -14,15 +14,17 @@ get_header();
         <div class="container">
             <div class="row">
                 <div class="col-6" >
-                    <div id="vinyl-wrapper">
-                        <img id="latest-single-vinyl-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="GROUNDLESS">
-                        <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
-                        <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
+                    <div class="d-flex align-content-center justify-content-center">
+                        <div id="vinyl-wrapper">
+                            <img id="latest-single-vinyl-large-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="GROUNDLESS">
+                            <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
+                            <img id="latest-single-vinyl-pic" src="https://nuwera.band/wp-content/uploads/2024/09/Groundless-Square-375x375.jpg" alt="Groundless">
+                        </div>
                     </div>
                 </div>
                 <div class="col-6 text-left" id="latest-single-second-col">
                     <h2>latest single</h2>
-                    <h3>groundless</h3>
+                    <h3 class="mb-4">groundless</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                     <div class="mt-4">
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="w-100"></iframe>
