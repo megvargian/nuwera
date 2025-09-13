@@ -30,13 +30,13 @@ get_header();
                     <div class="mt-4">
                         <ul>
                             <li>
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify mr-3">Spotify</a>
+                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify me-3">Spotify</a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube mr-3">YouTube</a>
+                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube me-3">YouTube</a>
                             </li>
                             <li>
-                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music mr-3">Apple Music</a>
+                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music me-3">Apple Music</a>
                             </li>
                         </ul>
                     </div>
