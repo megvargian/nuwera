@@ -17,6 +17,15 @@ get_header();
                     <h2>latest single</h2>
                     <h3 class="mb-4">groundless</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
+                </div>
+                <div class="col-12 col-lg-6" >
+                    <div class="d-flex align-items-center justify-content-start h-100 w-100">
+                        <div id="vinyl-wrapper">
+                            <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="GROUNDLESS">
+                            <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
+                            <img id="latest-single-vinyl-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="Groundless">
+                        </div>
+                    </div>
                 </div>                
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
@@ -34,15 +43,6 @@ get_header();
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music me-3">Apple</a>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6" >
-                    <div class="d-flex align-items-center justify-content-start h-100 w-100">
-                        <div id="vinyl-wrapper">
-                            <img id="latest-single-vinyl-large-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="GROUNDLESS">
-                            <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
-                            <img id="latest-single-vinyl-pic" src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" alt="Groundless">
-                        </div>
                     </div>
                 </div>
                 <div class="d-none d-lg-block col-lg-6 text-left " id="latest-single-second-col-desktop">
