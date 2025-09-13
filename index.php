@@ -24,13 +24,25 @@ get_header();
                     <h2>latest single</h2>
                     <h3>groundless</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
-                    <div style="margin-top:20px;">
+                    <div class="mt-4">
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="w-100"></iframe>
                     </div>
-                    <div style="margin-top:20px;">
-                        <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify">Spotify</a>
-                        <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube">YouTube</a>
-                        <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music">Apple Music</a>
+                    <div class="mt-4">
+                        <ul>
+                            <li>
+                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify">Spotify</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube">YouTube</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music">Apple Music</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
