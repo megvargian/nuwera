@@ -392,13 +392,13 @@ header {
 }
 #latest-single #vinyl-wrapper {
   position: relative;
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
 }
 #latest-single #vinyl {
   position: absolute;
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   left: 90%;
   animation: disc_spin 3.5s linear infinite;
   z-index: 1;
@@ -413,8 +413,8 @@ header {
 }
 #latest-single #latest-single-vinyl-large-pic {
   position: relative;
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   z-index: 2;
 }
 
