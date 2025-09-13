@@ -32,13 +32,9 @@ get_header();
                             <li>
                                 <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37" target="_blank" class="spotify">Spotify</a>
                             </li>
-                        </ul>
-                        <ul>
                             <li>
                                 <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube">YouTube</a>
                             </li>
-                        </ul>
-                        <ul>
                             <li>
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank" class="apple-music">Apple Music</a>
                             </li>
