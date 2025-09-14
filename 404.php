@@ -35,7 +35,7 @@
     .page_404 {
         min-height: 100vh;
         width: 100vw;
-        background: url('https://nuwera.band/wp-content/uploads/2024/09/Nuwera-main-image.webp') no-repeat center center;
+        background: url('<?php echo get_template_directory_uri(); ?>/inc/assets/images/Nuwera-main-image.webp') no-repeat center center;
         background-size: cover;
         display: flex;
         align-items: center;
