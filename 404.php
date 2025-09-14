@@ -31,6 +31,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
+		font-family: "Poppins-Regular";
     }
     .page_404 {
         min-height: 100vh;
@@ -42,11 +43,10 @@
         justify-content: center;
     }
 	.page_404 .container {
-		background: rgba(18, 25, 37, 0.85);
-		border-radius: 20px;
 		padding: 60px 40px;
 		max-width: 500px;
 		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		text-align: center;
 	}
 	.title_404 {
 		font-size: 4rem;
@@ -54,11 +54,13 @@
 		color: #fff;
 		margin-bottom: 24px;
 		letter-spacing: 2px;
+		font-family: "AlbertSans-ExtraBold";
 	}
 	.text_404 {
 		font-size: 1.3rem;
 		color: #fff;
 		margin-bottom: 32px;
+    	font-family: "Poppins-Regular";
 	}
 	.btn_404 {
 		background: #ff2b59;
@@ -70,6 +72,7 @@
 		display: inline-block;
 		transition: background 0.2s;
 		box-shadow: 0 4px 16px rgba(255,43,89,0.2);
+		text-align: center;
 	}
 	.btn_404:hover {
 		background: #d81b4c;
