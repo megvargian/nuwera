@@ -91,14 +91,14 @@
     // arrow color change
     const backToTop = document.getElementById("back-to-top-link");
     const shopNowSection = document.getElementById("shop-now");
-    console.log("Shop NOw:" + shopNowSection)
 
     backToTop.style.color = "white";
 
     window.addEventListener("scroll", () => {
     let shopTop = shopNowSection.offsetTop;
     let scrollPos = window.scrollY + window.innerHeight;
-    console.log("ShopTop: " + shopTop);
+    console.log("Shop Top: " + shopTop);
+    console.log("Scroll Pos: " + scrollPos);
     if (scrollPos >= shopTop) {
         backToTop.style.color = "#272727";
     } else {
