@@ -99,7 +99,7 @@
     let scrollPos = window.scrollY + window.innerHeight;
     console.log("Shop Top: " + shopTop);
     console.log("Scroll Pos: " + scrollPos);
-    if (scrollPos >= shopTop) {
+    if (scrollPos >= shopTop + 200) {
         backToTop.style.color = "#272727";
     } else {
         backToTop.style.color = "white";
