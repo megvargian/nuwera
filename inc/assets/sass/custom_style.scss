@@ -319,6 +319,11 @@ header {
 	ul{
 		text-align: center;
 		color: #ffffff;
+		li{
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			font-family: $albert-extra-bold;
+		}
 	}
 }
 

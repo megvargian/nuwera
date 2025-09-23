@@ -311,6 +311,11 @@ header {
   text-align: center;
   color: #ffffff;
 }
+#header ul li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "AlbertSans-ExtraBold";
+}
 
 #home {
   height: 100dvh;
