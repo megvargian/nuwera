@@ -68,18 +68,10 @@
 		});
 	});
 
-   // scroll animation from header
-    document.querySelectorAll(".menu-link").forEach(link => {
-        link.addEventListener("click", e => {
-            e.preventDefault();
-            const target = document.querySelector(link.getAttribute("href"));
-            target.scrollIntoView({ behavior: "smooth" });
-        });
-    });
-
     // arrow color change
     const backToTop = document.getElementById("back-to-top-link");
     const shopNowSection = document.getElementById("shop-now");
+    console.log("Shop NOw:" + shopNowSection)
 
     backToTop.style.color = "white";
 
@@ -93,29 +85,5 @@
         backToTop.style.color = "white";
     }
     });
-
-    //header li color 
-    const sections = document.querySelectorAll("section[id]");
-    const navLinks = document.querySelectorAll(".menu-link");
-
-    const observer2 = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            navLinks.forEach((link) => link.classList.remove("current"));
-
-            const activeLink = document.querySelector(
-            `.menu-link[href="#${entry.target.id}"]`
-            );
-            if (activeLink) activeLink.classList.add("current");
-        }
-        });
-    },
-    {
-        threshold: 0.5,
-    }
-    );
-
-    sections.forEach((section) => observer2.observe(section));
 
 </script>
