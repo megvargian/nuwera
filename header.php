@@ -47,12 +47,12 @@
         <div id="content" class="site-content">
             <header id="header">
                 <ul class="p-5">
-                    <li>Home</li>
-                    <li>Latest Release</li>
-                    <li>All Releases</li>
-                    <li>Our Story</li>
-                    <li>Meet The Band</li>
-                    <li>Shop Now</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#latest-release">Latest Release</a></li>
+                    <li><a href="#all-releases">All Releases</a></li>
+                    <li><a href="#our-story">Our Story</a></li>
+                    <li><a href="#meet-the-band">Meet The Band</a></li>
+                    <li><a href="#shop-now">Shop Now</a></li>
                 </ul>
             </header>
 
