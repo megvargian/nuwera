@@ -47,12 +47,12 @@
         <div id="content" class="site-content">
             <header id="header">
                 <ul class="p-5">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#latest-single">Latest Single</a></li>
-                    <li><a href="#all-releases">All Releases</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#meet-the-band">Meet The Band</a></li>
-                    <li><a href="#shop-now">Shop Now</a></li>
+                    <li><a href="#home" class="menu-link">Home</a></li>
+                    <li><a href="#latest-single" class="menu-link">Latest Single</a></li>
+                    <li><a href="#all-releases" class="menu-link">All Releases</a></li>
+                    <li><a href="#about-us" class="menu-link">About Us</a></li>
+                    <li><a href="#meet-the-band" class="menu-link">Meet The Band</a></li>
+                    <li><a href="#shop-now" class="menu-link">Shop Now</a></li>
                 </ul>
             </header>
 
@@ -67,4 +67,14 @@
 			}
 		});
 	});
+
+   
+    document.querySelectorAll(".menu-link").forEach(link => {
+        link.addEventListener("click", e => {
+            e.preventDefault(); // stop instant jump
+            const target = document.querySelector(link.getAttribute("href"));
+            target.scrollIntoView({ behavior: "smooth" });
+        });
+    });
+
 </script>
