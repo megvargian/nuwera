@@ -134,16 +134,10 @@ input[type=text],
 input[type=time],
 input[type=url],
 input[type=week] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
   border-radius: 0;
   -webkit-appearance: none;
   border: none;
@@ -249,9 +243,7 @@ body.hide_scroll {
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
-  -khtml-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
@@ -268,27 +260,6 @@ body.hide_scroll {
 
 :focus {
   outline: none !important;
-}
-
-@-webkit-keyframes fa-beat {
-  0% {
-    transform: scale(1);
-  }
-  5% {
-    transform: scale(1.25);
-  }
-  20% {
-    transform: scale(1.15);
-  }
-  30% {
-    transform: scale(1.8);
-  }
-  45% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 @keyframes fa-beat {
   0% {
@@ -326,8 +297,18 @@ header {
   position: fixed;
 }
 
+::-moz-selection {
+  background: #ff2b59;
+  color: #ffffff;
+}
+
 ::selection {
   background: #ff2b59;
+  color: #ffffff;
+}
+
+#header ul {
+  text-align: center;
   color: #ffffff;
 }
 
@@ -353,7 +334,8 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transform: scale(calc(1 + var(--scroll) / 2));
   transition: transform 0.1s linear 0s;
   z-index: 0;
@@ -508,7 +490,8 @@ header {
 #about-us img {
   width: 70%;
   height: 90%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   transform: scale(calc(1 + var(--about-us-scroll) / 10));
   transition: transform 0.1s linear 0s;
 }
@@ -555,7 +538,8 @@ header {
 .meet-the-band img {
   transition: filter 0.3s ease;
   aspect-ratio: 116/137;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .meet-the-band a:hover {
   filter: brightness(1.15) saturate(1.2);
@@ -658,4 +642,4 @@ footer li {
 }
 .single-release .social-share ul li a span {
   display: none;
-}
+}/*# sourceMappingURL=custom_style.css.map */
