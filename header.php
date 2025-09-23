@@ -46,7 +46,7 @@
 		</a>
         <div id="content" class="site-content">
             <header id="header">
-                <ul>
+                <ul class="p-5">
                     <li>Home</li>
                     <li>Latest Release</li>
                     <li>All Releases</li>
