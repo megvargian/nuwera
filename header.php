@@ -84,9 +84,9 @@
     backToTop.style.color = "white";
 
     window.addEventListener("scroll", () => {
-    const shopTop = shopNowSection.offsetTop;
-    const scrollPos = window.scrollY + window.innerHeight;
-
+    let shopTop = shopNowSection.offsetTop;
+    let scrollPos = window.scrollY + window.innerHeight;
+    console.log("ShopTop: " + shopTop);
     if (scrollPos >= shopTop) {
         backToTop.style.color = "#272727";
     } else {
