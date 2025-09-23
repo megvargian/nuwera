@@ -98,4 +98,28 @@
 
     observer.observe(shopNowSection);
 
+    //header li color 
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll(".menu-link");
+
+    const observer2 = new IntersectionObserver(
+    (entries) => {
+        entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            navLinks.forEach((link) => link.classList.remove("current"));
+
+            const activeLink = document.querySelector(
+            `.menu-link[href="#${entry.target.id}"]`
+            );
+            if (activeLink) activeLink.classList.add("current");
+        }
+        });
+    },
+    {
+        threshold: 0.5,
+    }
+    );
+
+    sections.forEach((section) => observer2.observe(section));
+
 </script>
