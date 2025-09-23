@@ -318,12 +318,19 @@ header {
 #header{
 	ul{
 		text-align: center;
-		color: #ffffff;
-		font-size: 14px;
 		li{
 			padding-top: 0.3rem;
 			padding-bottom: 0.3rem;
 			font-family: $albert-extra-bold;
+			a{
+				color: #ffffff;
+				font-size: 14px;	
+			}
+		}
+		li:hover{
+			a{
+				color: #ff2b59;
+			}
 		}
 	}
 }

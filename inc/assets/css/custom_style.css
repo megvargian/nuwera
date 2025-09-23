@@ -309,13 +309,18 @@ header {
 
 #header ul {
   text-align: center;
-  color: #ffffff;
-  font-size: 14px;
 }
 #header ul li {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   font-family: "AlbertSans-ExtraBold";
+}
+#header ul li a {
+  color: #ffffff;
+  font-size: 14px;
+}
+#header ul li:hover a {
+  color: #ff2b59;
 }
 
 #home {
