@@ -80,23 +80,19 @@
     // arrow color change
     const backToTop = document.getElementById("back-to-top-link");
     const shopNowSection = document.getElementById("shop-now");
-
+    
     backToTop.style.color = "white";
 
-    const observer = new IntersectionObserver(
-    (entries) => {
-        entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-            backToTop.style.color = "#272727";
-        } else {
-            backToTop.style.color = "white";
-        }
-        });
-    },
-    { threshold: 0.2 }
-    );
+    window.addEventListener("scroll", () => {
+    const shopTop = shopNow.offsetTop;
+    const scrollPos = window.scrollY + window.innerHeight;
 
-    observer.observe(shopNowSection);
+    if (scrollPos >= shopTop) {
+        backToTop.style.color = "#272727";
+    } else {
+        backToTop.style.color = "white";
+    }
+    });
 
     //header li color 
     const sections = document.querySelectorAll("section[id]");
