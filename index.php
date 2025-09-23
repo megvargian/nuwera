@@ -69,7 +69,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="albums py-5">
+    <section id="all-releases" class="albums py-5">
         <div class="container">
             <div class="row text-center pb-5">
                 <h2>All Realeases</h2>
@@ -244,7 +244,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="meet-the-band py-5">
+    <section id="meet-the-band" class="meet-the-band py-5">
         <div class="container">
             <div class="row text-center pb-5">
                 <h2>Meet The Band</h2>
@@ -325,7 +325,7 @@ get_header();
             </div>
         </div>
     </section>
-    <section class="shop-now">
+    <section id="shop-now" class="shop-now">
         <div class="container text-center py-5">
             <a href="#">
                 <h2>Shop Now</h2>
