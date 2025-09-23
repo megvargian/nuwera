@@ -87,6 +87,25 @@
         </div>
     </footer>
 </div><!-- #page -->
+<script>
+    // arrow color change
+    const backToTop = document.getElementById("back-to-top-link");
+    const shopNowSection = document.getElementById("shop-now");
+    console.log("Shop NOw:" + shopNowSection)
+
+    backToTop.style.color = "white";
+
+    window.addEventListener("scroll", () => {
+    let shopTop = shopNowSection.offsetTop;
+    let scrollPos = window.scrollY + window.innerHeight;
+    console.log("ShopTop: " + shopTop);
+    if (scrollPos >= shopTop) {
+        backToTop.style.color = "#272727";
+    } else {
+        backToTop.style.color = "white";
+    }
+    });
+</script>
 <?php wp_footer(); ?>
 </body>
 </html>
