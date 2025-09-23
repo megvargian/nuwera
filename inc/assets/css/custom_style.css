@@ -319,7 +319,7 @@ header {
   color: #ffffff;
   font-size: 14px;
 }
-#header ul li:hover a {
+#header ul li a:hover {
   color: #ff2b59;
 }
 
