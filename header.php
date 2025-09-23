@@ -32,9 +32,9 @@
         <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible">
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clippath="url(#clip0_77_1481)">
-                    <path d="M0.180725 23H62.1807" stroke="#272727" stroke-width="2"></path>
-                    <path d="M62.1807 23C49.3401 23 38.9307 12.7025 38.9307 0" stroke="#272727" stroke-width="2"></path>
-                    <path d="M38.9307 46C38.9307 33.2974 49.3401 23 62.1807 23" stroke="#272727" stroke-width="2">
+                    <path d="M0.180725 23H62.1807" stroke="currentColor" stroke-width="2"></path>
+                    <path d="M62.1807 23C49.3401 23 38.9307 12.7025 38.9307 0" stroke="currentColor" stroke-width="2"></path>
+                    <path d="M38.9307 46C38.9307 33.2974 49.3401 23 62.1807 23" stroke="currentColor" stroke-width="2">
                     </path>
                 </g>
                 <defs>
@@ -68,13 +68,34 @@
 		});
 	});
 
-   
+   // scroll animation from header
     document.querySelectorAll(".menu-link").forEach(link => {
         link.addEventListener("click", e => {
-            e.preventDefault(); // stop instant jump
+            e.preventDefault();
             const target = document.querySelector(link.getAttribute("href"));
             target.scrollIntoView({ behavior: "smooth" });
         });
     });
+
+    // arrow color change
+    const backToTop = document.getElementById("back-to-top-link");
+    const shopNowSection = document.getElementById("shop-now");
+
+    backToTop.style.color = "white";
+
+    const observer = new IntersectionObserver(
+    (entries) => {
+        entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            backToTop.style.color = "#272727";
+        } else {
+            backToTop.style.color = "white";
+        }
+        });
+    },
+    { threshold: 0.2 }
+    );
+
+    observer.observe(shopNowSection);
 
 </script>
