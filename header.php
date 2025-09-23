@@ -80,11 +80,11 @@
     // arrow color change
     const backToTop = document.getElementById("back-to-top-link");
     const shopNowSection = document.getElementById("shop-now");
-    
+
     backToTop.style.color = "white";
 
     window.addEventListener("scroll", () => {
-    const shopTop = shopNow.offsetTop;
+    const shopTop = shopNowSection.offsetTop;
     const scrollPos = window.scrollY + window.innerHeight;
 
     if (scrollPos >= shopTop) {
