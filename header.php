@@ -50,6 +50,16 @@
                     <div class="d-block d-md-none p-3">
                         <i class="fa fa-bars"></i>
                     </div>
+                    <div id="mobile-menu" class="d-none">
+                        <ul>
+                            <li><a href="#home" class="menu-link">Home</a></li>
+                            <li><a href="#latest-single" class="menu-link">Latest Single</a></li>
+                            <li><a href="#all-releases" class="menu-link">All Releases</a></li>
+                            <li><a href="#about-us" class="menu-link">About Us</a></li>
+                            <li><a href="#meet-the-band" class="menu-link">Meet The Band</a></li>
+                            <li><a href="#shop-now" class="menu-link">Shop Now</a></li>
+                        </ul>
+                    </div>
                     <div class="d-none d-md-block">
                         <ul class="p-5">
                             <li><a href="#home" class="menu-link">Home</a></li>
