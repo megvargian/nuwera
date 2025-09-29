@@ -113,6 +113,8 @@
 
     openBtn.addEventListener("click", () => {
         mobileMenu.classList.remove("d-none");
+        mobileMenu.classList.remove("slide-out");
+        mobileMenu.classList.add("slide-in");
         mobileMenu.classList.add("d-flex");
 
         document.body.style.overflow = "hidden";
@@ -120,6 +122,8 @@
 
     closeBtn.addEventListener("click", () => {
         mobileMenu.classList.remove("d-flex");
+        mobileMenu.classList.remove("slide-in");
+        mobileMenu.classList.add("slide-out");
         mobileMenu.classList.add("d-none");
 
         document.body.style.overflow = "";

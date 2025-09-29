@@ -314,6 +314,15 @@ header {
 	background: #ff2b59;
 	color: #ffffff;
 }
+//animation for header
+.slide-in {
+  transform: translateX(0);
+}
+
+.slide-out {
+  transform: translateX(-100%);
+}
+
 
 #header{
 	i{
@@ -322,7 +331,7 @@ header {
 	}
 	#hamburger-icon{
 		padding-left: 1rem;
-		padding-right: 1rem;
+		padding-top: 1rem;
 	}
 	#mobile-menu{
 		position: fixed;

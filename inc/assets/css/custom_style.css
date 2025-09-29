@@ -307,13 +307,21 @@ header {
   color: #ffffff;
 }
 
+.slide-in {
+  transform: translateX(0);
+}
+
+.slide-out {
+  transform: translateX(-100%);
+}
+
 #header i {
   color: #EBE2D0;
   font-size: 2rem;
 }
 #header #hamburger-icon {
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-top: 1rem;
 }
 #header #mobile-menu {
   position: fixed;
