@@ -44,8 +44,8 @@
                 </defs>
             </svg>
 		</a>
-        <div id="content" class="site-content d-block d-md-none">
-            <header id="header">
+        <div id="content" class="site-content">
+            <header id="header" class="d-none d-md-block">
                 <ul class="p-5">
                     <li><a href="#home" class="menu-link">Home</a></li>
                     <li><a href="#latest-single" class="menu-link">Latest Single</a></li>
