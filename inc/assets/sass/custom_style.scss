@@ -325,28 +325,35 @@ header {
 		width: 100%;
 		height: 100%;
 		background-color: #1b1b1b;
-		a{
-			color: #ffffff;
-			font-size: 14px;	
-		}
-		a:hover,
-		a.current{
-			color: #ff2b59;
+		ul{
+			text-align: center;
+			li{
+				a{
+					color: #ffffff;
+					font-size: 14px;	
+				}
+				a:hover,
+				a.current{
+					color: #ff2b59;
+				}
+			}
 		}
 	}
-	ul{
-		text-align: center;
-		li{
-			padding-top: 0.3rem;
-			padding-bottom: 0.3rem;
-			font-family: $albert-extra-bold;
-			a{
-				color: #ffffff;
-				font-size: 14px;	
-			}
-			a:hover,
-			a.current{
-				color: #ff2b59;
+	#desktop-menu{
+		ul{
+			text-align: center;
+			li{
+				padding-top: 0.3rem;
+				padding-bottom: 0.3rem;
+				font-family: $albert-extra-bold;
+				a{
+					color: #ffffff;
+					font-size: 14px;	
+				}
+				a:hover,
+				a.current{
+					color: #ff2b59;
+				}
 			}
 		}
 	}

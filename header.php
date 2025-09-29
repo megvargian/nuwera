@@ -60,7 +60,7 @@
                             <li><a href="#shop-now" class="menu-link">Shop Now</a></li>
                         </ul>
                     </div>
-                    <div class="d-none d-md-block">
+                    <div id="desktop-menu" class="d-none d-md-block">
                         <ul class="p-5">
                             <li><a href="#home" class="menu-link">Home</a></li>
                             <li><a href="#latest-single" class="menu-link">Latest Single</a></li>
