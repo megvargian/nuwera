@@ -112,21 +112,15 @@
     const closeBtn = mobileMenu.querySelector(".fa-x");
 
     openBtn.addEventListener("click", () => {
-        mobileMenu.classList.remove("d-none");
         mobileMenu.classList.remove("slide-out");
         mobileMenu.classList.add("slide-in");
-        mobileMenu.classList.add("d-flex");
-
-        document.body.style.overflow = "hidden";
+        document.body.classList.add("no-scroll");
     });
 
     closeBtn.addEventListener("click", () => {
-        mobileMenu.classList.remove("d-flex");
         mobileMenu.classList.remove("slide-in");
         mobileMenu.classList.add("slide-out");
-        mobileMenu.classList.add("d-none");
-
-        document.body.style.overflow = "";
+        document.body.classList.remove("no-scroll");
     });
 </script>
 <?php wp_footer(); ?>
