@@ -318,6 +318,11 @@ header {
   top: 0;
   background-color: #1b1b1b;
 }
+#header #mobile-menu i {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+}
 #header #mobile-menu ul {
   text-align: center;
 }
