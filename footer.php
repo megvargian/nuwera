@@ -115,7 +115,6 @@
         mobileMenu.classList.remove("d-none");
         mobileMenu.classList.add("d-flex");
 
-        // disable body scroll
         document.body.style.overflow = "hidden";
     });
 

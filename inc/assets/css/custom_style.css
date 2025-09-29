@@ -311,6 +311,10 @@ header {
   color: #EBE2D0;
   font-size: 2rem;
 }
+#header #hamburger-icon {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 #header #mobile-menu {
   position: fixed;
   width: 100%;
@@ -320,8 +324,8 @@ header {
 }
 #header #mobile-menu i {
   position: absolute;
-  top: 3rem;
-  left: 3rem;
+  top: 1rem;
+  left: 1rem;
 }
 #header #mobile-menu ul {
   text-align: center;

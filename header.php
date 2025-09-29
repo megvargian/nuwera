@@ -47,7 +47,7 @@
         <div id="content" class="site-content">
             <header id="header">
                 <nav>  
-                    <div class="d-block d-md-none p-3">
+                    <div id="hamburger-icon" class="d-block d-md-none">
                         <i class="fa-solid fa-bars"></i>
                     </div>
                     <div id="mobile-menu" class="d-none justify-content-center align-items-center">
