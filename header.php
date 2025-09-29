@@ -48,9 +48,10 @@
             <header id="header">
                 <nav>  
                     <div class="d-block d-md-none p-3">
-                        <i class="fa fa-bars"></i>
+                        <i class="fa-solid fa-bars"></i>
                     </div>
                     <div id="mobile-menu" class="d-none justify-content-center align-items-center">
+                        <i class="fa-solid fa-x"></i>
                          <ul> 
                             <li><a href="#home" class="menu-link">Home</a></li>
                             <li><a href="#latest-single" class="menu-link">Latest Single</a></li>
