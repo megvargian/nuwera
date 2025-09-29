@@ -50,7 +50,7 @@
                     <div id="hamburger-icon" class="d-block d-md-none">
                         <i class="fa-solid fa-bars"></i>
                     </div>
-                    <div id="mobile-menu" class="slide-out justify-content-center align-items-center">
+                    <div id="mobile-menu" class="slide-out d-flex justify-content-center align-items-center">
                         <i class="fa-solid fa-x"></i>
                          <ul> 
                             <li><a href="#home" class="menu-link">Home</a></li>
