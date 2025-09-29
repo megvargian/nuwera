@@ -47,7 +47,7 @@
         <div id="content" class="site-content">
             <header id="header">
                 <nav>  
-                    <div class="d-block d-md-none">
+                    <div class="d-block d-md-none p-3">
                         <i class="fa fa-bars"></i>
                     </div>
                     <div class="d-none d-md-block">
