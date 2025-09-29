@@ -105,6 +105,26 @@
         backToTop.style.color = "white";
     }
     });
+
+    // mobile menu hamburger button
+    const mobileMenu = document.getElementById("mobile-menu");
+    const openBtn = document.querySelector(".fa-bars");
+    const closeBtn = mobileMenu.querySelector(".fa-x");
+
+    openBtn.addEventListener("click", () => {
+        mobileMenu.classList.remove("d-none");
+        mobileMenu.classList.add("d-flex");
+
+        // disable body scroll
+        document.body.style.overflow = "hidden";
+    });
+
+    closeBtn.addEventListener("click", () => {
+        mobileMenu.classList.remove("d-flex");
+        mobileMenu.classList.add("d-none");
+
+        document.body.style.overflow = "";
+    });
 </script>
 <?php wp_footer(); ?>
 </body>
