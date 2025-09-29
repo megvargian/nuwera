@@ -44,7 +44,7 @@
                 </defs>
             </svg>
 		</a>
-        <div id="content" class="site-content">
+        <div id="content" class="site-content d-block d-md-none">
             <header id="header">
                 <ul class="p-5">
                     <li><a href="#home" class="menu-link">Home</a></li>
