@@ -321,6 +321,11 @@ header {
 #header #mobile-menu ul {
   text-align: center;
 }
+#header #mobile-menu ul li {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-family: "AlbertSans-ExtraBold";
+}
 #header #mobile-menu ul li a {
   color: #ffffff;
   font-size: 14px;
