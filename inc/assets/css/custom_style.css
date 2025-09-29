@@ -315,30 +315,34 @@ header {
   position: fixed;
   width: 100%;
   height: 100%;
+  top: 0;
   background-color: #1b1b1b;
 }
-#header #mobile-menu a {
+#header #mobile-menu ul {
+  text-align: center;
+}
+#header #mobile-menu ul li a {
   color: #ffffff;
   font-size: 14px;
 }
-#header #mobile-menu a:hover,
-#header #mobile-menu a.current {
+#header #mobile-menu ul li a:hover,
+#header #mobile-menu ul li a.current {
   color: #ff2b59;
 }
-#header ul {
+#header #desktop-menu ul {
   text-align: center;
 }
-#header ul li {
+#header #desktop-menu ul li {
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   font-family: "AlbertSans-ExtraBold";
 }
-#header ul li a {
+#header #desktop-menu ul li a {
   color: #ffffff;
   font-size: 14px;
 }
-#header ul li a:hover,
-#header ul li a.current {
+#header #desktop-menu ul li a:hover,
+#header #desktop-menu ul li a.current {
   color: #ff2b59;
 }
 
@@ -638,6 +642,7 @@ footer li {
   width: 60px;
   z-index: 10;
   rotate: -90deg;
+  z-index: 2;
 }
 
 .single-release p {
