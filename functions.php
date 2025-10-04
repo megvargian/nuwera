@@ -325,7 +325,7 @@ function nuwera_register_members_cpt() {
         'labels'             => $labels,
         'public'             => true,
         'has_archive'        => true,
-        'rewrite'            => array('slug' => 'member'),
+        'rewrite'            => array('slug' => 'members'),
         'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
         'show_in_rest'       => true, // Enable Gutenberg
         'menu_icon'          => 'dashicons-businessperson',
