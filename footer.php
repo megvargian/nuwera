@@ -134,7 +134,7 @@
         console.log("Shop Top: " + shopTop);
         console.log("Scroll Pos: " + scrollPos);
 
-        if (scrollPos >= (shopTop + 600)) {
+        if (scrollPos >= (shopTop + 700)) {
             menuLinks.forEach(link => link.style.color = "#272727");
         } else {
             menuLinks.forEach(link => link.style.color = "white");
