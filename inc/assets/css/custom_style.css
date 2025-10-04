@@ -320,6 +320,7 @@ body.no-scroll {
 }
 
 #header i {
+  color: #EBE2D0;
   font-size: 2rem;
 }
 #header #hamburger-icon {
@@ -351,25 +352,27 @@ body.no-scroll {
   color: #ffffff;
   font-size: 14px;
 }
-#header #mobile-menu ul li a:hover,
-#header #mobile-menu ul li a.current {
+#header #mobile-menu ul li a:hover {
   color: #ff2b59;
 }
 #header #desktop-menu ul {
   text-align: center;
 }
 #header #desktop-menu ul li {
-  padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding: 0.3rem 0;
   font-family: "AlbertSans-ExtraBold";
 }
-#header #desktop-menu ul li a {
-  color: #ffffff;
+#header #desktop-menu ul li a.menu-link {
   font-size: 14px;
+  color: white;
+  transition: color 0.3s;
 }
-#header #desktop-menu ul li a:hover,
-#header #desktop-menu ul li a.current {
+#header #desktop-menu ul li a.menu-link:hover {
   color: #ff2b59;
+}
+
+.menu-dark {
+  color: #272727 !important;
 }
 
 #home {
