@@ -271,64 +271,64 @@ function my_acf_init_block_types()
     }
 }
 
-function nuwera_register_release_cpt() {
-    $labels = array(
-        'name'               => 'Releases',
-        'singular_name'      => 'Release',
-        'menu_name'          => 'Releases',
-        'name_admin_bar'     => 'Release',
-        'add_new'            => 'Add New',
-        'add_new_item'       => 'Add New Release',
-        'new_item'           => 'New Release',
-        'edit_item'          => 'Edit Release',
-        'view_item'          => 'View Release',
-        'all_items'          => 'All Releases',
-        'search_items'       => 'Search Releases',
-        'not_found'          => 'No releases found.',
-        'not_found_in_trash' => 'No releases found in Trash.',
-    );
+// function nuwera_register_release_cpt() {
+//     $labels = array(
+//         'name'               => 'Releases',
+//         'singular_name'      => 'Release',
+//         'menu_name'          => 'Releases',
+//         'name_admin_bar'     => 'Release',
+//         'add_new'            => 'Add New',
+//         'add_new_item'       => 'Add New Release',
+//         'new_item'           => 'New Release',
+//         'edit_item'          => 'Edit Release',
+//         'view_item'          => 'View Release',
+//         'all_items'          => 'All Releases',
+//         'search_items'       => 'Search Releases',
+//         'not_found'          => 'No releases found.',
+//         'not_found_in_trash' => 'No releases found in Trash.',
+//     );
 
-    $args = array(
-        'labels'             => $labels,
-        'public'             => true,
-        'has_archive'        => true,
-        'rewrite'            => array('slug' => 'releases'),
-        'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
-        'show_in_rest'       => true, // Enable Gutenberg
-        'menu_icon'          => 'dashicons-album',
-    );
+//     $args = array(
+//         'labels'             => $labels,
+//         'public'             => true,
+//         'has_archive'        => true,
+//         'rewrite'            => array('slug' => 'releases'),
+//         'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
+//         'show_in_rest'       => true, // Enable Gutenberg
+//         'menu_icon'          => 'dashicons-album',
+//     );
 
-    register_post_type('release', $args);
+//     register_post_type('release', $args);
 
-     $labels = array(
-        'name'               => 'Members',
-        'singular_name'      => 'Member',
-        'menu_name'          => 'Members',
-        'name_admin_bar'     => 'Member',
-        'add_new'            => 'Add New',
-        'add_new_item'       => 'Add New Member',
-        'new_item'           => 'New Member',
-        'edit_item'          => 'Edit Member',
-        'view_item'          => 'View Member',
-        'all_items'          => 'All Members',
-        'search_items'       => 'Search Members',
-        'not_found'          => 'No members found.',
-        'not_found_in_trash' => 'No members found in Trash.',
-    );
+//      $labels = array(
+//         'name'               => 'Members',
+//         'singular_name'      => 'Member',
+//         'menu_name'          => 'Members',
+//         'name_admin_bar'     => 'Member',
+//         'add_new'            => 'Add New',
+//         'add_new_item'       => 'Add New Member',
+//         'new_item'           => 'New Member',
+//         'edit_item'          => 'Edit Member',
+//         'view_item'          => 'View Member',
+//         'all_items'          => 'All Members',
+//         'search_items'       => 'Search Members',
+//         'not_found'          => 'No members found.',
+//         'not_found_in_trash' => 'No members found in Trash.',
+//     );
 
-    $args = array(
-        'labels'             => $labels,
-        'public'             => true,
-        'has_archive'        => true,
-        'rewrite'            => array('slug' => 'member'),
-        'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
-        'show_in_rest'       => true, // Enable Gutenberg
-        'menu_icon'          => 'dashicons-businessperson',
-    );
+//     $args = array(
+//         'labels'             => $labels,
+//         'public'             => true,
+//         'has_archive'        => true,
+//         'rewrite'            => array('slug' => 'member'),
+//         'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
+//         'show_in_rest'       => true, // Enable Gutenberg
+//         'menu_icon'          => 'dashicons-businessperson',
+//     );
 
-    register_post_type('member', $args);
-}
-add_action('init', 'nuwera_register_release_cpt');
+//     register_post_type('member', $args);
+// }
+// add_action('init', 'nuwera_register_release_cpt');
 
 // post-type for band members
 
@@ -362,3 +362,60 @@ add_action('init', 'nuwera_register_release_cpt');
 //     register_post_type('member', $args);
 // }
 // add_action('init', 'nuwera_register_member_cpt');
+
+
+function nuwera_register_cpts() {
+
+    // Define all CPTs in one array
+    $cpts = array(
+        'release' => array(
+            'singular' => 'Release',
+            'plural'   => 'Releases',
+            'slug'     => 'releases',
+            'icon'     => 'dashicons-album',
+            'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+        ),
+        'member' => array(
+            'singular' => 'Member',
+            'plural'   => 'Members',
+            'slug'     => 'member',
+            'icon'     => 'dashicons-businessperson',
+            'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
+        ),
+        // Add more CPTs here easily
+    );
+
+    // Loop through each CPT and register it
+    foreach ($cpts as $key => $cpt) {
+        $labels = array(
+            'name'               => $cpt['plural'],
+            'singular_name'      => $cpt['singular'],
+            'menu_name'          => $cpt['plural'],
+            'name_admin_bar'     => $cpt['singular'],
+            'add_new'            => 'Add New',
+            'add_new_item'       => 'Add New ' . $cpt['singular'],
+            'new_item'           => 'New ' . $cpt['singular'],
+            'edit_item'          => 'Edit ' . $cpt['singular'],
+            'view_item'          => 'View ' . $cpt['singular'],
+            'all_items'          => 'All ' . $cpt['plural'],
+            'search_items'       => 'Search ' . $cpt['plural'],
+            'not_found'          => 'No ' . strtolower($cpt['plural']) . ' found.',
+            'not_found_in_trash' => 'No ' . strtolower($cpt['plural']) . ' found in Trash.',
+        );
+
+        $args = array(
+            'labels'       => $labels,
+            'public'       => true,
+            'has_archive'  => true,
+            'rewrite'      => array('slug' => $cpt['slug']),
+            'supports'     => $cpt['supports'],
+            'show_in_rest' => true,
+            'menu_icon'    => $cpt['icon'],
+        );
+
+        register_post_type($key, $args);
+    }
+}
+
+add_action('init', 'nuwera_register_cpts');
+
