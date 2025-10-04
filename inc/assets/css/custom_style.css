@@ -370,9 +370,8 @@ body.no-scroll {
 #header #desktop-menu ul li a.menu-link:hover {
   color: #ff2b59;
 }
-
-.menu-dark {
-  color: #272727 !important;
+#header #desktop-menu ul.menu-dark .menu-link {
+  color: #272727;
 }
 
 #home {
