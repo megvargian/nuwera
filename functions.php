@@ -301,3 +301,36 @@ function nuwera_register_release_cpt() {
     register_post_type('release', $args);
 }
 add_action('init', 'nuwera_register_release_cpt');
+
+// post-type for band members
+
+function nuwera_register_members_cpt() {
+    $labels = array(
+        'name'               => 'Members',
+        'singular_name'      => 'Member',
+        'menu_name'          => 'Members',
+        'name_admin_bar'     => 'Member',
+        'add_new'            => 'Add New',
+        'add_new_item'       => 'Add New Member',
+        'new_item'           => 'New Member',
+        'edit_item'          => 'Edit Member',
+        'view_item'          => 'View Member',
+        'all_items'          => 'All Members',
+        'search_items'       => 'Search Members',
+        'not_found'          => 'No members found.',
+        'not_found_in_trash' => 'No members found in Trash.',
+    );
+
+    $args = array(
+        'labels'             => $labels,
+        'public'             => true,
+        'has_archive'        => true,
+        'rewrite'            => array('slug' => 'members'),
+        'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
+        'show_in_rest'       => true, // Enable Gutenberg
+        'menu_icon'          => 'dashicons-businessperson',
+    );
+
+    register_post_type('member', $args);
+}
+add_action('init', 'nuwera_register_members_cpt');
