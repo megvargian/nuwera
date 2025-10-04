@@ -330,6 +330,7 @@ body.no-scroll {
 
 #header{
 	i{
+		color: #EBE2D0;
 		font-size: 2rem;
 	}
 	#hamburger-icon{
@@ -358,8 +359,7 @@ body.no-scroll {
 					color: #ffffff;
 					font-size: 14px;	
 				}
-				a:hover,
-				a.current{
+				a:hover{
 					color: #ff2b59;
 				}
 			}
@@ -373,12 +373,19 @@ body.no-scroll {
 				padding-bottom: 0.3rem;
 				font-family: $albert-extra-bold;
 				a{
-					color: #ffffff;
 					font-size: 14px;	
+				}  
+				.menu-link {
+					color: white;
+					transition: color 0.3s;
+
+					&:hover {
+						color: #ff2b59;
+					}
 				}
-				a:hover,
-				a.current{
-					color: #ff2b59;
+
+				.menu-dark .menu-link {
+					color: #272727;
 				}
 			}
 		}

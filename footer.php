@@ -123,21 +123,15 @@
 
     // desktop menu color change 
     const desktopMenu = document.getElementById("desktop-menu");
-    const menuLinks = desktopMenu.querySelectorAll(".menu-link");
-
-    menuLinks.forEach(link => link.style.color = "white");
 
     window.addEventListener("scroll", () => {
         let shopTop = shopNowSection.offsetTop;
         let scrollPos = window.scrollY + window.innerHeight;
 
-        console.log("Shop Top: " + shopTop);
-        console.log("Scroll Pos: " + scrollPos);
-
         if (scrollPos >= (shopTop + 700)) {
-            menuLinks.forEach(link => link.style.color = "#272727");
+            desktopMenu.classList.add("menu-dark");
         } else {
-            menuLinks.forEach(link => link.style.color = "white");
+            desktopMenu.classList.remove("menu-dark");
         }
     });
 </script>
