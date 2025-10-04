@@ -355,6 +355,9 @@ body.no-scroll {
 #header #mobile-menu ul li a:hover {
   color: #ff2b59;
 }
+#header #desktop-menu {
+  color: white;
+}
 #header #desktop-menu ul {
   text-align: center;
 }
@@ -364,7 +367,6 @@ body.no-scroll {
 }
 #header #desktop-menu ul li a.menu-link {
   font-size: 14px;
-  color: white;
   transition: color 0.3s;
 }
 #header #desktop-menu ul li a.menu-link:hover {

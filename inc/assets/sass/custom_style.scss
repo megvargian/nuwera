@@ -366,6 +366,7 @@ body.no-scroll {
 		}
 	}
 	#desktop-menu {
+		color: white;  
 		ul {
 			text-align: center;
 			li {
@@ -374,7 +375,6 @@ body.no-scroll {
 
 				a.menu-link {
 					font-size: 14px;
-					color: white;  
 					transition: color 0.3s;
 
 					&:hover {
