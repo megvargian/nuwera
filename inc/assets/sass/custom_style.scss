@@ -366,27 +366,26 @@ body.no-scroll {
 		}
 	}
 	#desktop-menu{
-		ul{
+		ul {
 			text-align: center;
-			li{
-				padding-top: 0.3rem;
-				padding-bottom: 0.3rem;
+
+			li {
+				padding: 0.3rem 0;
 				font-family: $albert-extra-bold;
-				a{
-					font-size: 14px;	
-				}  
-				.menu-link {
-					color: white;
+
+				a.menu-link {
+					font-size: 14px;
+					color: white;          
 					transition: color 0.3s;
 
 					&:hover {
-						color: #ff2b59;
+						color: #ff2b59;        
 					}
 				}
+			}
 
-				.menu-dark {
-					color: #272727;
-				}
+			&.menu-dark .menu-link {
+				color: #272727;
 			}
 		}
 	}
