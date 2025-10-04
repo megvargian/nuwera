@@ -128,6 +128,9 @@
         let shopTop = shopNowSection.offsetTop;
         let scrollPos = window.scrollY + window.innerHeight;
 
+        console.log("Shop Top: " + shopTop);
+        console.log("Scroll Pos: " + scrollPos);
+
         if (scrollPos >= (shopTop + 700)) {
             desktopMenu.classList.add("menu-dark");
         } else {
