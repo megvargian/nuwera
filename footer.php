@@ -108,6 +108,7 @@
     const mobileMenu = document.getElementById("mobile-menu");
     const openBtn = document.querySelector(".fa-bars");
     const closeBtn = mobileMenu.querySelector(".fa-x");
+    const menuLinks = mobileMenu.querySelectorAll("a.menu-link");
 
     openBtn.addEventListener("click", () => {
         mobileMenu.classList.remove("slide-out");
@@ -115,10 +116,16 @@
         document.body.classList.add("no-scroll");
     });
 
-    closeBtn.addEventListener("click", () => {
-        mobileMenu.classList.remove("slide-in");
-        mobileMenu.classList.add("slide-out");
-        document.body.classList.remove("no-scroll");
+    function closeMobileMenu() {
+    mobileMenu.classList.remove("slide-in");
+    mobileMenu.classList.add("slide-out");
+    document.body.classList.remove("no-scroll");
+    }
+
+    closeBtn.addEventListener("click", closeMobileMenu);
+
+    menuLinks.forEach(link => {
+        link.addEventListener("click", closeMobileMenu);
     });
 
     // desktop menu color change 
