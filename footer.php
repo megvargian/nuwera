@@ -125,7 +125,6 @@
 
     // desktop menu color change 
     const desktopMenu = document.getElementById("desktop-menu");
-    const shopNowSection = document.getElementById("shop-now");
     const menuLinks = desktopMenu.querySelectorAll(".menu-link");
 
     menuLinks.forEach(link => link.style.color = "white");
