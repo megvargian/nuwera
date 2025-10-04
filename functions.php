@@ -320,7 +320,7 @@ function nuwera_register_release_cpt() {
         'labels'             => $labels,
         'public'             => true,
         'has_archive'        => true,
-        'rewrite'            => array('slug' => 'members'),
+        'rewrite'            => array('slug' => 'member'),
         'supports'           => array('title', 'editor', 'thumbnail', 'excerpt'),
         'show_in_rest'       => true, // Enable Gutenberg
         'menu_icon'          => 'dashicons-businessperson',
