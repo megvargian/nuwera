@@ -378,7 +378,7 @@ function nuwera_register_cpts() {
         'member' => array(
             'singular' => 'Member',
             'plural'   => 'Members',
-            'slug'     => 'member',
+            'slug'     => 'members',
             'icon'     => 'dashicons-businessperson',
             'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
         ),
