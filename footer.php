@@ -122,6 +122,24 @@
         mobileMenu.classList.add("slide-out");
         document.body.classList.remove("no-scroll");
     });
+
+    // desktop menu color change 
+    const desktopMenu = document.getElementById("desktop-menu");
+    const shopNowSection = document.getElementById("shop-now");
+    const menuLinks = desktopMenu.querySelectorAll(".menu-link");
+
+    menuLinks.forEach(link => link.style.color = "white");
+
+    window.addEventListener("scroll", () => {
+        let shopTop = shopNowSection.offsetTop;
+        let scrollPos = window.scrollY + window.innerHeight;
+
+        if (scrollPos >= (shopTop + 100)) {
+            menuLinks.forEach(link => link.style.color = "#272727");
+        } else {
+            menuLinks.forEach(link => link.style.color = "white");
+        }
+    });
 </script>
 <?php wp_footer(); ?>
 </body>
