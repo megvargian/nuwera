@@ -1,20 +1,25 @@
 <?php
-/**
- * The template for displaying all single posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package WP_Bootstrap_Starter
- */
-
 get_header(); ?>
-<div class="container">
 
-	<?php
-	while ( have_posts() ) : the_post();
-		the_content();
-	endwhile; // End of the loop.
-	?>
+<div class="container my-5">
+    <?php
+    while ( have_posts() ) : the_post(); ?>
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+            <header class="mb-4">
+                <h1 class="entry-title"><?php the_title(); ?></h1>
+                <?php if ( has_post_thumbnail() ) : ?>
+                    <div class="member-thumbnail mb-3">
+                        <?php the_post_thumbnail('large', ['class' => 'img-fluid']); ?>
+                    </div>
+                <?php endif; ?>
+            </header>
+
+            <div class="entry-content">
+                <?php the_content(); ?>
+            </div>
+        </article>
+    <?php endwhile; ?>
 </div>
+
 <?php
 get_footer();
