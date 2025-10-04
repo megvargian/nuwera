@@ -97,8 +97,6 @@
     window.addEventListener("scroll", () => {
     let shopTop = shopNowSection.offsetTop;
     let scrollPos = window.scrollY + window.innerHeight;
-    console.log("Shop Top: " + shopTop);
-    console.log("Scroll Pos: " + scrollPos);
     if (scrollPos >= (shopTop + 100)) {
         backToTop.style.color = "#272727";
     } else {
@@ -132,6 +130,9 @@
     window.addEventListener("scroll", () => {
         let shopTop = shopNowSection.offsetTop;
         let scrollPos = window.scrollY + window.innerHeight;
+
+        console.log("Shop Top: " + shopTop);
+        console.log("Scroll Pos: " + scrollPos);
 
         if (scrollPos >= (shopTop + 100)) {
             menuLinks.forEach(link => link.style.color = "#272727");
