@@ -452,3 +452,5 @@ add_action('woocommerce_thankyou', function($order_id){
         echo '<p>Please check your email for your secure download link.</p>';
     }
 });
+
+
