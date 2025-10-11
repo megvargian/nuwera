@@ -419,3 +419,36 @@ function nuwera_register_cpts() {
 
 add_action('init', 'nuwera_register_cpts');
 
+
+// for digital downlaods
+add_action('woocommerce_email_after_order_table', function($order, $sent_to_admin, $plain_text, $email){
+    if ( $email->id === 'customer_processing_order' ) {
+        $downloads = $order->get_downloadable_items();
+        if ($downloads) {
+            echo '<h2>Your Downloads</h2><ul>';
+            foreach ($downloads as $download) {
+                echo '<li><a href="'.esc_url($download['download_url']).'">'.esc_html($download['name']).'</a></li>';
+            }
+            echo '</ul>';
+        }
+    }
+}, 10, 4);
+
+
+add_action('woocommerce_thankyou', function($order_id){
+    $order = wc_get_order($order_id);
+    if ($order && $order->has_downloadable_item()) {
+        echo '<div class="woocommerce-info" style="margin-top:20px;">';
+        echo '<strong>Your downloads are ready!</strong><br>';
+        echo 'You can access them anytime from your <a href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') ).'downloads/').'">Downloads page</a>.';
+        echo '</div>';
+    }
+});
+
+
+add_action('woocommerce_thankyou', function($order_id){
+    $order = wc_get_order($order_id);
+    if ($order && !is_user_logged_in() && $order->has_downloadable_item()) {
+        echo '<p>Please check your email for your secure download link.</p>';
+    }
+});
