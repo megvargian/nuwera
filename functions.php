@@ -436,6 +436,20 @@ add_filter('woocommerce_payment_gateways', function($gateways) {
     return $gateways;
 });
 
+// Ensure WooCommerce session is initialized for checkout
+add_action('woocommerce_init', function() {
+    if (is_null(WC()->session)) {
+        WC()->session = new WC_Session_Handler();
+        WC()->session->init();
+    }
+});
+
+// Handle Store API checkout payment processing
+add_action('woocommerce_store_api_checkout_update_order_from_request', function($order, $request) {
+    error_log('Store API checkout order: ' . $order->get_id());
+    error_log('Payment method from request: ' . $request['payment_method']);
+}, 10, 2);
+
 // Debug payment gateway responses
 add_action('woocommerce_checkout_process', function() {
     if (defined('WP_DEBUG') && WP_DEBUG) {
