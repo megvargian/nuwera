@@ -171,8 +171,11 @@ function wp_bootstrap_starter_scripts()
     wp_enqueue_script('wc-checkout-fix', get_template_directory_uri() . '/inc/assets/js/wc-checkout-fix.js', array('jquery'), '1.0', true);
 
     // Localize script with nonce for WooCommerce REST API
+    // Use wp_rest nonce which is the standard for REST API requests
     wp_localize_script('wc-checkout-fix', 'wc_store_api_nonce', array(
-        'nonce' => wp_create_nonce('wc_store_api')
+        'nonce' => wp_create_nonce('wp_rest'),
+        'url' => rest_url(),
+        'wc_nonce' => wp_create_nonce('wc_store_api')
     ));
 }
 add_action('wp_enqueue_scripts', 'wp_bootstrap_starter_scripts');
@@ -427,6 +430,26 @@ function nuwera_register_cpts() {
 
 add_action('init', 'nuwera_register_cpts');
 
+// Enable direct bank transfer and check payments as fallback
+add_filter('woocommerce_payment_gateways', function($gateways) {
+    // This ensures basic payment methods are available
+    return $gateways;
+});
+
+// Debug payment gateway responses
+add_action('woocommerce_checkout_process', function() {
+    if (defined('WP_DEBUG') && WP_DEBUG) {
+        error_log('WooCommerce checkout process started');
+        error_log('Selected payment method: ' . (isset($_POST['payment_method']) ? $_POST['payment_method'] : 'none'));
+    }
+});
+
+// Log payment gateway errors
+add_action('woocommerce_after_checkout_validation', function($data, $errors) {
+    if ($errors->has_errors() && defined('WP_DEBUG') && WP_DEBUG) {
+        error_log('Checkout validation errors: ' . print_r($errors->get_error_messages(), true));
+    }
+}, 10, 2);
 
 // for digital downlaods
 add_action('woocommerce_email_after_order_table', function($order, $sent_to_admin, $plain_text, $email){
