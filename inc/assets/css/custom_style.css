@@ -1116,6 +1116,20 @@ footer li {
   font-size: 16px;
   font-weight: bold;
   margin-top: 1rem;
+  transition: all 0.3s ease;
+}
+.woocommerce .single-product .product .summary .single_add_to_cart_button:disabled, .woocommerce .single-product .product .summary .single_add_to_cart_button.disabled,
+.woocommerce-page .single-product .product .summary .single_add_to_cart_button:disabled,
+.woocommerce-page .single-product .product .summary .single_add_to_cart_button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #666 !important;
+}
+.woocommerce .single-product .product .summary .single_add_to_cart_button:disabled:hover, .woocommerce .single-product .product .summary .single_add_to_cart_button.disabled:hover,
+.woocommerce-page .single-product .product .summary .single_add_to_cart_button:disabled:hover,
+.woocommerce-page .single-product .product .summary .single_add_to_cart_button.disabled:hover {
+  background-color: #666 !important;
+  color: #fff !important;
 }
 .woocommerce .single-product .product .summary .product_meta,
 .woocommerce-page .single-product .product .summary .product_meta {

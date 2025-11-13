@@ -580,11 +580,36 @@ function variation_radio_buttons_script() {
     ?>
     <script type="text/javascript">
         jQuery(function($) {
-            $(document).on('change', '.variation-radio-buttons input[type="radio"]', function() {
-                var $form = $(this).closest('form.variations_form');
-                $form.trigger('check_variations');
-                $form.trigger('woocommerce_variation_select_change');
-            });
+            // Disable add to cart button initially for variable products
+            var $addToCartBtn = $('.single_add_to_cart_button');
+            var $form = $('form.variations_form');
+
+            if ($form.length) {
+                // Initial state - disable button
+                $addToCartBtn.prop('disabled', true).addClass('disabled');
+
+                // Handle variation radio button changes
+                $(document).on('change', '.variation-radio-buttons input[type="radio"]', function() {
+                    var $currentForm = $(this).closest('form.variations_form');
+                    $currentForm.trigger('check_variations');
+                    $currentForm.trigger('woocommerce_variation_select_change');
+                });
+
+                // Enable button when variation is found
+                $form.on('found_variation', function() {
+                    $addToCartBtn.prop('disabled', false).removeClass('disabled');
+                });
+
+                // Disable button when variation is not selected or cleared
+                $form.on('reset_data', function() {
+                    $addToCartBtn.prop('disabled', true).addClass('disabled');
+                });
+
+                // Also handle the hide_variation event
+                $form.on('hide_variation', function() {
+                    $addToCartBtn.prop('disabled', true).addClass('disabled');
+                });
+            }
         });
     </script>
     <?php
