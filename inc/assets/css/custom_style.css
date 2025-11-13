@@ -1107,6 +1107,21 @@ footer li {
 .woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation {
   margin-bottom: 1.5rem;
 }
+.woocommerce .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-description,
+.woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-description {
+  color: #ebe2d0;
+  background-color: #2a2a2a;
+  padding: 15px 20px;
+  border-left: 3px solid #ff2b59;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  border-radius: 5px;
+}
+.woocommerce .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-description p,
+.woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-description p {
+  margin: 0;
+  color: #ebe2d0;
+}
 .woocommerce .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-price,
 .woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-price {
   display: block !important;

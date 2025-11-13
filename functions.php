@@ -614,12 +614,23 @@ function variation_radio_buttons_script() {
                 $form.on('found_variation', function(event, variation) {
                     console.log('Variation found:', variation);
                     $addToCartBtn.prop('disabled', false).removeClass('disabled');
+
+                    // Show variation description if it exists
+                    if (variation.variation_description) {
+                        var $descContainer = $('.single_variation .woocommerce-variation-description');
+                        if ($descContainer.length === 0) {
+                            $('.single_variation').prepend('<div class="woocommerce-variation-description"></div>');
+                            $descContainer = $('.single_variation .woocommerce-variation-description');
+                        }
+                        $descContainer.html(variation.variation_description).slideDown();
+                    }
                 });
 
                 // Disable button when variation is not selected or cleared
                 $form.on('reset_data', function() {
                     console.log('Reset data');
                     $addToCartBtn.prop('disabled', true).addClass('disabled');
+                    $('.single_variation .woocommerce-variation-description').slideUp();
                 });
 
                 // Handle hide_variation event
