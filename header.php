@@ -68,7 +68,8 @@
                     <div id="hamburger-icon" class="d-block d-md-none">
                         <i class="fa-solid fa-bars"></i>
                     </div>
-                    <div id="mobile-menu" class="slide-out d-flex justify-content-center align-items-center">
+                    <div id="mobile-menu"
+                        class="slide-out d-flex justify-content-center align-items-center <?php echo is_front_page() ? 'position-fixed' : ''; ?>">
                         <i class="fa-solid fa-x"></i>
                         <ul>
                             <?php render_menu($menu_items); ?>
