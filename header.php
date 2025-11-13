@@ -63,7 +63,7 @@
                         }
                     }
                 ?>
-                <nav>  
+                <nav class="<?php echo !is_front_page() ? 'non-homepage' : ''; ?>">
                     <div id="hamburger-icon" class="d-block d-md-none">
                         <i class="fa-solid fa-bars"></i>
                     </div>
@@ -74,7 +74,7 @@
                         </ul>
                     </div>
                     <div id="desktop-menu" class="d-none d-md-block">
-                        <ul class="p-5">
+                        <ul class="<?php echo !is_front_page() ? 'p-3' : 'p-5'; ?>">
                             <?php render_menu($menu_items); ?>
                         </ul>
                     </div>

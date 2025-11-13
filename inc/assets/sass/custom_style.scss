@@ -384,6 +384,28 @@ body.no-scroll {
 			}
 		}
 	}
+
+	// Styles for non-homepage navigation
+	nav.non-homepage {
+		#desktop-menu {
+			ul {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+				gap: 1.5rem;
+
+				li {
+					padding: 0;
+					display: inline-block;
+
+					a.menu-link {
+						white-space: nowrap;
+					}
+				}
+			}
+		}
+	}
 }
 
 .menu-dark {

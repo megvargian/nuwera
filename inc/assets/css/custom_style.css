@@ -396,6 +396,20 @@ body.no-scroll {
 #header #desktop-menu ul li a.menu-link:hover {
   color: #ff2b59;
 }
+#header nav.non-homepage #desktop-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+#header nav.non-homepage #desktop-menu ul li {
+  padding: 0;
+  display: inline-block;
+}
+#header nav.non-homepage #desktop-menu ul li a.menu-link {
+  white-space: nowrap;
+}
 
 .menu-dark {
   color: #272727 !important;
