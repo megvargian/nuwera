@@ -24,45 +24,17 @@ $get_all_fields = get_fields();
             </div>
             <div class="social-share mt-4">
                 <ul class="d-flex justify-content-start align-items-center flex-wrap">
-                    <?php if($get_all_fields['shopify']){?>
+                    <?php if($get_all_fields['instagram']){?>
                     <li>
                         <a class="fab fa-spotify" href="<?php echo $get_all_fields['shopify']; ?>">
                             <span class="sr-only">Share on Spotify</span>
                         </a>
                     </li>
                     <?php } ?>
-                    <?php if($get_all_fields['apple']){?>
+                    <?php if($get_all_fields['facebook']){?>
                     <li>
                         <a class="fab fa-apple" href="<?php echo $get_all_fields['apple']; ?>">
                             <span class="sr-only">Share on Apple Music</span>
-                        </a>
-                    </li>
-                    <?php } ?>
-                    <?php if($get_all_fields['amazon']){?>
-                    <li>
-                        <a class="fab fa-amazon" href="<?php echo $get_all_fields['amazon']; ?>">
-                            <span class="sr-only">Share on Amazon Music</span>
-                        </a>
-                    </li>
-                    <?php } ?>
-                    <?php if($get_all_fields['bandcamp']){?>
-                    <li>
-                        <a class="fab fa-bandcamp" href="<?php echo $get_all_fields['bandcamp']; ?>">
-                            <span class="sr-only">Share on Bandcamp</span>
-                        </a>
-                    </li>
-                    <?php } ?>
-                    <?php if($get_all_fields['youtube']){?>
-                    <li>
-                        <a class="fab fa-youtube" href="<?php echo $get_all_fields['youtube']; ?>">
-                            <span class="sr-only">Share on YouTube</span>
-                        </a>
-                    </li>
-                    <?php } ?>
-                    <?php if($get_all_fields['deezer']){?>
-                    <li>
-                        <a class="fab fa-deezer" href="<?php echo $get_all_fields['deezer']; ?>">
-                            <span class="sr-only">Share on Deezer</span>
                         </a>
                     </li>
                     <?php } ?>
