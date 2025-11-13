@@ -33,7 +33,8 @@
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clippath="url(#clip0_77_1481)">
                     <path d="M0.180725 23H62.1807" stroke="currentColor" stroke-width="2"></path>
-                    <path d="M62.1807 23C49.3401 23 38.9307 12.7025 38.9307 0" stroke="currentColor" stroke-width="2"></path>
+                    <path d="M62.1807 23C49.3401 23 38.9307 12.7025 38.9307 0" stroke="currentColor" stroke-width="2">
+                    </path>
                     <path d="M38.9307 46C38.9307 33.2974 49.3401 23 62.1807 23" stroke="currentColor" stroke-width="2">
                     </path>
                 </g>
@@ -43,9 +44,9 @@
                     </clipPath>
                 </defs>
             </svg>
-		</a>
+        </a>
         <div id="content" class="site-content">
-            <header id="header">
+            <header id="header <?php echo !is_front_page() ? 'w-100' : ''; ?>">
                 <?php
                     $menu_items = [
                         'Home' => '#home',
@@ -81,16 +82,15 @@
                 </nav>
             </header>
 
-<script>
-	jQuery(function($) {
-		// Hide #back-to-top-link when near the top
-		$(window).on('scroll', function() {
-			if ($(window).scrollTop() < 100) {
-				$('#back-to-top-link').fadeOut();
-			} else {
-				$('#back-to-top-link').fadeIn();
-			}
-		});
-	});
-
-</script>
+            <script>
+            jQuery(function($) {
+                // Hide #back-to-top-link when near the top
+                $(window).on('scroll', function() {
+                    if ($(window).scrollTop() < 100) {
+                        $('#back-to-top-link').fadeOut();
+                    } else {
+                        $('#back-to-top-link').fadeIn();
+                    }
+                });
+            });
+            </script>
