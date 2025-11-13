@@ -1025,6 +1025,79 @@ footer {
 		}
 	}
 
+	// Single Product Page Custom Layout
+	.single-product {
+		.product {
+			.summary {
+				.product_title {
+					font-family: $albert-extra-bold;
+					font-size: 2rem;
+					color: #fff;
+					margin-bottom: 1rem;
+					text-transform: uppercase;
+				}
+
+				.woocommerce-product-details__short-description {
+					color: #ebe2d0;
+					margin-bottom: 1.5rem;
+					line-height: 1.6;
+
+					p {
+						margin-bottom: 1rem;
+					}
+				}
+
+				.price {
+					font-size: 1.5rem;
+					margin-bottom: 2rem;
+				}
+
+				.variations {
+					margin-bottom: 2rem;
+
+					.variation-option-wrapper {
+						margin-bottom: 1.5rem;
+
+						label {
+							display: block;
+							font-family: $albert-extra-bold;
+							color: #ebe2d0;
+							margin-bottom: 0.75rem;
+							font-size: 16px;
+							text-transform: uppercase;
+						}
+					}
+				}
+
+				.single_variation_wrap {
+					margin-top: 2rem;
+
+					.single_variation {
+						margin-bottom: 1.5rem;
+
+						.woocommerce-variation-price {
+							display: none; // Hide duplicate price
+						}
+					}
+				}
+
+				.single_add_to_cart_button {
+					width: 100%;
+					max-width: 300px;
+					padding: 15px 30px;
+					font-size: 16px;
+					font-weight: bold;
+					margin-top: 1rem;
+				}
+
+				// Hide meta (SKU, categories, tags)
+				.product_meta {
+					display: none;
+				}
+			}
+		}
+	}
+
 	// Pagination
 	.woocommerce-pagination {
 		.page-numbers {

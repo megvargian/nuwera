@@ -130,7 +130,7 @@
         link.addEventListener("click", closeMobileMenu);
     });
 
-    // desktop menu color change 
+    // desktop menu color change
     const desktopMenu = document.getElementById("desktop-menu");
 
     if(shopNowSection){

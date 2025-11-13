@@ -589,3 +589,17 @@ function variation_radio_buttons_script() {
     </script>
     <?php
 }
+
+// Remove WooCommerce category from single product page
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+
+// Customize single product page layout
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
+remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
+
+// Re-add elements in custom order: Title, Description, Price, Variations, Add to Cart
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 10);
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 15);
