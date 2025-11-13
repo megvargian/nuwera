@@ -71,15 +71,15 @@
         <div class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col d-flex justify-content-center justify-content-md-start align-items-center mb-md-0 mb-4">
-                    <a href="mailto:info@nuwera.band">info@nuwera.band</a>
+                    <a href="mailto:info@nuwera.band" style="color: #000 !important">info@nuwera.band</a>
                 </div>
                 <div class="col">
                     <ul class="d-flex justify-content-center justify-content-md-end align-items-center">
                         <li>
-                            <a href="https://www.facebook.com/nuweraofficial" target="_blank">Facebook</a>
+                            <a href="https://www.facebook.com/nuweraofficial" style="color: #000 !important" target="_blank">Facebook</a>
                         </li>
                         <li>
-                            <a href="https://www.instagram.com/nnuwera/" target="_blank">Instagram</a>
+                            <a href="https://www.instagram.com/nnuwera/" style="color: #000 !important" target="_blank">Instagram</a>
                         </li>
                     </ul>
                 </div>
