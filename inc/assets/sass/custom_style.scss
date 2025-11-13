@@ -1027,58 +1027,25 @@ footer {
 	// Single Product Page Custom Layout
 	.single-product {
 		.product {
-			display: flex;
-			flex-direction: column;
-
-			// Title and description before image
-			.product_title {
-				font-family: $albert-extra-bold;
-				font-size: 2rem;
-				color: #fff;
-				margin-bottom: 1rem;
-				text-transform: uppercase;
-				order: -2;
-			}
-
-			.woocommerce-product-details__short-description {
-				color: #ebe2d0;
-				margin-bottom: 2rem;
-				line-height: 1.6;
-				order: -1;
-
-				p {
-					margin-bottom: 1rem;
-				}
-			}
-
-			// Image and summary side by side on desktop
-			@media (min-width: 768px) {
-				flex-direction: row;
-				flex-wrap: wrap;
-
+			.summary {
 				.product_title {
-					width: 100%;
-					order: 1;
+					font-family: $albert-extra-bold;
+					font-size: 2rem;
+					color: #fff;
+					margin-bottom: 1rem;
+					text-transform: uppercase;
 				}
 
 				.woocommerce-product-details__short-description {
-					width: 100%;
-					order: 2;
+					color: #ebe2d0;
+					margin-bottom: 1.5rem;
+					line-height: 1.6;
+
+					p {
+						margin-bottom: 1rem;
+					}
 				}
 
-				.woocommerce-product-gallery {
-					width: 50%;
-					order: 3;
-					padding-right: 2rem;
-				}
-
-				.summary {
-					width: 50%;
-					order: 4;
-				}
-			}
-
-			.summary {
 				.price {
 					font-size: 1.5rem;
 					margin-bottom: 2rem;
@@ -1115,17 +1082,11 @@ footer {
 
 				.single_add_to_cart_button {
 					width: 100%;
-					max-width: 340px;
+					max-width: 300px;
 					padding: 15px 30px;
 					font-size: 16px;
 					font-weight: bold;
 					margin-top: 1rem;
-
-					&:disabled,
-					&.disabled {
-						opacity: 0.6;
-						cursor: not-allowed;
-					}
 				}
 
 				// Hide meta (SKU, categories, tags)
