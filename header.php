@@ -75,7 +75,7 @@
                         </ul>
                     </div>
                     <div id="desktop-menu" class="d-none d-md-block">
-                        <ul class="<?php echo !is_front_page() ? 'px-4 py-5' : 'p-5'; ?>">
+                        <ul class="<?php echo !is_front_page() ? 'px-3 py-4' : 'p-5'; ?>">
                             <?php render_menu($menu_items); ?>
                         </ul>
                     </div>
