@@ -46,7 +46,7 @@
             </svg>
         </a>
         <div id="content" class="site-content">
-            <header id="header" class="<?php echo !is_front_page() ? 'w-100' : ''; ?>">
+            <header id="header" class="<?php echo !is_front_page() ? 'w-100' : 'position-fixed'; ?> ">
                 <?php
                     $menu_items = [
                         'Home' => '#home',

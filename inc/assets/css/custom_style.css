@@ -294,7 +294,6 @@ body.hide_scroll {
 
 header {
   z-index: 3;
-  position: fixed;
 }
 
 ::-moz-selection {
