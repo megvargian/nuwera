@@ -744,6 +744,13 @@ footer li {
   display: none;
 }
 
+.woocommerce a {
+  color: #ebe2d0 !important;
+}
+.woocommerce a:hover {
+  color: #ff2b59 !important;
+}
+
 .woocommerce,
 .woocommerce-page {
   background-color: #1b1b1b;
@@ -805,10 +812,6 @@ footer li {
 .woocommerce-page h3 {
   font-family: "AlbertSans-ExtraBold" !important;
   text-transform: uppercase;
-}
-.woocommerce a:hover,
-.woocommerce-page a:hover {
-  color: #ff2b59 !important;
 }
 .woocommerce input[type=text],
 .woocommerce input[type=email],

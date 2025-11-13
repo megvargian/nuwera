@@ -757,6 +757,15 @@ footer {
 }
 
 // WooCommerce Styles
+// Links
+.woocommerce{
+		a {
+		color: #ebe2d0 !important;
+		&:hover {
+			color: #ff2b59 !important;
+		}
+	}
+}
 .woocommerce,
 .woocommerce-page {
 	background-color: #1b1b1b;
@@ -792,12 +801,7 @@ footer {
 		text-transform: uppercase;
 	}
 
-	// Links
-	a {
-		&:hover {
-			color: #ff2b59 !important;
-		}
-	}
+
 
 	// Inputs and textareas
 	input[type="text"],
