@@ -26,7 +26,7 @@ $get_all_fields = get_fields();
                 <ul class="d-flex justify-content-start align-items-center flex-wrap">
                     <?php if($get_all_fields['instagram']){?>
                     <li>
-                        <a class="fab fa-spotify" href="<?php echo $get_all_fields['shopify']; ?>">
+                        <a class="fab fa-instagram" href="<?php echo $get_all_fields['instagram']; ?>">
                             <span class="sr-only">Share on Spotify</span>
                         </a>
                     </li>
