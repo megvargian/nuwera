@@ -26,6 +26,7 @@
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <?php wp_head(); ?>
 </head>
+<?=!is_front_page() ? 'w-100' : ''; ?>
 
 <body <?php body_class(); ?>>
     <div id="page" class="site main_page_wrapper position-relative">
