@@ -13,6 +13,7 @@ $get_all_fields = get_fields();
             <?php endif; ?>
         </div>
         <div class="col-12 col-lg-6">
+            <h1 class="release-title" style="color:#fff;"><?php the_title(); ?></h1>
             <div class="release-content w-100" style="color:#fff;">
                 <div class="mt-4 w-100">
                     <div class="release-meta w-100" style="color:#fff;">
