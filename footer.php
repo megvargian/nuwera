@@ -94,15 +94,17 @@
 
     backToTop.style.color = "white";
 
-    window.addEventListener("scroll", () => {
-    let shopTop = shopNowSection.offsetTop;
-    let scrollPos = window.scrollY + window.innerHeight;
-    if (scrollPos >= (shopTop + 100)) {
-        backToTop.style.color = "#272727";
-    } else {
-        backToTop.style.color = "white";
+    if(shopNowSection){
+        window.addEventListener("scroll", () => {
+        let shopTop = shopNowSection.offsetTop;
+        let scrollPos = window.scrollY + window.innerHeight;
+        if (scrollPos >= (shopTop + 100)) {
+            backToTop.style.color = "#272727";
+        } else {
+            backToTop.style.color = "white";
+        }
+        });
     }
-    });
 
     // mobile menu hamburger button
     const mobileMenu = document.getElementById("mobile-menu");
@@ -131,16 +133,18 @@
     // desktop menu color change 
     const desktopMenu = document.getElementById("desktop-menu");
 
-    window.addEventListener("scroll", () => {
-        let shopTop = shopNowSection.offsetTop;
-        let scrollPos = window.scrollY + window.innerHeight;
+    if(shopNowSection){
+        window.addEventListener("scroll", () => {
+            let shopTop = shopNowSection.offsetTop;
+            let scrollPos = window.scrollY + window.innerHeight;
 
-        if (scrollPos >= (shopTop + 700)) {
-            desktopMenu.classList.add("menu-dark");
-        } else {
-            desktopMenu.classList.remove("menu-dark");
-        }
-    });
+            if (scrollPos >= (shopTop + 700)) {
+                desktopMenu.classList.add("menu-dark");
+            } else {
+                desktopMenu.classList.remove("menu-dark");
+            }
+        });
+    }
 </script>
 <?php wp_footer(); ?>
 </body>
