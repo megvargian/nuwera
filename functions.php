@@ -649,3 +649,47 @@ remove_action('woocommerce_single_product_summary', 'woocommerce_template_single
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 8);
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 10);
+
+// Auto-complete orders for digital products (instant download access)
+add_action('woocommerce_thankyou', 'auto_complete_digital_order', 10, 1);
+function auto_complete_digital_order($order_id) {
+    if (!$order_id) return;
+
+    $order = wc_get_order($order_id);
+
+    // Check if order exists and is not already completed
+    if (!$order || $order->get_status() === 'completed') {
+        return;
+    }
+
+    // Check if order contains only virtual/downloadable products
+    $has_virtual_downloadable = false;
+    $has_physical = false;
+
+    foreach ($order->get_items() as $item) {
+        $product = $item->get_product();
+        if ($product) {
+            if ($product->is_virtual() || $product->is_downloadable()) {
+                $has_virtual_downloadable = true;
+            } else {
+                $has_physical = true;
+            }
+        }
+    }
+
+    // Auto-complete only if all items are virtual/downloadable
+    if ($has_virtual_downloadable && !$has_physical) {
+        $order->update_status('completed', __('Order automatically completed for digital products.', 'woocommerce'));
+    }
+}
+
+// Redirect to My Account downloads page after successful order
+add_filter('woocommerce_get_return_url', 'custom_redirect_after_purchase', 10, 2);
+function custom_redirect_after_purchase($return_url, $order) {
+    // Check if order contains downloadable products
+    if ($order && $order->has_downloadable_item()) {
+        // Redirect to My Account downloads page
+        $return_url = wc_get_account_endpoint_url('downloads');
+    }
+    return $return_url;
+}
