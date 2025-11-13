@@ -953,6 +953,56 @@ footer {
 		}
 	}
 
+	// Variation radio buttons styling
+	.variation-radio-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-bottom: 20px;
+
+		.variation-radio-label {
+			position: relative;
+			cursor: pointer;
+			display: inline-flex;
+			align-items: center;
+			margin: 0;
+
+			input[type="radio"] {
+				position: absolute;
+				opacity: 0;
+				cursor: pointer;
+
+				&:checked + .variation-radio-text {
+					background-color: #ff2b59;
+					color: #fff;
+					border-color: #ff2b59;
+				}
+
+				&:focus + .variation-radio-text {
+					outline: 2px solid #ff2b59;
+					outline-offset: 2px;
+				}
+			}
+
+			.variation-radio-text {
+				padding: 10px 20px;
+				background-color: #2a2a2a;
+				color: #fff;
+				border: 2px solid #444;
+				border-radius: 5px;
+				transition: all 0.3s ease;
+				font-family: $albert-regular;
+				font-size: 14px;
+				text-transform: uppercase;
+
+				&:hover {
+					background-color: #333;
+					border-color: #ff2b59;
+				}
+			}
+		}
+	}
+
 	// Sidebar widgets
 	.widget {
 		color: #fff;

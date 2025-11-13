@@ -987,6 +987,55 @@ footer li {
   color: #fff !important;
   border: 1px solid #444 !important;
 }
+.woocommerce .variation-radio-buttons,
+.woocommerce-page .variation-radio-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.woocommerce .variation-radio-buttons .variation-radio-label,
+.woocommerce-page .variation-radio-buttons .variation-radio-label {
+  position: relative;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
+}
+.woocommerce .variation-radio-buttons .variation-radio-label input[type="radio"],
+.woocommerce-page .variation-radio-buttons .variation-radio-label input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.woocommerce .variation-radio-buttons .variation-radio-label input[type="radio"]:checked + .variation-radio-text,
+.woocommerce-page .variation-radio-buttons .variation-radio-label input[type="radio"]:checked + .variation-radio-text {
+  background-color: #ff2b59;
+  color: #fff;
+  border-color: #ff2b59;
+}
+.woocommerce .variation-radio-buttons .variation-radio-label input[type="radio"]:focus + .variation-radio-text,
+.woocommerce-page .variation-radio-buttons .variation-radio-label input[type="radio"]:focus + .variation-radio-text {
+  outline: 2px solid #ff2b59;
+  outline-offset: 2px;
+}
+.woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text,
+.woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+  padding: 10px 20px;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 2px solid #444;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text:hover,
+.woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text:hover {
+  background-color: #333;
+  border-color: #ff2b59;
+}
 .woocommerce .widget,
 .woocommerce-page .widget {
   color: #fff;

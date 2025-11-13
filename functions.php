@@ -510,3 +510,82 @@ add_action('woocommerce_thankyou', function($order_id){
 //         }
 //     }
 // });
+
+// Convert WooCommerce variation dropdowns to radio buttons
+add_filter('woocommerce_dropdown_variation_attribute_options_html', 'convert_variations_to_radio_buttons', 10, 2);
+function convert_variations_to_radio_buttons($html, $args) {
+    $args = wp_parse_args($args, array(
+        'options'          => false,
+        'attribute'        => false,
+        'product'          => false,
+        'selected'         => false,
+        'name'             => '',
+        'id'               => '',
+        'class'            => '',
+    ));
+
+    $options   = $args['options'];
+    $product   = $args['product'];
+    $attribute = $args['attribute'];
+    $name      = $args['name'] ? $args['name'] : 'attribute_' . sanitize_title($attribute);
+    $id        = $args['id'] ? $args['id'] : sanitize_title($attribute);
+    $class     = $args['class'];
+
+    if (empty($options) && !empty($product) && !empty($attribute)) {
+        $attributes = $product->get_variation_attributes();
+        $options    = $attributes[$attribute];
+    }
+
+    if (!empty($options)) {
+        if ($product && taxonomy_exists($attribute)) {
+            $terms = wc_get_product_terms($product->get_id(), $attribute, array('fields' => 'all'));
+
+            $html = '<div class="variation-radio-buttons ' . esc_attr($class) . '">';
+
+            foreach ($terms as $term) {
+                if (in_array($term->slug, $options, true)) {
+                    $checked = sanitize_title($args['selected']) === $term->slug ? 'checked' : '';
+                    $html .= '<label class="variation-radio-label">';
+                    $html .= '<input type="radio" name="' . esc_attr($name) . '" value="' . esc_attr($term->slug) . '" ' . $checked . ' data-attribute_name="attribute_' . esc_attr(sanitize_title($attribute)) . '">';
+                    $html .= '<span class="variation-radio-text">' . esc_html(apply_filters('woocommerce_variation_option_name', $term->name)) . '</span>';
+                    $html .= '</label>';
+                }
+            }
+
+            $html .= '</div>';
+        } else {
+            $html = '<div class="variation-radio-buttons ' . esc_attr($class) . '">';
+
+            foreach ($options as $option) {
+                $checked = sanitize_title($args['selected']) === sanitize_title($option) ? 'checked' : '';
+                $html .= '<label class="variation-radio-label">';
+                $html .= '<input type="radio" name="' . esc_attr($name) . '" value="' . esc_attr($option) . '" ' . $checked . ' data-attribute_name="attribute_' . esc_attr(sanitize_title($attribute)) . '">';
+                $html .= '<span class="variation-radio-text">' . esc_html(apply_filters('woocommerce_variation_option_name', $option)) . '</span>';
+                $html .= '</label>';
+            }
+
+            $html .= '</div>';
+        }
+    }
+
+    return $html;
+}
+
+// Add JavaScript to handle variation radio button selection
+add_action('wp_footer', 'variation_radio_buttons_script');
+function variation_radio_buttons_script() {
+    if (!is_product()) {
+        return;
+    }
+    ?>
+    <script type="text/javascript">
+        jQuery(function($) {
+            $(document).on('change', '.variation-radio-buttons input[type="radio"]', function() {
+                var $form = $(this).closest('form.variations_form');
+                $form.trigger('check_variations');
+                $form.trigger('woocommerce_variation_select_change');
+            });
+        });
+    </script>
+    <?php
+}
