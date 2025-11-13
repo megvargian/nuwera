@@ -580,10 +580,24 @@ function variation_radio_buttons_script() {
     ?>
     <script type="text/javascript">
         jQuery(function($) {
+            // Handle radio button changes
             $(document).on('change', '.variation-radio-buttons input[type="radio"]', function() {
                 var $form = $(this).closest('form.variations_form');
                 $form.trigger('check_variations');
                 $form.trigger('woocommerce_variation_select_change');
+            });
+
+            // Enable add to cart button when variation is selected
+            $('.variations_form').on('found_variation', function(event, variation) {
+                $('.single_add_to_cart_button').prop('disabled', false).removeClass('disabled');
+            });
+
+            // Auto-select first variation on page load
+            $(document).ready(function() {
+                var $firstRadio = $('.variation-radio-buttons input[type="radio"]').first();
+                if ($firstRadio.length) {
+                    $firstRadio.prop('checked', true).trigger('change');
+                }
             });
         });
     </script>
@@ -593,13 +607,25 @@ function variation_radio_buttons_script() {
 // Remove WooCommerce category from single product page
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
 
-// Customize single product page layout
+// Customize single product page layout - move title and description to top
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
 
-// Re-add elements in custom order: Title, Description, Price, Variations, Add to Cart
-add_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
-add_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 10);
-add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 15);
+// Add title and description before the product image
+add_action('woocommerce_before_single_product_summary', 'woocommerce_template_single_title', 5);
+add_action('woocommerce_before_single_product_summary', 'woocommerce_template_single_excerpt', 10);
+
+// Add price in the summary area
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 5);
+
+// Enable add to cart button by default for variations
+add_filter('woocommerce_variation_is_active', '__return_true');
+add_filter('woocommerce_available_variation', 'enable_add_to_cart_for_variations', 10, 3);
+
+function enable_add_to_cart_for_variations($data, $product, $variation) {
+    $data['is_purchasable'] = true;
+    $data['is_in_stock'] = true;
+    return $data;
+}
