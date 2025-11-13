@@ -1046,11 +1046,13 @@ footer {
 
 				.price {
 					font-size: 1.5rem;
-					margin-bottom: 2rem;
+					margin-bottom: 1.5rem;
+					order: 2;
 				}
 
 				.variations {
 					margin-bottom: 2rem;
+					order: 3;
 
 					.variation-option-wrapper {
 						margin-bottom: 1.5rem;
@@ -1063,17 +1065,30 @@ footer {
 							font-size: 16px;
 							text-transform: uppercase;
 						}
+
+						.hidden-variation-select {
+							display: none !important;
+						}
 					}
 				}
 
 				.single_variation_wrap {
 					margin-top: 2rem;
+					order: 4;
 
 					.single_variation {
 						margin-bottom: 1.5rem;
 
 						.woocommerce-variation-price {
-							display: none; // Hide duplicate price
+							display: block !important;
+							font-size: 1.5rem;
+							margin-bottom: 1rem;
+
+							.price {
+								font-size: 1.5rem;
+								color: #ff2b59;
+								font-weight: bold;
+							}
 						}
 					}
 				}

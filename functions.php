@@ -580,9 +580,8 @@ function variation_radio_buttons_script() {
     ?>
     <script type="text/javascript">
         jQuery(function($) {
-            // Disable add to cart button initially for variable products
-            var $addToCartBtn = $('.single_add_to_cart_button');
             var $form = $('form.variations_form');
+            var $addToCartBtn = $('.single_add_to_cart_button');
 
             if ($form.length) {
                 // Initial state - disable button
@@ -590,25 +589,47 @@ function variation_radio_buttons_script() {
 
                 // Handle variation radio button changes
                 $(document).on('change', '.variation-radio-buttons input[type="radio"]', function() {
-                    var $currentForm = $(this).closest('form.variations_form');
+                    var $radio = $(this);
+                    var $currentForm = $radio.closest('form.variations_form');
+                    var attributeName = $radio.data('attribute_name');
+                    var value = $radio.val();
+
+                    // Find and update the hidden select element
+                    var $select = $currentForm.find('select[name="' + attributeName + '"]');
+                    if ($select.length === 0) {
+                        // If select doesn't exist, find by id
+                        $select = $currentForm.find('select[id*="' + attributeName.replace('attribute_', '') + '"]');
+                    }
+
+                    if ($select.length > 0) {
+                        $select.val(value).trigger('change');
+                    }
+
+                    // Trigger WooCommerce variation check
                     $currentForm.trigger('check_variations');
                     $currentForm.trigger('woocommerce_variation_select_change');
                 });
 
                 // Enable button when variation is found
-                $form.on('found_variation', function() {
+                $form.on('found_variation', function(event, variation) {
+                    console.log('Variation found:', variation);
                     $addToCartBtn.prop('disabled', false).removeClass('disabled');
                 });
 
                 // Disable button when variation is not selected or cleared
                 $form.on('reset_data', function() {
+                    console.log('Reset data');
                     $addToCartBtn.prop('disabled', true).addClass('disabled');
                 });
 
-                // Also handle the hide_variation event
+                // Handle hide_variation event
                 $form.on('hide_variation', function() {
+                    console.log('Hide variation');
                     $addToCartBtn.prop('disabled', true).addClass('disabled');
                 });
+
+                // Log when form is initialized
+                console.log('Variations form initialized');
             }
         });
     </script>
@@ -624,7 +645,7 @@ remove_action('woocommerce_single_product_summary', 'woocommerce_template_single
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 10);
 remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20);
 
-// Re-add elements in custom order: Title, Description, Price, Variations, Add to Cart
+// Re-add elements in custom order: Title, Price, Description, Variations, Add to Cart
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_title', 5);
+add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 8);
 add_action('woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 10);
-add_action('woocommerce_single_product_summary', 'woocommerce_template_single_price', 15);

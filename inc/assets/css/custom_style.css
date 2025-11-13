@@ -1054,11 +1054,13 @@ footer li {
 .woocommerce .single-product .product .summary .price,
 .woocommerce-page .single-product .product .summary .price {
   font-size: 1.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  order: 2;
 }
 .woocommerce .single-product .product .summary .variations,
 .woocommerce-page .single-product .product .summary .variations {
   margin-bottom: 2rem;
+  order: 3;
 }
 .woocommerce .single-product .product .summary .variations .variation-option-wrapper,
 .woocommerce-page .single-product .product .summary .variations .variation-option-wrapper {
@@ -1073,9 +1075,14 @@ footer li {
   font-size: 16px;
   text-transform: uppercase;
 }
+.woocommerce .single-product .product .summary .variations .variation-option-wrapper .hidden-variation-select,
+.woocommerce-page .single-product .product .summary .variations .variation-option-wrapper .hidden-variation-select {
+  display: none !important;
+}
 .woocommerce .single-product .product .summary .single_variation_wrap,
 .woocommerce-page .single-product .product .summary .single_variation_wrap {
   margin-top: 2rem;
+  order: 4;
 }
 .woocommerce .single-product .product .summary .single_variation_wrap .single_variation,
 .woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation {
@@ -1083,7 +1090,15 @@ footer li {
 }
 .woocommerce .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-price,
 .woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-price {
-  display: none;
+  display: block !important;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.woocommerce .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-price .price,
+.woocommerce-page .single-product .product .summary .single_variation_wrap .single_variation .woocommerce-variation-price .price {
+  font-size: 1.5rem;
+  color: #ff2b59;
+  font-weight: bold;
 }
 .woocommerce .single-product .product .summary .single_add_to_cart_button,
 .woocommerce-page .single-product .product .summary .single_add_to_cart_button {

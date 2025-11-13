@@ -29,6 +29,7 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 					</label>
 					<div class="variation-options">
 						<?php
+							// Output radio buttons (will be styled by our filter)
 							wc_dropdown_variation_attribute_options(
 								array(
 									'options'   => $options,
@@ -36,6 +37,25 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 									'product'   => $product,
 								)
 							);
+
+							// Also output hidden select for WooCommerce compatibility
+							echo '<select name="attribute_' . esc_attr( sanitize_title( $attribute_name ) ) . '" id="' . esc_attr( sanitize_title( $attribute_name ) ) . '" class="hidden-variation-select" style="display:none;" data-attribute_name="attribute_' . esc_attr( sanitize_title( $attribute_name ) ) . '">';
+							echo '<option value="">' . esc_html__( 'Choose an option', 'woocommerce' ) . '</option>';
+							if ( ! empty( $options ) ) {
+								if ( $product && taxonomy_exists( $attribute_name ) ) {
+									$terms = wc_get_product_terms( $product->get_id(), $attribute_name, array( 'fields' => 'all' ) );
+									foreach ( $terms as $term ) {
+										if ( in_array( $term->slug, $options, true ) ) {
+											echo '<option value="' . esc_attr( $term->slug ) . '">' . esc_html( $term->name ) . '</option>';
+										}
+									}
+								} else {
+									foreach ( $options as $option ) {
+										echo '<option value="' . esc_attr( $option ) . '">' . esc_html( $option ) . '</option>';
+									}
+								}
+							}
+							echo '</select>';
 						?>
 					</div>
 				</div>
