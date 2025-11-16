@@ -152,7 +152,7 @@ if (shopNowSection) {
         let shopTop = shopNowSection.offsetTop;
         let scrollPos = window.scrollY + window.innerHeight;
 
-        if (scrollPos >= (shopTop + 600)) {
+        if (scrollPos >= (shopTop + 550)) {
             desktopMenu.classList.add("menu-dark");
         } else {
             desktopMenu.classList.remove("menu-dark");
