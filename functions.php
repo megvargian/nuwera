@@ -709,3 +709,16 @@ function custom_redirect_after_purchase($return_url, $order) {
 if (is_admin() && current_user_can('manage_options')) {
     include_once WP_PLUGIN_DIR . '/whish-payment-gateway/debug-check.php';
 }
+
+// Debug available payment gateways on checkout
+add_action('wp_footer', function() {
+    if (is_checkout() && !is_wc_endpoint_url('order-received')) {
+        $available_gateways = WC()->payment_gateways->get_available_payment_gateways();
+        echo '<!-- Available Payment Gateways: ' . print_r(array_keys($available_gateways), true) . ' -->';
+
+        if (current_user_can('manage_options')) {
+            echo '<script>console.log("Available Gateways:", ' . json_encode(array_keys($available_gateways)) . ');</script>';
+        }
+    }
+});
+}
