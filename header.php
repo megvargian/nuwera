@@ -78,7 +78,7 @@
                         <ul class="<?php echo !is_front_page() ? 'px-3 py-4' : 'p-5'; ?>">
                             <?php if(!is_front_page()){?>
                             <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/cropped-Nuwera_Logo-White.webp"
-                                alt="My Website Logo">
+                                alt="My Website Logo" style="width: 150px;">
                             <?php } 
                              render_menu($menu_items); ?>
                         </ul>
