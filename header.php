@@ -77,7 +77,7 @@
                     <div id="desktop-menu" class="d-none d-md-block">
                         <ul class="<?php echo !is_front_page() ? 'px-3 py-4' : 'p-5'; ?>">
                             <?php if(!is_front_page()){?>
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/cropped-Nuwera_logo-White.webp"
+                            <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/cropped-Nuwera_Logo-White.webp"
                                 alt="My Website Logo">
                             <?php } 
                              render_menu($menu_items); ?>
