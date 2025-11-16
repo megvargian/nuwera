@@ -704,3 +704,8 @@ function custom_redirect_after_purchase($return_url, $order) {
     }
     return $return_url;
 }
+
+// TEMPORARY DEBUG - Whish Payment Gateway Check
+if (is_admin() && current_user_can('manage_options')) {
+    include_once WP_PLUGIN_DIR . '/whish-payment-gateway/debug-check.php';
+}
