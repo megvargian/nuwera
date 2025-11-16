@@ -167,16 +167,16 @@ function wp_bootstrap_starter_scripts()
     // wp_enqueue_script('wp-bootstrap-starter-themejs', get_template_directory_uri() . '/inc/assets/js/theme-script.js', array(), '', true );
     wp_enqueue_script('wp-bootstrap-starter-skip-link-focus-fix', get_template_directory_uri() . '/inc/assets/js/skip-link-focus-fix.min.js', array(), '20151215', true);
 
-    // WooCommerce checkout nonce fix
-    wp_enqueue_script('wc-checkout-fix', get_template_directory_uri() . '/inc/assets/js/wc-checkout-fix.js', array('jquery'), '1.0', true);
+    // // WooCommerce checkout nonce fix
+    // wp_enqueue_script('wc-checkout-fix', get_template_directory_uri() . '/inc/assets/js/wc-checkout-fix.js', array('jquery'), '1.0', true);
 
-    // Localize script with nonce for WooCommerce REST API
-    // Use wp_rest nonce which is the standard for REST API requests
-    wp_localize_script('wc-checkout-fix', 'wc_store_api_nonce', array(
-        'nonce' => wp_create_nonce('wp_rest'),
-        'url' => rest_url(),
-        'wc_nonce' => wp_create_nonce('wc_store_api')
-    ));
+    // // Localize script with nonce for WooCommerce REST API
+    // // Use wp_rest nonce which is the standard for REST API requests
+    // wp_localize_script('wc-checkout-fix', 'wc_store_api_nonce', array(
+    //     'nonce' => wp_create_nonce('wp_rest'),
+    //     'url' => rest_url(),
+    //     'wc_nonce' => wp_create_nonce('wc_store_api')
+    // ));
 }
 add_action('wp_enqueue_scripts', 'wp_bootstrap_starter_scripts');
 
