@@ -1183,3 +1183,12 @@ footer {
 		border-color: #444 !important;
 	}
 }
+
+// Single members page - Metal Encyclopedia icon
+.metal-encyclopedia-icon{
+	a:hover{
+		svg{
+			fill: #000000;
+		}
+	}
+}

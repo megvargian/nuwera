@@ -1179,4 +1179,8 @@ footer li {
 .woocommerce-page .select2-dropdown {
   background-color: #2a2a2a !important;
   border-color: #444 !important;
+}
+
+.metal-encyclopedia-icon a:hover svg {
+  fill: #000000;
 }/*# sourceMappingURL=custom_style.css.map */
