@@ -722,6 +722,9 @@ footer li {
 .single-release .social-share ul li a span {
   display: none;
 }
+.single-release .metal-encyclopedia-icon a:hover svg {
+  color: black;
+}
 
 .woocommerce a {
   color: #ebe2d0 !important;
@@ -1179,8 +1182,4 @@ footer li {
 .woocommerce-page .select2-dropdown {
   background-color: #2a2a2a !important;
   border-color: #444 !important;
-}
-
-.metal-encyclopedia-icon a:hover svg {
-  color: black;
 }/*# sourceMappingURL=custom_style.css.map */
