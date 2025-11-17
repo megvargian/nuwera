@@ -727,7 +727,7 @@ footer li {
   width: 18px;
   height: 18px;
 }
-.single-release .metal-encyclopedia-icon a:hover svg {
+.single-release .metal-encyclopedia-icon :hover svg {
   color: black;
 }
 
