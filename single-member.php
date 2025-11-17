@@ -70,39 +70,39 @@ $get_all_fields = get_fields();
                                     <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
                                         <path d="M0 0v190c0 16.568-13.432 30-30 30-16.568 0-30-13.432-30-30V0"
                                             style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(346 277)" fill="none" stroke="#ffffff"
+                                            transform="translate(346 277)" fill="none" stroke="currentColor"
                                             stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
                                             data-original="#000000" opacity="1" class=""></path>
                                         <path d="M0 0v70c0 16.568-13.432 30-30 30-16.568 0-30-13.432-30-30V0"
                                             style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(286 277)" fill="none" stroke="#ffffff"
+                                            transform="translate(286 277)" fill="none" stroke="currentColor"
                                             stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
                                             data-original="#000000" opacity="1" class=""></path>
                                         <path
                                             d="M0 0v0c16.568 0 30 13.432 30 30v50c0 16.568-13.432 30-30 30-16.568 0-30-13.432-30-30V30C-30 13.432-16.568 0 0 0Z"
                                             style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(196 247)" fill="none" stroke="#ffffff"
+                                            transform="translate(196 247)" fill="none" stroke="currentColor"
                                             stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
                                             data-original="#000000" opacity="1" class=""></path>
                                         <path d="M0 0v140c0 16.568-13.432 30-30 30-16.568 0-30-13.432-30-30V-30"
                                             style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(166 297)" fill="none" stroke="#ffffff"
+                                            transform="translate(166 297)" fill="none" stroke="currentColor"
                                             stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
                                             data-original="#000000" opacity="1" class=""></path>
                                         <path
                                             d="M0 0v-160c0-22.091 17.908-40 40-40v-62h200v62c33.137 0 60 26.863 60 60v80c0 33.137-26.863 60-60 60h-90c-16.568 0-30-13.432-30-30 0-16.568 13.432-30 30-30h60"
                                             style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(106 277)" fill="none" stroke="#ffffff"
+                                            transform="translate(106 277)" fill="none" stroke="currentColor"
                                             stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
                                             data-original="#000000" opacity="1" class=""></path>
                                         <path d="M0 0v-30c-33.137 0-60-26.863-60-60v-20"
                                             style="stroke-width:30;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                                            transform="translate(316 217)" fill="none" stroke="#ffffff"
+                                            transform="translate(316 217)" fill="none" stroke="currentColor"
                                             stroke-width="30" stroke-linecap="round" stroke-linejoin="round"
                                             stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity=""
                                             data-original="#000000" opacity="1" class=""></path>
