@@ -28,11 +28,32 @@ $get_all_fields = get_fields();
                     <?php if($get_all_fields['instagram']){?>
                     <li>
                         <a class="fab fa-instagram" href="<?php echo $get_all_fields['instagram']; ?>">
-                            <span class="sr-only">Share on Spotify</span>
+                            <span class="sr-only">Share on Instagram</span>
                         </a>
                     </li>
                     <?php } ?>
-                    <?php if($get_all_fields['facebook']){?>
+                    <?php if($get_all_fields['youtube']){?>
+                    <li>
+                        <a class="fab fa-youtube" href="<?php echo $get_all_fields['youtube']; ?>">
+                            <span class="sr-only">Share on Youtube</span>
+                        </a>
+                    </li>
+                    <?php } ?>
+                    <?php if($get_all_fields['twitter']){?>
+                    <li>
+                        <a class="fab fa-twitter" href="<?php echo $get_all_fields['twitter']; ?>">
+                            <span class="sr-only">Share on Twitter</span>
+                        </a>
+                    </li>
+                    <?php } ?>
+                    <?php if($get_all_fields['tiktok']){?>
+                    <li>
+                        <a class="fab fa-tiktok" href="<?php echo $get_all_fields['tiktok']; ?>">
+                            <span class="sr-only">Share on Tiktok</span>
+                        </a>
+                    </li>
+                    <?php } ?>
+                    <?php if($get_all_fields['metalEncyclopedia']){?>
                     <li>
                         <a class="fab fa-apple" href="<?php echo $get_all_fields['apple']; ?>">
                             <span class="sr-only">Share on Apple Music</span>
