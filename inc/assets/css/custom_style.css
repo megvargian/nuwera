@@ -724,6 +724,8 @@ footer li {
 }
 .single-release .metal-encyclopedia-icon svg {
   color: white;
+  width: 18px;
+  height: 18px;
 }
 .single-release .metal-encyclopedia-icon a:hover svg {
   color: black;
