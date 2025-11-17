@@ -340,7 +340,7 @@ get_header();
             </div>
             <div class="row justify-content-center gap-x-4 d-md-none d-flex">
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/livewithdenyo/" class="band-member">
+                    <a href="<?php echo get_permalink(17612); ?>" class="band-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.webp"
                             alt="Denyo">
@@ -349,7 +349,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/serge_achkharian/" class="band-member">
+                    <a href="<?php echo get_permalink(17643); ?>" class="band-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.webp"
                             alt="Serge Achkarian">
@@ -358,7 +358,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/antouunnn/" class="band-member">
+                    <a href="<?php echo get_permalink(17645); ?>" class="band-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.webp"
                             alt="Antoine Bayram">
@@ -367,7 +367,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/angelozeidan/" class="band-member">
+                    <a href="<?php echo get_permalink(17648); ?>" class="band-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
                             alt="Angelo Zeidan">
@@ -376,7 +376,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="https://www.instagram.com/rick.garabedian/" class="band-member">
+                    <a href="<?php echo get_permalink(17650); ?>" class="band-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.webp"
                             alt="Rick Garabedian">
