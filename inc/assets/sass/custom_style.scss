@@ -754,9 +754,12 @@ footer {
 	.social-share ul li a span{
 		display: none;
 	}
-	
+
 	// Single members page - Metal Encyclopedia icon
 	.metal-encyclopedia-icon{
+		svg{
+			color: white;
+		}
 		a:hover{
 			svg{
 				color: black;

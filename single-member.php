@@ -64,8 +64,7 @@ $get_all_fields = get_fields();
                                 <g>
                                     <defs>
                                         <clipPath id="a" clipPathUnits="userSpaceOnUse">
-                                            <path d="M0 512h512V0H0Z" fill="#ffffff" opacity="1"
-                                                data-original="#000000"></path>
+                                            <path d="M0 512h512V0H0Z" opacity="1" data-original="#000000"></path>
                                         </clipPath>
                                     </defs>
                                     <g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)">
