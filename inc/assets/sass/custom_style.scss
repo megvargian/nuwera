@@ -343,6 +343,7 @@ body.no-scroll {
 		top: 0;
 		background-color: #1b1b1b;
   		transition: transform 0.3s ease-in-out;
+		z-index: 3;
 		i{
 			position: absolute;
 			top: 1rem;

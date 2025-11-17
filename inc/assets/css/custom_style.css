@@ -333,6 +333,7 @@ body.no-scroll {
   top: 0;
   background-color: #1b1b1b;
   transition: transform 0.3s ease-in-out;
+  z-index: 3;
 }
 #header #mobile-menu i {
   position: absolute;
