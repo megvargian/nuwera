@@ -53,9 +53,9 @@ $get_all_fields = get_fields();
                         </a>
                     </li>
                     <?php } ?>
-                    <?php if($get_all_fields['metalEncyclopedia']){?>
+                    <?php if($get_all_fields['metalencyclopedia']){?>
                     <li>
-                        <a class="fab" href="<?php echo $get_all_fields['metalEncyclopedia']; ?>">
+                        <a class="fab" href="<?php echo $get_all_fields['metalencyclopedia']; ?>">
                             <span class="sr-only">Share on Metal Encyclopedia</span>
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0"
