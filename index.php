@@ -324,7 +324,7 @@ get_header();
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
                             alt="Angelo Zeidan">
-                        <h3 class="my-3">Angelo Zeidan</h3>
+                        <h3 class="my-3">Angelo Zeidan (Session)</h3>
                         <p>Lead Guitar</p>
                     </a>
                 </div>
