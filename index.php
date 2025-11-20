@@ -389,7 +389,7 @@ get_header();
     </section>
     <section id="shop-now" class="shop-now">
         <div class="container text-center py-5">
-            <a href="#">
+            <a href="/shop">
                 <h2>Shop Now</h2>
             </a>
         </div>
