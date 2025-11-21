@@ -1198,3 +1198,12 @@ footer {
 		border-color: #444 !important;
 	}
 }
+
+
+// woocommerce css
+.wc-block-cart-items__header-image, .wc-block-cart-items__header-total{
+	background-color: #1b1b1b !important;
+}
+.wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block, .wp-block-woocommerce-checkout.alignwide.wc-block-checkout{
+	color: #fff !important;
+}
