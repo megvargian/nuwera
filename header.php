@@ -29,6 +29,7 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site main_page_wrapper position-relative">
+        <?php if (!wp_is_mobile()) : ?>
         <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible">
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clippath="url(#clip0_77_1481)">
@@ -45,6 +46,7 @@
                 </defs>
             </svg>
         </a>
+        <?php endif; ?>
         <div id="content" class="site-content">
             <header id="header" class="<?php echo !is_front_page() ? 'w-100' : 'position-fixed'; ?> ">
                 <?php
@@ -81,7 +83,7 @@
                                 <img src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/cropped-Nuwera_Logo-White.webp"
                                     alt="My Website Logo" style="width: 150px;">
                             </a>
-                            <?php } 
+                            <?php }
                              render_menu($menu_items); ?>
                         </ul>
                     </div>
