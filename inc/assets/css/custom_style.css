@@ -1184,10 +1184,10 @@ footer li {
   font-size: 16px;
   text-transform: uppercase;
 }
-@media (min-width: 600px) {,
-  .woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text, .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
-    display: flex ;
-    text-align: center;
+@media (min-width: 600px) {
+  .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+    display: flex !important;
+    text-align: center !important;
   }
 }
 .woocommerce .single-product .product .summary .variations .variation-option-wrapper .hidden-variation-select,
