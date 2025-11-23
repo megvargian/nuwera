@@ -390,7 +390,7 @@ get_header();
     <section id="shop-now" class="shop-now py-5">
         <div class="container text-center">
             <h2 class="mb-3">Shop Now</h2>
-            <p class="mb-5" style="color:#ebe2d0; font-size: 1.2rem;">Learn How to Play Our Songs</p>
+            <p class="mb-5" style="color:#000; font-size: 1.2rem;">Learn How to Play Our Songs</p>
 
             <div class="row justify-content-center gap-x-4">
                 <?php
