@@ -754,17 +754,30 @@ function save_custom_product_info_field($post_id) {
     }
 }
 
-// Display the custom information on the single product page
-add_action('woocommerce_after_single_product_summary', 'display_custom_product_info', 15);
-function display_custom_product_info() {
+// Replace the Additional Information tab content with custom WYSIWYG content
+add_filter('woocommerce_product_tabs', 'customize_product_tabs', 98);
+function customize_product_tabs($tabs) {
+    global $post;
+
+    $additional_info = get_post_meta($post->ID, '_custom_product_additional_info', true);
+
+    // If custom content exists, replace the additional information tab
+    if (!empty($additional_info)) {
+        $tabs['additional_information']['callback'] = 'display_custom_additional_info_tab';
+    }
+
+    return $tabs;
+}
+
+// Display custom content in the Additional Information tab
+function display_custom_additional_info_tab() {
     global $post;
 
     $additional_info = get_post_meta($post->ID, '_custom_product_additional_info', true);
 
     if (!empty($additional_info)) {
-        echo '<div class="custom-product-additional-info woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab" style="margin-top: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #e1e1e1;">';
-        echo '<h2>' . esc_html__('Additional Information', 'wp-bootstrap-starter') . '</h2>';
-        echo '<div class="additional-info-content">' . wpautop($additional_info) . '</div>';
+        echo '<div class="custom-additional-info-content">';
+        echo wpautop($additional_info);
         echo '</div>';
     }
 }
