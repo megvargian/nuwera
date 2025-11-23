@@ -1184,7 +1184,7 @@ footer li {
   font-size: 16px;
   text-transform: uppercase;
 }
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
     display: flex !important;
     text-align: center !important;
