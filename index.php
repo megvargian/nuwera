@@ -387,11 +387,54 @@ get_header();
             </div>
         </div>
     </section>
-    <section id="shop-now" class="shop-now">
-        <div class="container text-center py-5">
-            <a href="/shop">
-                <h2>Shop Now</h2>
-            </a>
+    <section id="shop-now" class="shop-now py-5">
+        <div class="container text-center">
+            <h2 class="mb-3">Shop Now</h2>
+            <p class="mb-5" style="color:#ebe2d0; font-size: 1.2rem;">Learn How to Play Our Songs</p>
+
+            <div class="row justify-content-center gap-x-4">
+                <?php
+                // Get the 3 featured products
+                $args = array(
+                    'post_type' => 'product',
+                    'posts_per_page' => 3,
+                    'orderby' => 'date',
+                    'order' => 'DESC'
+                );
+                $products = new WP_Query($args);
+
+                if ($products->have_posts()) :
+                    while ($products->have_posts()) : $products->the_post();
+                        global $product;
+                        ?>
+                        <div class="col-12 col-md-4 mb-4 mb-md-0">
+                            <a href="<?php echo get_permalink(); ?>" class="shop-product-card">
+                                <div class="product-image-wrapper">
+                                    <?php if (has_post_thumbnail()) : ?>
+                                        <?php the_post_thumbnail('medium', array('class' => 'w-100')); ?>
+                                    <?php endif; ?>
+                                </div>
+                                <h3 class="my-3"><?php the_title(); ?></h3>
+                                <div class="product-price">
+                                    <span class="price"><?php echo $product->get_price_html(); ?></span>
+                                </div>
+                                <div class="shop-btn mt-3">
+                                    <span class="btn-text">Learn More</span>
+                                </div>
+                            </a>
+                        </div>
+                        <?php
+                    endwhile;
+                    wp_reset_postdata();
+                endif;
+                ?>
+            </div>
+
+            <!-- <div class="mt-5">
+                <a href="/shop" class="view-all-products-btn">
+                    <h3>View All Products</h3>
+                </a>
+            </div> -->
         </div>
     </section>
 </main>

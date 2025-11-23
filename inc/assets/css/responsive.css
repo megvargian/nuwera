@@ -39,10 +39,19 @@
     font-size: 60px;
   }
   .shop-now {
-    padding: 8rem;
+    padding: 4rem 0;
   }
   .shop-now h2 {
     font-size: 2.5rem;
+  }
+  .shop-now p {
+    font-size: 1rem !important;
+  }
+  .shop-product-card h3 {
+    font-size: 1.3rem !important;
+  }
+  .shop-product-card .product-price .price {
+    font-size: 1.5rem !important;
   }
 }
 @media (max-width: 575px) {
@@ -56,10 +65,26 @@
     font-size: 1.5rem;
   }
   .shop-now {
-    padding: 8rem 0;
+    padding: 3rem 0;
   }
   .shop-now h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+  }
+  .shop-now p {
+    font-size: 0.9rem !important;
+    padding: 0 1rem;
+  }
+  .shop-product-card h3 {
+    font-size: 1.1rem !important;
+  }
+  .shop-product-card .product-price .price {
+    font-size: 1.3rem !important;
+  }
+  .shop-product-card .shop-btn {
+    padding: 8px 20px !important;
+  }
+  .view-all-products-btn h3 {
+    font-size: 1.3rem !important;
   }
   footer a {
     font-size: 0.85rem;
