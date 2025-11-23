@@ -721,3 +721,50 @@ add_action('wp_footer', function() {
         }
     }
 });
+
+// Add custom WYSIWYG field for additional product information
+add_action('woocommerce_product_options_general_product_data', 'add_custom_product_info_field');
+function add_custom_product_info_field() {
+    global $post;
+
+    echo '<div class="options_group">';
+
+    wp_editor(
+        get_post_meta($post->ID, '_custom_product_additional_info', true),
+        'custom_product_additional_info',
+        array(
+            'textarea_name' => 'custom_product_additional_info',
+            'textarea_rows' => 10,
+            'media_buttons' => true,
+            'teeny' => false,
+            'tinymce' => array(
+                'toolbar1' => 'formatselect,bold,italic,underline,bullist,numlist,blockquote,alignleft,aligncenter,alignright,link,unlink,forecolor,backcolor,removeformat,undo,redo',
+            ),
+        )
+    );
+
+    echo '</div>';
+}
+
+// Save the custom WYSIWYG field
+add_action('woocommerce_process_product_meta', 'save_custom_product_info_field');
+function save_custom_product_info_field($post_id) {
+    if (isset($_POST['custom_product_additional_info'])) {
+        update_post_meta($post_id, '_custom_product_additional_info', wp_kses_post($_POST['custom_product_additional_info']));
+    }
+}
+
+// Display the custom information on the single product page
+add_action('woocommerce_after_single_product_summary', 'display_custom_product_info', 15);
+function display_custom_product_info() {
+    global $post;
+
+    $additional_info = get_post_meta($post->ID, '_custom_product_additional_info', true);
+
+    if (!empty($additional_info)) {
+        echo '<div class="custom-product-additional-info woocommerce-Tabs-panel woocommerce-Tabs-panel--additional_information panel entry-content wc-tab" style="margin-top: 30px; padding: 20px; background: #f9f9f9; border: 1px solid #e1e1e1;">';
+        echo '<h2>' . esc_html__('Additional Information', 'wp-bootstrap-starter') . '</h2>';
+        echo '<div class="additional-info-content">' . wpautop($additional_info) . '</div>';
+        echo '</div>';
+    }
+}
