@@ -66,7 +66,7 @@
                         }
                     }
                 ?>
-                <nav class="<?php echo !is_front_page() ? 'non-homepage' : ''; ?>">
+                <nav>
                     <div id="hamburger-icon" class="d-block d-md-none">
                         <i class="fa-solid fa-bars"></i>
                     </div>
