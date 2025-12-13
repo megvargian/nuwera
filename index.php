@@ -207,8 +207,8 @@ get_header();
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="w-100 h-100 align-content-center">
-                        <h3>Our Story</h3>
-                        <h2 class="pt-4">About Us</h2>
+                        <h2>Our Story</h2>
+                        <h3 class="pt-4">About Us</h3>
                         <p class="pb-3 pb-lg-5 pt-3">
                             Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup
                             comprises Denyo on vocals, lead, and rhythm, Angelo Zeidan on lead and rhythm guitars, Serge

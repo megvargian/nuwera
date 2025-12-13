@@ -604,18 +604,18 @@ body.no-scroll {
 	h2,h3,h4{
 		text-transform: uppercase;
 	}
-	p,h2,h4{
+	p,h3,h4{
 		color: #ebe2d0;
 	}
-	h2,h4{
+	h3,h4{
 		font-family: $albert-extra-bold;
 	}
-	h2{
+	h3{
 		word-wrap: break-word;
 		font-size: 48px;
 		line-height: 1.3;
 	}
-	h3{
+	h2{
 		font-size: 89px;
 		color: #ff2b59;
 		font-family: $heaters;
