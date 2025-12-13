@@ -1287,7 +1287,7 @@ footer {
 /* Spotify placeholder (consent-first, avoids third-party cookies until user clicks) */
 .spotify-embed-placeholder {
   position: relative;
-  background: linear-gradient(135deg, #1db954 0%, #191414 100%);
+  background: linear-gradient(135deg, #ff2b59 0%, #191414 100%);
   overflow: hidden;
   border-radius: 15px;
   display: block;
@@ -1301,7 +1301,7 @@ footer {
 .spotify-embed-placeholder:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 40px rgba(29, 185, 84, 0.4);
-  border-color: #1db954;
+  border-color: #ff2b59;
 }
 
 .spotify-embed-placeholder .spotify-cover {
@@ -1335,7 +1335,7 @@ footer {
   background: rgba(29, 185, 84, 0.95);
   color: #fff;
   border-radius: 50px;
-  border: 2px solid #1db954;
+  border: 2px solid #ff2b59;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 1rem;
@@ -1353,7 +1353,7 @@ footer {
 }
 
 .spotify-load-btn:hover {
-  background: #1db954;
+  background: #ff2b59;
   transform: translate(-50%, -50%) scale(1.05);
   box-shadow: 0 6px 20px rgba(29, 185, 84, 0.4);
 }
