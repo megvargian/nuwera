@@ -37,9 +37,9 @@ get_header();
                 </div>
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
-                        <div class="spotify-embed-placeholder" data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" style="max-width:300px;margin-left:auto;margin-right:auto;">
-                            <div class="spotify-cover" aria-hidden="true"></div>
-                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Load player (requires cookies)</button>
+                        <div class="spotify-embed-placeholder" data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
+                            <div class="spotify-cover" aria-hidden="true" style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');"></div>
+                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play on Spotify</button>
                             <noscript>
                                 <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
@@ -67,9 +67,9 @@ get_header();
                     <h3 class="mb-4">groundless</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                     <div class="mt-4">
-                        <div class="spotify-embed-placeholder" data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp" style="max-width:300px;margin-left:auto;margin-right:auto;">
-                            <div class="spotify-cover" aria-hidden="true"></div>
-                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Load player (requires cookies)</button>
+                        <div class="spotify-embed-placeholder" data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
+                            <div class="spotify-cover" aria-hidden="true" style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');"></div>
+                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play on Spotify</button>
                             <noscript>
                                 <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>

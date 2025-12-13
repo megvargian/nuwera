@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 div,
@@ -1307,33 +1308,75 @@ footer li {
 /* Spotify placeholder (consent-first, avoids third-party cookies until user clicks) */
 .spotify-embed-placeholder {
   position: relative;
-  background: #0f0f0f;
+  background: linear-gradient(135deg, #1db954 0%, #191414 100%);
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 15px;
   display: block;
   cursor: pointer;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(29, 185, 84, 0.3);
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.spotify-embed-placeholder:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgba(29, 185, 84, 0.4);
+  border-color: #1db954;
 }
 
 .spotify-embed-placeholder .spotify-cover {
   width: 100%;
-  padding-top: 26%; /* height for small player */
+  height: 120px;
   background-size: cover;
   background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotify-embed-placeholder .spotify-cover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
 }
 
 .spotify-load-btn {
   position: absolute;
-  bottom: 12px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  padding: 8px 14px;
-  background: #272727;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  background: rgba(29, 185, 84, 0.95);
   color: #fff;
-  border-radius: 100px;
-  border: none;
+  border-radius: 50px;
+  border: 2px solid #1db954;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.spotify-load-btn::before {
+  content: "🎵 ";
+  margin-right: 8px;
+}
+
+.spotify-load-btn:hover {
+  background: #1db954;
+  transform: translate(-50%, -50%) scale(1.05);
+  box-shadow: 0 6px 20px rgba(29, 185, 84, 0.4);
 }
 
 .spotify-embed-placeholder.iframe-loaded .spotify-cover,
@@ -1343,6 +1386,19 @@ footer li {
 
 .spotify-embed-placeholder iframe {
   width: 100%;
-  height: 80px;
+  height: 152px;
   border: none;
+  border-radius: 15px;
+}
+
+/* Mobile specific styling */
+@media (max-width: 768px) {
+  .spotify-embed-placeholder {
+    margin: 0 !important;
+    max-width: none !important;
+  }
+  .spotify-load-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
 }
