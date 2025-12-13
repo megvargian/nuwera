@@ -107,37 +107,37 @@ get_header();
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.webp"
                             alt="Groundless Song Cover" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
-                        <ul class="social-icons">
-                            <li>
-                                <a class="fab fa-spotify" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-apple" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-deezer" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-itunes" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-amazon" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-bandcamp" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-youtube" href="#">
-                                </a>
-                            </li>
-                        </ul>
                     </a>
+                    <ul class="social-icons">
+                        <li>
+                            <a class="fab fa-spotify" href="#" name="groundless-spotify">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-apple" href="#" name="groundless-apple">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-deezer" href="#" name="groundless-deezer">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-itunes" href="#" name="groundless-itunes">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-amazon" href="#" name="groundless-amazon">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-bandcamp" href="#" name="groundless-bandcamp">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-youtube" href="#" name="groundless-youtube-icon">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17223); ?>" name="am-i-alive-release">
@@ -145,33 +145,33 @@ get_header();
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.webp"
                             alt="Am I Alive Song Cover" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
-                        <ul class="social-icons">
-                            <li>
-                                <a class="fab fa-spotify" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-apple" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-itunes" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-amazon" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-bandcamp" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-youtube" href="#">
-                                </a>
-                            </li>
-                        </ul>
                     </a>
+                    <ul class="social-icons">
+                        <li>
+                            <a class="fab fa-spotify" href="#" name="am-i-alive-spotify">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-apple" href="#" name="am-i-alive-apple">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-itunes" href="#" name="am-i-alive-itunes">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-amazon" href="#" name="am-i-alive-amazon">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-bandcamp" href="#" name="am-i-alive-bandcamp">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-youtube" href="#" name="am-i-alive-youtube-icon">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17245); ?>" name="lord-fear-release">
@@ -179,33 +179,33 @@ get_header();
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Lord-Fear-Square-440x440.webp"
                             alt="Lord Fear Song Cover" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
-                        <ul class="social-icons">
-                            <li>
-                                <a class="fab fa-spotify" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-apple" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-itunes" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-amazon" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-bandcamp" href="#">
-                                </a>
-                            </li>
-                            <li>
-                                <a class="fab fa-youtube" href="#">
-                                </a>
-                            </li>
-                        </ul>
                     </a>
+                    <ul class="social-icons">
+                        <li>
+                            <a class="fab fa-spotify" href="#" name="lord-fear-spotify">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-apple" href="#" name="lord-fear-apple">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-itunes" href="#" name="lord-fear-itunes">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-amazon" href="#" name="lord-fear-amazon">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-bandcamp" href="#" name="lord-fear-bandcamp">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="fab fa-youtube" href="#" name="lord-fear-youtube-icon">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
