@@ -27,8 +27,8 @@ get_header();
                             <img id="latest-single-vinyl-large-pic"
                                 src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp"
                                 alt="GROUNDLESS">
-                            <img id="vinyl"
-                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png">
+                            <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png"
+                                alt="Vinyl">
                             <img id="latest-single-vinyl-pic"
                                 src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp"
                                 alt="Groundless">
