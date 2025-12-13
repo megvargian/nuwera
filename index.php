@@ -36,11 +36,17 @@ get_header();
                 </div>
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
-                        <div class="spotify-embed-placeholder" data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
-                            <div class="spotify-cover" aria-hidden="true" style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');"></div>
-                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play on Spotify</button>
+                        <div class="spotify-embed-placeholder"
+                            data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc"
+                            data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
+                            <div class="spotify-cover" aria-hidden="true"
+                                style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');">
+                            </div>
+                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
+                                on Spotify</button>
                             <noscript>
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank" rel="noopener">Open on Spotify</a>
+                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank"
+                                    rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div>
                     </div>
@@ -51,8 +57,8 @@ get_header();
                                     target="_blank" class="spotify" name="groundless-spotify-mobile">Spotify</a>
                             </li>
                             <li class="my-2">
-                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank"
-                                    class="youtube" name="groundless-youtube-mobile">YouTube</a>
+                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube"
+                                    name="groundless-youtube-mobile">YouTube</a>
                             </li>
                             <li class="my-2">
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank"
@@ -66,11 +72,17 @@ get_header();
                     <h3 class="mb-4">groundless</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                     <div class="mt-4">
-                        <div class="spotify-embed-placeholder" data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
-                            <div class="spotify-cover" aria-hidden="true" style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');"></div>
-                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play on Spotify</button>
+                        <div class="spotify-embed-placeholder"
+                            data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc"
+                            data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
+                            <div class="spotify-cover" aria-hidden="true"
+                                style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');">
+                            </div>
+                            <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
+                                on Spotify</button>
                             <noscript>
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank" rel="noopener">Open on Spotify</a>
+                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank"
+                                    rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div>
                     </div>
@@ -81,8 +93,8 @@ get_header();
                                     target="_blank" class="spotify" name="groundless-spotify-desktop">Spotify</a>
                             </li>
                             <li class="me-3">
-                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank"
-                                    class="youtube" name="groundless-youtube-desktop">YouTube</a>
+                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube"
+                                    name="groundless-youtube-desktop">YouTube</a>
                             </li>
                             <li class="me-3">
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank"
@@ -102,98 +114,118 @@ get_header();
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17214); ?>" name="groundless-release">
-                        <img class=""
+                        <img class="w-100"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.webp"
-                            alt="Groundless Song Cover" style="width:29dvw;max-width:100%; height:auto;">
+                            alt="Groundless Song Cover" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
                     </a>
                     <ul class="social-icons">
                         <li>
-                            <a class="fab fa-spotify" href="https://open.spotify.com/album/7KQbLOMiH0MayIwufXKDXC" name="groundless-spotify">
+                            <a class="fab fa-spotify" href="https://open.spotify.com/album/7KQbLOMiH0MayIwufXKDXC"
+                                name="groundless-spotify">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-apple" href="https://music.apple.com/us/album/groundless-single/1691621115" name="groundless-apple">
+                            <a class="fab fa-apple" href="https://music.apple.com/us/album/groundless-single/1691621115"
+                                name="groundless-apple">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-deezer" href="https://www.deezer.com/pl/album/450772145" name="groundless-deezer">
+                            <a class="fab fa-deezer" href="https://www.deezer.com/pl/album/450772145"
+                                name="groundless-deezer">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-amazon" href="https://www.amazon.com/music/player/tracks/B0C7FL1KR2?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_cIKckE13aIJnwgFYUwZBQqsjf" name="groundless-amazon">
+                            <a class="fab fa-amazon"
+                                href="https://www.amazon.com/music/player/tracks/B0C7FL1KR2?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_cIKckE13aIJnwgFYUwZBQqsjf"
+                                name="groundless-amazon">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/groundless" name="groundless-bandcamp">
+                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/groundless"
+                                name="groundless-bandcamp">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=TLVzzwKJ8E4" name="groundless-youtube-icon">
+                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=TLVzzwKJ8E4"
+                                name="groundless-youtube-icon">
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17223); ?>" name="am-i-alive-release">
-                        <img class="releases"
+                        <img class="w-100"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.webp"
-                            alt="Am I Alive Song Cover" style="width:29dvw;max-width:100%; height:auto;">
+                            alt="Am I Alive Song Cover" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
                     </a>
                     <ul class="social-icons">
                         <li>
-                            <a class="fab fa-spotify" href="https://open.spotify.com/album/1iqlMyKP8F3PSzaXFGLQHR" name="am-i-alive-spotify">
+                            <a class="fab fa-spotify" href="https://open.spotify.com/album/1iqlMyKP8F3PSzaXFGLQHR"
+                                name="am-i-alive-spotify">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-apple" href="https://music.apple.com/us/album/am-i-alive-single/1621746521" name="am-i-alive-apple">
+                            <a class="fab fa-apple" href="https://music.apple.com/us/album/am-i-alive-single/1621746521"
+                                name="am-i-alive-apple">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-amazon" href="https://www.amazon.com/music/player/albums/B09Z7C6D51?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gRwTg4SpnvhL3DxlWVYCL9LFU" name="am-i-alive-amazon">
+                            <a class="fab fa-amazon"
+                                href="https://www.amazon.com/music/player/albums/B09Z7C6D51?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gRwTg4SpnvhL3DxlWVYCL9LFU"
+                                name="am-i-alive-amazon">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/am-i-alive" name="am-i-alive-bandcamp">
+                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/am-i-alive"
+                                name="am-i-alive-bandcamp">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=FkJP74hOfXg" name="am-i-alive-youtube-icon">
+                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=FkJP74hOfXg"
+                                name="am-i-alive-youtube-icon">
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17245); ?>" name="lord-fear-release">
-                        <img class="releases"
+                        <img class="w-100"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Lord-Fear-Square-440x440.webp"
-                            alt="Lord Fear Song Cover" style="width:29dvw;max-width:100%; height:auto;">
+                            alt="Lord Fear Song Cover" style="max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
                     </a>
                     <ul class="social-icons">
                         <li>
-                            <a class="fab fa-spotify" href="https://open.spotify.com/album/4tf6B4hIpEuPhKtelUKIrQ" name="lord-fear-spotify">
+                            <a class="fab fa-spotify" href="https://open.spotify.com/album/4tf6B4hIpEuPhKtelUKIrQ"
+                                name="lord-fear-spotify">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-apple" href="https://music.apple.com/us/album/lord-fear-single/1556229157" name="lord-fear-apple">
+                            <a class="fab fa-apple" href="https://music.apple.com/us/album/lord-fear-single/1556229157"
+                                name="lord-fear-apple">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-itunes" href="https://music.apple.com/us/album/lord-fear-single/1556229157" name="lord-fear-itunes">
+                            <a class="fab fa-itunes" href="https://music.apple.com/us/album/lord-fear-single/1556229157"
+                                name="lord-fear-itunes">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-amazon" href="https://www.amazon.com/music/player/albums/B08XVVHTBH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_55pFmrQAMG8EOPgTgE9ZxKdhD" name="lord-fear-amazon">
+                            <a class="fab fa-amazon"
+                                href="https://www.amazon.com/music/player/albums/B08XVVHTBH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_55pFmrQAMG8EOPgTgE9ZxKdhD"
+                                name="lord-fear-amazon">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/lord-fear" name="lord-fear-bandcamp">
+                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/lord-fear"
+                                name="lord-fear-bandcamp">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=asnDon2QN60" name="lord-fear-youtube-icon">
+                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=asnDon2QN60"
+                                name="lord-fear-youtube-icon">
                             </a>
                         </li>
                     </ul>
@@ -232,7 +264,8 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/nuweraofficial" target="_blank" name="facebook-social">
+                                    <a href="https://www.facebook.com/nuweraofficial" target="_blank"
+                                        name="facebook-social">
                                         <svg class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -242,7 +275,8 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank" name="spotify-social">
+                                    <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank"
+                                        name="spotify-social">
                                         <svg class="e-font-icon-svg e-fab-spotify" viewBox="0 0 496 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -262,7 +296,8 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/nnuwera/" target="_blank" name="instagram-social">
+                                    <a href="https://www.instagram.com/nnuwera/" target="_blank"
+                                        name="instagram-social">
                                         <svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
