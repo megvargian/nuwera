@@ -472,7 +472,8 @@ add_action('woocommerce_email_after_order_table', function($order, $sent_to_admi
         if ($downloads) {
             echo '<h2>Your Downloads</h2><ul>';
             foreach ($downloads as $download) {
-                echo '<li><a href="'.esc_url($download['download_url']).'">'.esc_html($download['name']).'</a></li>';
+                $download_name = 'download-' . sanitize_title($download['name']);
+                echo '<li><a href="'.esc_url($download['download_url']).'" name="'.esc_attr($download_name).'">'.esc_html($download['name']).'</a></li>';
             }
             echo '</ul>';
         }
@@ -485,7 +486,7 @@ add_action('woocommerce_thankyou', function($order_id){
     if ($order && $order->has_downloadable_item()) {
         echo '<div class="woocommerce-info" style="margin-top:20px;">';
         echo '<strong>Your downloads are ready!</strong><br>';
-        echo 'You can access them anytime from your <a href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') ).'downloads/').'">Downloads page</a>.';
+        echo 'You can access them anytime from your <a href="'.esc_url(get_permalink( get_option('woocommerce_myaccount_page_id') ).'downloads/').'" name="my-downloads-page">Downloads page</a>.';
         echo '</div>';
     }
 });

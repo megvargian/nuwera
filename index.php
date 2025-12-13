@@ -49,15 +49,15 @@ get_header();
                         <ul>
                             <li class="my-2">
                                 <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37"
-                                    target="_blank" class="spotify">Spotify</a>
+                                    target="_blank" class="spotify" name="groundless-spotify-mobile">Spotify</a>
                             </li>
                             <li class="my-2">
                                 <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank"
-                                    class="youtube">YouTube</a>
+                                    class="youtube" name="groundless-youtube-mobile">YouTube</a>
                             </li>
                             <li class="my-2">
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank"
-                                    class="apple-music">Apple</a>
+                                    class="apple-music" name="groundless-apple-mobile">Apple</a>
                             </li>
                         </ul>
                     </div>
@@ -79,15 +79,15 @@ get_header();
                         <ul>
                             <li class="me-3">
                                 <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37"
-                                    target="_blank" class="spotify">Spotify</a>
+                                    target="_blank" class="spotify" name="groundless-spotify-desktop">Spotify</a>
                             </li>
                             <li class="me-3">
                                 <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank"
-                                    class="youtube">YouTube</a>
+                                    class="youtube" name="groundless-youtube-desktop">YouTube</a>
                             </li>
                             <li class="me-3">
                                 <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank"
-                                    class="apple-music">Apple</a>
+                                    class="apple-music" name="groundless-apple-desktop">Apple</a>
                             </li>
                         </ul>
                     </div>
@@ -102,7 +102,7 @@ get_header();
             </div>
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
-                    <a href="<?php echo get_permalink(17214); ?>">
+                    <a href="<?php echo get_permalink(17214); ?>" name="groundless-release">
                         <img class=""
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.webp"
                             alt="Groundless Song Cover" style="width:29dvw;max-width:100%; height:auto;">
@@ -140,7 +140,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
-                    <a href="<?php echo get_permalink(17223); ?>">
+                    <a href="<?php echo get_permalink(17223); ?>" name="am-i-alive-release">
                         <img class="releases"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.webp"
                             alt="Am I Alive Song Cover" style="width:29dvw;max-width:100%; height:auto;">
@@ -174,7 +174,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
-                    <a href="<?php echo get_permalink(17245); ?>">
+                    <a href="<?php echo get_permalink(17245); ?>" name="lord-fear-release">
                         <img class="releases"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Lord-Fear-Square-440x440.webp"
                             alt="Lord Fear Song Cover" style="width:29dvw;max-width:100%; height:auto;">
@@ -231,7 +231,7 @@ get_header();
                         <div class="row">
                             <ul class="px-0 pt-3">
                                 <li>
-                                    <a href="https://www.youtube.com/@nuwera" target="_blank">
+                                    <a href="https://www.youtube.com/@nuwera" target="_blank" name="youtube-social">
                                         <svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -241,7 +241,7 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.facebook.com/nuweraofficial" target="_blank">
+                                    <a href="https://www.facebook.com/nuweraofficial" target="_blank" name="facebook-social">
                                         <svg class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -251,7 +251,7 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank">
+                                    <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank" name="spotify-social">
                                         <svg class="e-font-icon-svg e-fab-spotify" viewBox="0 0 496 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -261,7 +261,7 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tiktok.com/@nuweraa" target="_blank">
+                                    <a href="https://www.tiktok.com/@nuweraa" target="_blank" name="tiktok-social">
                                         <svg class="e-font-icon-svg e-fab-tiktok" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -271,7 +271,7 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/nnuwera/" target="_blank">
+                                    <a href="https://www.instagram.com/nnuwera/" target="_blank" name="instagram-social">
                                         <svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -301,7 +301,7 @@ get_header();
             </div>
             <div class="row justify-content-center gap-x-4 d-md-flex d-none">
                 <div class="col mb-4 mb-md-0">
-                    <a href="<?php echo get_permalink(17612); ?>" class="band-member">
+                    <a href="<?php echo get_permalink(17612); ?>" class="band-member" name="denyo-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3758-1536x1024.webp"
                             alt="Denyo">
@@ -310,7 +310,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
-                    <a href="<?php echo get_permalink(17643); ?>" class="band-member">
+                    <a href="<?php echo get_permalink(17643); ?>" class="band-member" name="serge-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE3301-1536x1024.webp"
                             alt="Serge Achkarian">
@@ -319,7 +319,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
-                    <a href="<?php echo get_permalink(17645); ?>" class="band-member">
+                    <a href="<?php echo get_permalink(17645); ?>" class="band-member" name="antoine-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4611-1536x1024.webp"
                             alt="Antoine Bayram">
@@ -328,7 +328,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
-                    <a href="<?php echo get_permalink(17648); ?>" class="band-member">
+                    <a href="<?php echo get_permalink(17648); ?>" class="band-member" name="angelo-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
                             alt="Angelo Zeidan">
@@ -337,7 +337,7 @@ get_header();
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
-                    <a href="<?php echo get_permalink(17650); ?>" class="band-member">
+                    <a href="<?php echo get_permalink(17650); ?>" class="band-member" name="rick-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.webp"
                             alt="Rick Garabedian">

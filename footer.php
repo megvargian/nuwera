@@ -25,7 +25,7 @@
                     <div class="col-12">
                         <ul class="d-flex justify-content-center align-items-center flex-wrap">
                             <li class="mx-4">
-                                <a href="https://www.youtube.com/@nuwera" target="_blank">
+                                <a href="https://www.youtube.com/@nuwera" target="_blank" name="footer-youtube">
                                     <svg style="width: 24px; fill:#fff;" class="e-font-icon-svg e-fab-youtube"
                                         viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -35,7 +35,7 @@
                                 </a>
                             </li>
                             <li class="mx-4">
-                                <a href="https://www.facebook.com/nuweraofficial" target="_blank">
+                                <a href="https://www.facebook.com/nuweraofficial" target="_blank" name="footer-facebook">
                                     <svg style="width: 24px; fill:#fff;" class="e-font-icon-svg e-fab-facebook"
                                         viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -45,7 +45,7 @@
                                 </a>
                             </li>
                             <li class="mx-4">
-                                <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank">
+                                <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank" name="footer-spotify">
                                     <svg style="width: 24px; fill:#fff;" class="e-font-icon-svg e-fab-spotify"
                                         viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -55,7 +55,7 @@
                                 </a>
                             </li>
                             <li class="mx-4">
-                                <a href="https://www.tiktok.com/@nuweraa" target="_blank">
+                                <a href="https://www.tiktok.com/@nuweraa" target="_blank" name="footer-tiktok">
                                     <svg style="width: 24px; fill:#fff;" class="e-font-icon-svg e-fab-tiktok"
                                         viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -65,7 +65,7 @@
                                 </a>
                             </li>
                             <li class="mx-4">
-                                <a href="https://www.instagram.com/nnuwera/" target="_blank">
+                                <a href="https://www.instagram.com/nnuwera/" target="_blank" name="footer-instagram">
                                     <svg style="width: 24px; fill:#fff;" class="e-font-icon-svg e-fab-instagram"
                                         viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -83,17 +83,17 @@
     <div class="container-fluid">
         <div class="row justify-content-between">
             <div class="col d-flex justify-content-center justify-content-md-start align-items-center mb-md-0 mb-4">
-                <a href="mailto:info@nuwera.band" style="color: #000 !important">info@nuwera.band</a>
+                <a href="mailto:info@nuwera.band" style="color: #000 !important" name="contact-email">info@nuwera.band</a>
             </div>
             <div class="col">
                 <ul class="d-flex justify-content-center justify-content-md-end align-items-center">
                     <li>
                         <a href="https://www.facebook.com/nuweraofficial" style="color: #000 !important"
-                            target="_blank">Facebook</a>
+                            target="_blank" name="bottom-facebook">Facebook</a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/nnuwera/" style="color: #000 !important"
-                            target="_blank">Instagram</a>
+                            target="_blank" name="bottom-instagram">Instagram</a>
                     </li>
                 </ul>
             </div>

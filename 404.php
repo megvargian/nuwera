@@ -17,7 +17,7 @@
             <div class="text_404 kh_light">
                 <?php echo __('The page you are looking for is not available!', '404')?>
             </div>
-            <a href="<?php echo esc_url( home_url( '/' )); ?>">
+            <a href="<?php echo esc_url( home_url( '/' )); ?>" name="404-home-link">
                 <div class="main_btn btn_404">
                     <?php echo __('Go Back to Homepage', '404')?>
                 </div>
