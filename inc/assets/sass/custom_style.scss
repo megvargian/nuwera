@@ -580,11 +580,14 @@ body.no-scroll {
 		justify-content: start;
 		align-items: center;
 		li {
-			margin: 0 5px;
-			font-size: 15px;
+			margin: 0 7px;
+			font-size: 20px;
 			a {
 				color: #fff;
 			}
+		}
+		li:first-child {
+			margin-left: 0;
 		}
 	}
 }
@@ -1332,7 +1335,7 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 12px 24px;
-  background: rgba(29, 185, 84, 0.95);
+  background: #ff2b59;
   color: #fff;
   border-radius: 50px;
   border: 2px solid #ff2b59;

@@ -12,7 +12,6 @@ get_header();
         <img class="d-none d-md-block" id="nuwera-crowd-img"
             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp" alt="NuweraCrowd">
     </section>
-
     <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container-xl">
             <div class="row">
@@ -110,31 +109,27 @@ get_header();
                     </a>
                     <ul class="social-icons">
                         <li>
-                            <a class="fab fa-spotify" href="#" name="groundless-spotify">
+                            <a class="fab fa-spotify" href="https://open.spotify.com/album/7KQbLOMiH0MayIwufXKDXC" name="groundless-spotify">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-apple" href="#" name="groundless-apple">
+                            <a class="fab fa-apple" href="https://music.apple.com/us/album/groundless-single/1691621115" name="groundless-apple">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-deezer" href="#" name="groundless-deezer">
+                            <a class="fab fa-deezer" href="https://www.deezer.com/pl/album/450772145" name="groundless-deezer">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-itunes" href="#" name="groundless-itunes">
+                            <a class="fab fa-amazon" href="https://www.amazon.com/music/player/tracks/B0C7FL1KR2?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_cIKckE13aIJnwgFYUwZBQqsjf" name="groundless-amazon">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-amazon" href="#" name="groundless-amazon">
+                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/groundless" name="groundless-bandcamp">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-bandcamp" href="#" name="groundless-bandcamp">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="fab fa-youtube" href="#" name="groundless-youtube-icon">
+                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=TLVzzwKJ8E4" name="groundless-youtube-icon">
                             </a>
                         </li>
                     </ul>
@@ -148,27 +143,23 @@ get_header();
                     </a>
                     <ul class="social-icons">
                         <li>
-                            <a class="fab fa-spotify" href="#" name="am-i-alive-spotify">
+                            <a class="fab fa-spotify" href="https://open.spotify.com/album/1iqlMyKP8F3PSzaXFGLQHR" name="am-i-alive-spotify">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-apple" href="#" name="am-i-alive-apple">
+                            <a class="fab fa-apple" href="https://music.apple.com/us/album/am-i-alive-single/1621746521" name="am-i-alive-apple">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-itunes" href="#" name="am-i-alive-itunes">
+                            <a class="fab fa-amazon" href="https://www.amazon.com/music/player/albums/B09Z7C6D51?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gRwTg4SpnvhL3DxlWVYCL9LFU" name="am-i-alive-amazon">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-amazon" href="#" name="am-i-alive-amazon">
+                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/am-i-alive" name="am-i-alive-bandcamp">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-bandcamp" href="#" name="am-i-alive-bandcamp">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="fab fa-youtube" href="#" name="am-i-alive-youtube-icon">
+                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=FkJP74hOfXg" name="am-i-alive-youtube-icon">
                             </a>
                         </li>
                     </ul>
@@ -182,27 +173,27 @@ get_header();
                     </a>
                     <ul class="social-icons">
                         <li>
-                            <a class="fab fa-spotify" href="#" name="lord-fear-spotify">
+                            <a class="fab fa-spotify" href="https://open.spotify.com/album/4tf6B4hIpEuPhKtelUKIrQ" name="lord-fear-spotify">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-apple" href="#" name="lord-fear-apple">
+                            <a class="fab fa-apple" href="https://music.apple.com/us/album/lord-fear-single/1556229157" name="lord-fear-apple">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-itunes" href="#" name="lord-fear-itunes">
+                            <a class="fab fa-itunes" href="https://music.apple.com/us/album/lord-fear-single/1556229157" name="lord-fear-itunes">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-amazon" href="#" name="lord-fear-amazon">
+                            <a class="fab fa-amazon" href="https://www.amazon.com/music/player/albums/B08XVVHTBH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_55pFmrQAMG8EOPgTgE9ZxKdhD" name="lord-fear-amazon">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-bandcamp" href="#" name="lord-fear-bandcamp">
+                            <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/lord-fear" name="lord-fear-bandcamp">
                             </a>
                         </li>
                         <li>
-                            <a class="fab fa-youtube" href="#" name="lord-fear-youtube-icon">
+                            <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=asnDon2QN60" name="lord-fear-youtube-icon">
                             </a>
                         </li>
                     </ul>
