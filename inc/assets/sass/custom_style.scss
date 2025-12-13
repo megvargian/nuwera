@@ -1207,3 +1207,78 @@ footer {
 .wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block, .wp-block-woocommerce-checkout.alignwide.wc-block-checkout{
 	color: #fff !important;
 }
+
+
+//last section of homepage
+/* Shop Product Cards */
+.shop-product-card {
+  display: block;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+.shop-product-card:hover {
+  transform: translateY(-10px);
+}
+.shop-product-card .product-image-wrapper {
+  overflow: hidden;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.shop-product-card .product-image-wrapper img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.shop-product-card:hover .product-image-wrapper img {
+  transform: scale(1.05);
+}
+.shop-product-card h3 {
+  font-family: "AlbertSans-ExtraBold";
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+.shop-product-card .product-price {
+  margin: 1rem 0;
+}
+.shop-product-card .product-price .price {
+  font-size: 1.8rem;
+  font-family: "AlbertSans-ExtraBold";
+  color: #ff2b59;
+}
+.shop-product-card .shop-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.shop-product-card .shop-btn .btn-text {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.shop-product-card:hover .shop-btn {
+  background-color: #ff2b59;
+}
+
+.view-all-products-btn {
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.view-all-products-btn h3 {
+  font-family: "AlbertSans-ExtraBold";
+  color: #000;
+  text-transform: uppercase;
+  font-size: 2rem;
+  border-bottom: 3px solid #000;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+.view-all-products-btn:hover h3 {
+  color: #ff2b59;
+  border-bottom-color: #ff2b59;
+}

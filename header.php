@@ -16,10 +16,78 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nuwera - Heavy Metal Band</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://nuwera.band/wp-content/uploads/2024/09/cropped-Nuwera-Logo-White-192x192.png"
-        sizes="192x192">
+    <title><?php wp_title('-', true, 'right'); bloginfo('name'); ?></title>
+    <link rel="icon" href="https://nuwera.band/wp-content/uploads/2024/09/cropped-Nuwera-Logo-White-192x192.png" sizes="192x192">
+
+    <?php
+    // Dynamic Meta Description + OG and canonical (skipped if an SEO plugin is active)
+    function nuwera_meta_description() {
+        global $post, $product;
+        $meta_desc = '';
+
+        if (is_singular('product') && function_exists('wc_get_product')) {
+            $product_obj = wc_get_product($post->ID);
+            if ($product_obj) {
+                $meta_desc = $product_obj->get_short_description();
+            }
+        }
+
+        if (empty($meta_desc) && is_singular()) {
+            $meta_desc = get_post_meta(get_the_ID(), '_yoast_wpseo_metadesc', true);
+            if (empty($meta_desc)) {
+                $meta_desc = get_the_excerpt();
+            }
+        }
+
+        if (empty($meta_desc) && (is_home() || is_front_page())) {
+            $meta_desc = get_bloginfo('description');
+        }
+
+        if (empty($meta_desc)) {
+            $meta_desc = get_bloginfo('description');
+        }
+
+        // Clean and limit
+        $meta_desc = wp_strip_all_tags($meta_desc);
+        $meta_desc = trim(preg_replace('/\s+/', ' ', $meta_desc));
+        if (strlen($meta_desc) > 160) {
+            $meta_desc = mb_substr($meta_desc, 0, 157) . '...';
+        }
+
+        echo '<meta name="description" content="' . esc_attr($meta_desc) . '" />\n';
+
+        // Open Graph
+        if (is_front_page() || is_home()) {
+            $og_title = get_bloginfo('name');
+            $og_url = home_url('/');
+        } else {
+            $og_title = get_the_title();
+            $og_url = get_permalink();
+        }
+        $og_description = $meta_desc;
+        $og_image = '';
+        if (has_post_thumbnail($post->ID)) {
+            $img = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full');
+            $og_image = $img[0];
+        } else {
+            $og_image = get_site_icon_url() ? get_site_icon_url() : get_template_directory_uri() . '/inc/assets/images/Groundless-Square-440x440.webp';
+        }
+
+        echo '<meta property="og:title" content="' . esc_attr($og_title) . '" />\n';
+        echo '<meta property="og:description" content="' . esc_attr($og_description) . '" />\n';
+        echo '<meta property="og:url" content="' . esc_url($og_url) . '" />\n';
+        echo '<meta property="og:image" content="' . esc_url($og_image) . '" />\n';
+        echo '<meta name="twitter:card" content="summary_large_image" />\n';
+
+        // Canonical
+        echo '<link rel="canonical" href="' . esc_url($og_url) . '" />\n';
+    }
+    // Skip if Yoast/Ra nkMath/AIOSEO/SEOPress is present to avoid duplicates
+    $seoPluginDetected = defined('WPSEO_VERSION') || class_exists('WPSEO_Frontend') || function_exists('rank_math_head') || class_exists('SEOPress') || class_exists('AIOSEO\Plugin');
+    if ( ! $seoPluginDetected ) {
+        nuwera_meta_description();
+    }
+    ?>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />

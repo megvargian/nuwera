@@ -160,7 +160,26 @@ if (shopNowSection) {
     });
 }
 </script>
-<?php wp_footer(); ?>
+<?php
+// Add Organization JSON-LD schema for SEO
+$org = array(
+    "@context" => "https://schema.org",
+    "@type" => "MusicGroup",
+    "name" => get_bloginfo('name'),
+    "url" => home_url('/'),
+    "logo" => get_site_icon_url() ? get_site_icon_url() : get_template_directory_uri() . '/inc/assets/images/Nuwera-Name-Only-White.webp',
+    "sameAs" => array(
+        "https://www.youtube.com/@nuwera",
+        "https://www.facebook.com/nuweraofficial",
+        "https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n",
+        "https://www.tiktok.com/@nuweraa",
+        "https://www.instagram.com/nnuwera/"
+    )
+);
+echo '<script type="application/ld+json">' . wp_json_encode( $org ) . '</script>\n';
+
+wp_footer();
+?>
 </body>
 
 </html>
