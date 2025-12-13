@@ -97,7 +97,7 @@ get_header();
                     <a href="<?php echo get_permalink(17214); ?>">
                         <img class=""
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.webp"
-                            alt="Groundless" style="width:29dvw;max-width:100%; height:auto;">
+                            alt="Groundless Song Cover" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
                         <ul class="social-icons">
                             <li>
@@ -135,7 +135,7 @@ get_header();
                     <a href="<?php echo get_permalink(17223); ?>">
                         <img class="releases"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.webp"
-                            alt="Am I Alive" style="width:29dvw;max-width:100%; height:auto;">
+                            alt="Am I Alive Song Cover" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
                         <ul class="social-icons">
                             <li>
@@ -169,7 +169,7 @@ get_header();
                     <a href="<?php echo get_permalink(17245); ?>">
                         <img class="releases"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Lord-Fear-Square-440x440.webp"
-                            alt="Lord Fear" style="width:29dvw;max-width:100%; height:auto;">
+                            alt="Lord Fear Song Cover" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
                         <ul class="social-icons">
                             <li>
