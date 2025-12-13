@@ -38,8 +38,8 @@ get_header();
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300"
-                            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"
-                            class="w-100"></iframe>
+                            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="w-100"
+                            title="Spotify audio player - Groundless by Nuwera"></iframe>
                     </div>
                     <div class="mt-4">
                         <ul>
@@ -64,8 +64,8 @@ get_header();
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                     <div class="mt-4">
                         <iframe src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc" width="300"
-                            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"
-                            class="w-100"></iframe>
+                            height="80" frameborder="0" allowtransparency="true" allow="encrypted-media" class="w-100"
+                            title="Spotify audio player - Groundless by Nuwera"></iframe>
                     </div>
                     <div class="mt-4">
                         <ul>
