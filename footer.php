@@ -177,9 +177,56 @@ $org = array(
     )
 );
 echo '<script type="application/ld+json">' . wp_json_encode( $org ) . '</script>\n';
-
-wp_footer();
 ?>
+
+<script>
+// Spotify embed click-to-load (avoids third-party cookies until user consents and clicks)
+(function(){
+  function loadSpotify(container){
+    var src = container.getAttribute('data-src');
+    if(!src) return;
+    var iframe = document.createElement('iframe');
+    iframe.setAttribute('src', src);
+    iframe.setAttribute('width', '100%');
+    iframe.setAttribute('height', '80');
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowtransparency', 'true');
+    iframe.setAttribute('allow', 'encrypted-media');
+    container.classList.add('iframe-loaded');
+    container.innerHTML = '';
+    container.appendChild(iframe);
+  }
+
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('.spotify-load-btn');
+    if(btn){
+      var container = btn.closest('.spotify-embed-placeholder');
+      loadSpotify(container);
+      return;
+    }
+    var placeholder = e.target.closest('.spotify-embed-placeholder');
+    if(placeholder && !placeholder.classList.contains('iframe-loaded')){
+      loadSpotify(placeholder);
+    }
+  });
+
+  // lazy load image background for placeholders
+  document.querySelectorAll('.spotify-embed-placeholder').forEach(function(el){
+    var img = el.getAttribute('data-img');
+    if(img){
+      var cover = el.querySelector('.spotify-cover');
+      if(cover){
+        cover.style.backgroundImage = 'url(' + img + ')';
+      }
+    }
+  });
+})();
+</script>
+
+<?php wp_footer(); ?>
+</body>
+
+</html>
 </body>
 
 </html>
