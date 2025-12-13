@@ -95,9 +95,9 @@ get_header();
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17214); ?>">
-                        <img class="w-100"
+                        <img class=""
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-440x440.webp"
-                            alt="Groundless" style="max-width:100%; height:auto;">
+                            alt="Groundless" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Groundless</h3>
                         <ul class="social-icons">
                             <li>
@@ -133,9 +133,9 @@ get_header();
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17223); ?>">
-                        <img class="w-100"
+                        <img class="releases"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Am-I-Alive-440x440.webp"
-                            alt="Am I Alive" style="max-width:100%; height:auto;">
+                            alt="Am I Alive" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Am I Alive</h3>
                         <ul class="social-icons">
                             <li>
@@ -167,9 +167,9 @@ get_header();
                 </div>
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
                     <a href="<?php echo get_permalink(17245); ?>">
-                        <img class="w-100"
+                        <img class="releases"
                             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Lord-Fear-Square-440x440.webp"
-                            alt="Lord Fear" style="max-width:100%; height:auto;">
+                            alt="Lord Fear" style="width:29dvw;max-width:100%; height:auto;">
                         <h3 class="my-3">Lord Fear</h3>
                         <ul class="social-icons">
                             <li>
