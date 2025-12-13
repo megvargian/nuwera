@@ -10,7 +10,7 @@ get_header();
             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-Name-Only-White-500x132.webp"
             alt="Nuwera Logo">
         <img class="d-none d-md-block" id="nuwera-crowd-img"
-            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp">
+            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp" alt="NuweraCrowd">
     </section>
 
     <section id="latest-single" class="align-content-center text-center py-5">
@@ -407,23 +407,23 @@ get_header();
                     while ($products->have_posts()) : $products->the_post();
                         global $product;
                         ?>
-                        <div class="col-12 col-md-4 mb-4 mb-md-0">
-                            <a href="<?php echo get_permalink(); ?>" class="shop-product-card">
-                                <div class="product-image-wrapper">
-                                    <?php if (has_post_thumbnail()) : ?>
-                                        <?php the_post_thumbnail('medium', array('class' => 'w-100')); ?>
-                                    <?php endif; ?>
-                                </div>
-                                <h3 class="my-3"><?php the_title(); ?></h3>
-                                <div class="product-price">
-                                    <span class="price"><?php echo $product->get_price_html(); ?></span>
-                                </div>
-                                <div class="shop-btn mt-3">
-                                    <span class="btn-text">Learn More</span>
-                                </div>
-                            </a>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <a href="<?php echo get_permalink(); ?>" class="shop-product-card">
+                        <div class="product-image-wrapper">
+                            <?php if (has_post_thumbnail()) : ?>
+                            <?php the_post_thumbnail('medium', array('class' => 'w-100')); ?>
+                            <?php endif; ?>
                         </div>
-                        <?php
+                        <h3 class="my-3"><?php the_title(); ?></h3>
+                        <div class="product-price">
+                            <span class="price"><?php echo $product->get_price_html(); ?></span>
+                        </div>
+                        <div class="shop-btn mt-3">
+                            <span class="btn-text">Learn More</span>
+                        </div>
+                    </a>
+                </div>
+                <?php
                     endwhile;
                     wp_reset_postdata();
                 endif;
