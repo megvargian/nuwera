@@ -1385,3 +1385,10 @@ footer {
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 600px) {
+  .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+    display: flex !important;
+    text-align: center !important;
+  }
+}

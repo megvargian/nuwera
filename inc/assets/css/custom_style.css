@@ -1384,4 +1384,14 @@ footer li {
     padding: 10px 20px;
     font-size: 0.9rem;
   }
+<<<<<<< Updated upstream
 }/*# sourceMappingURL=custom_style.css.map */
+=======
+}
+@media (max-width: 600px) {
+  .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+    display: flex !important;
+    text-align: center !important;
+  }
+}
+>>>>>>> Stashed changes
