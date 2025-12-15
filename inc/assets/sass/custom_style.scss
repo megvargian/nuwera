@@ -1387,7 +1387,7 @@ footer {
 }
 
 @media (max-width: 600px) {
-  .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+  .woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text, .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text  {
     display: flex !important;
     text-align: center !important;
   }

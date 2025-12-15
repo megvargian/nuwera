@@ -135,10 +135,16 @@ input[type=text],
 input[type=time],
 input[type=url],
 input[type=week] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   -webkit-background-clip: padding;
   -moz-background-clip: padding;
   background-clip: padding-box;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
   border-radius: 0;
   -webkit-appearance: none;
   border: none;
@@ -244,7 +250,9 @@ body.hide_scroll {
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
+  -khtml-user-select: none;
   -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
@@ -261,6 +269,27 @@ body.hide_scroll {
 
 :focus {
   outline: none !important;
+}
+
+@-webkit-keyframes fa-beat {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.25);
+  }
+  20% {
+    transform: scale(1.15);
+  }
+  30% {
+    transform: scale(1.8);
+  }
+  45% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 @keyframes fa-beat {
   0% {
@@ -295,11 +324,6 @@ body.hide_scroll {
 
 header {
   z-index: 3;
-}
-
-::-moz-selection {
-  background: #ff2b59;
-  color: #ffffff;
 }
 
 ::selection {
@@ -414,8 +438,7 @@ body.no-scroll {
   left: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transform: scale(calc(1 + var(--scroll) / 2));
   transition: transform 0.1s linear 0s;
   z-index: 0;
@@ -573,8 +596,7 @@ body.no-scroll {
 #about-us img {
   width: 70%;
   height: 90%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   transform: scale(calc(1 + var(--about-us-scroll) / 10));
   transition: transform 0.1s linear 0s;
 }
@@ -621,8 +643,7 @@ body.no-scroll {
 .meet-the-band img {
   transition: filter 0.3s ease;
   aspect-ratio: 116/137;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .meet-the-band a:hover {
   filter: brightness(1.15) saturate(1.2);
@@ -1347,8 +1368,7 @@ footer li {
   cursor: pointer;
   z-index: 10;
   transition: all 0.3s ease;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 .spotify-load-btn::before {
@@ -1384,14 +1404,10 @@ footer li {
     padding: 10px 20px;
     font-size: 0.9rem;
   }
-<<<<<<< Updated upstream
-}/*# sourceMappingURL=custom_style.css.map */
-=======
 }
 @media (max-width: 600px) {
-  .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+  .woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text, .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
     display: flex !important;
     text-align: center !important;
   }
 }
->>>>>>> Stashed changes
