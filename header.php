@@ -28,7 +28,8 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site main_page_wrapper position-relative">
-        <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible" name="back-to-top">
+        <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible" name="back-to-top" aria-label="Back to top">
+            <span class="sr-only">Back to top</span>
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clippath="url(#clip0_77_1481)">
                     <path d="M0.180725 23H62.1807" stroke="currentColor" stroke-width="2"></path>

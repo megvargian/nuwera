@@ -122,33 +122,39 @@ get_header();
                     <ul class="social-icons">
                         <li>
                             <a class="fab fa-spotify" href="https://open.spotify.com/album/7KQbLOMiH0MayIwufXKDXC"
-                                name="groundless-spotify">
+                                name="groundless-spotify" aria-label="Listen to Groundless on Spotify">
+                                <span class="sr-only">Listen to Groundless on Spotify</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-apple" href="https://music.apple.com/us/album/groundless-single/1691621115"
-                                name="groundless-apple">
+                                name="groundless-apple" aria-label="Listen to Groundless on Apple Music">
+                                <span class="sr-only">Listen to Groundless on Apple Music</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-deezer" href="https://www.deezer.com/pl/album/450772145"
-                                name="groundless-deezer">
+                                name="groundless-deezer" aria-label="Listen to Groundless on Deezer">
+                                <span class="sr-only">Listen to Groundless on Deezer</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-amazon"
                                 href="https://www.amazon.com/music/player/tracks/B0C7FL1KR2?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_cIKckE13aIJnwgFYUwZBQqsjf"
-                                name="groundless-amazon">
+                                name="groundless-amazon" aria-label="Listen to Groundless on Amazon Music">
+                                <span class="sr-only">Listen to Groundless on Amazon Music</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/groundless"
-                                name="groundless-bandcamp">
+                                name="groundless-bandcamp" aria-label="Listen to Groundless on Bandcamp">
+                                <span class="sr-only">Listen to Groundless on Bandcamp</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=TLVzzwKJ8E4"
-                                name="groundless-youtube-icon">
+                                name="groundless-youtube-icon" aria-label="Listen to Groundless on YouTube Music">
+                                <span class="sr-only">Listen to Groundless on YouTube Music</span>
                             </a>
                         </li>
                     </ul>
@@ -163,28 +169,33 @@ get_header();
                     <ul class="social-icons">
                         <li>
                             <a class="fab fa-spotify" href="https://open.spotify.com/album/1iqlMyKP8F3PSzaXFGLQHR"
-                                name="am-i-alive-spotify">
+                                name="am-i-alive-spotify" aria-label="Listen to Am I Alive on Spotify">
+                                <span class="sr-only">Listen to Am I Alive on Spotify</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-apple" href="https://music.apple.com/us/album/am-i-alive-single/1621746521"
-                                name="am-i-alive-apple">
+                                name="am-i-alive-apple" aria-label="Listen to Am I Alive on Apple Music">
+                                <span class="sr-only">Listen to Am I Alive on Apple Music</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-amazon"
                                 href="https://www.amazon.com/music/player/albums/B09Z7C6D51?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_gRwTg4SpnvhL3DxlWVYCL9LFU"
-                                name="am-i-alive-amazon">
+                                name="am-i-alive-amazon" aria-label="Listen to Am I Alive on Amazon Music">
+                                <span class="sr-only">Listen to Am I Alive on Amazon Music</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/am-i-alive"
-                                name="am-i-alive-bandcamp">
+                                name="am-i-alive-bandcamp" aria-label="Listen to Am I Alive on Bandcamp">
+                                <span class="sr-only">Listen to Am I Alive on Bandcamp</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=FkJP74hOfXg"
-                                name="am-i-alive-youtube-icon">
+                                name="am-i-alive-youtube-icon" aria-label="Listen to Am I Alive on YouTube Music">
+                                <span class="sr-only">Listen to Am I Alive on YouTube Music</span>
                             </a>
                         </li>
                     </ul>
@@ -199,33 +210,39 @@ get_header();
                     <ul class="social-icons">
                         <li>
                             <a class="fab fa-spotify" href="https://open.spotify.com/album/4tf6B4hIpEuPhKtelUKIrQ"
-                                name="lord-fear-spotify">
+                                name="lord-fear-spotify" aria-label="Listen to Lord Fear on Spotify">
+                                <span class="sr-only">Listen to Lord Fear on Spotify</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-apple" href="https://music.apple.com/us/album/lord-fear-single/1556229157"
-                                name="lord-fear-apple">
+                                name="lord-fear-apple" aria-label="Listen to Lord Fear on Apple Music">
+                                <span class="sr-only">Listen to Lord Fear on Apple Music</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-itunes" href="https://music.apple.com/us/album/lord-fear-single/1556229157"
-                                name="lord-fear-itunes">
+                                name="lord-fear-itunes" aria-label="Listen to Lord Fear on iTunes">
+                                <span class="sr-only">Listen to Lord Fear on iTunes</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-amazon"
                                 href="https://www.amazon.com/music/player/albums/B08XVVHTBH?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_55pFmrQAMG8EOPgTgE9ZxKdhD"
-                                name="lord-fear-amazon">
+                                name="lord-fear-amazon" aria-label="Listen to Lord Fear on Amazon Music">
+                                <span class="sr-only">Listen to Lord Fear on Amazon Music</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-bandcamp" href="https://nuwera.bandcamp.com/track/lord-fear"
-                                name="lord-fear-bandcamp">
+                                name="lord-fear-bandcamp" aria-label="Listen to Lord Fear on Bandcamp">
+                                <span class="sr-only">Listen to Lord Fear on Bandcamp</span>
                             </a>
                         </li>
                         <li>
                             <a class="fab fa-youtube" href="https://music.youtube.com/watch?v=asnDon2QN60"
-                                name="lord-fear-youtube-icon">
+                                name="lord-fear-youtube-icon" aria-label="Listen to Lord Fear on YouTube Music">
+                                <span class="sr-only">Listen to Lord Fear on YouTube Music</span>
                             </a>
                         </li>
                     </ul>
@@ -254,7 +271,8 @@ get_header();
                         <div class="row">
                             <ul class="px-0 pt-3">
                                 <li>
-                                    <a href="https://www.youtube.com/@nuwera" target="_blank" name="youtube-social">
+                                    <a href="https://www.youtube.com/@nuwera" target="_blank" name="youtube-social" aria-label="Visit Nuwera on YouTube">
+                                        <span class="sr-only">Visit Nuwera on YouTube</span>
                                         <svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -265,7 +283,8 @@ get_header();
                                 </li>
                                 <li>
                                     <a href="https://www.facebook.com/nuweraofficial" target="_blank"
-                                        name="facebook-social">
+                                        name="facebook-social" aria-label="Visit Nuwera on Facebook">
+                                        <span class="sr-only">Visit Nuwera on Facebook</span>
                                         <svg class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -276,7 +295,8 @@ get_header();
                                 </li>
                                 <li>
                                     <a href="https://open.spotify.com/artist/3xnkIvYYVGsB934bfGTv9n" target="_blank"
-                                        name="spotify-social">
+                                        name="spotify-social" aria-label="Listen to Nuwera on Spotify">
+                                        <span class="sr-only">Listen to Nuwera on Spotify</span>
                                         <svg class="e-font-icon-svg e-fab-spotify" viewBox="0 0 496 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -286,7 +306,8 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tiktok.com/@nuweraa" target="_blank" name="tiktok-social">
+                                    <a href="https://www.tiktok.com/@nuweraa" target="_blank" name="tiktok-social" aria-label="Follow Nuwera on TikTok">
+                                        <span class="sr-only">Follow Nuwera on TikTok</span>
                                         <svg class="e-font-icon-svg e-fab-tiktok" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
@@ -297,7 +318,8 @@ get_header();
                                 </li>
                                 <li>
                                     <a href="https://www.instagram.com/nnuwera/" target="_blank"
-                                        name="instagram-social">
+                                        name="instagram-social" aria-label="Follow Nuwera on Instagram">
+                                        <span class="sr-only">Follow Nuwera on Instagram</span>
                                         <svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path
