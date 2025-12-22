@@ -542,27 +542,41 @@ function convert_variations_to_radio_buttons($html, $args) {
             $terms = wc_get_product_terms($product->get_id(), $attribute, array('fields' => 'all'));
 
             $html = '<div class="variation-radio-buttons ' . esc_attr($class) . '">';
+            $first_option = true; // Track first option for auto-selection
 
             foreach ($terms as $term) {
                 if (in_array($term->slug, $options, true)) {
+                    // Check if this option is selected, or if it's the first option and no selection is made
                     $checked = sanitize_title($args['selected']) === $term->slug ? 'checked' : '';
+                    if (empty($args['selected']) && $first_option) {
+                        $checked = 'checked';
+                    }
+
                     $html .= '<label class="variation-radio-label">';
                     $html .= '<input type="radio" name="' . esc_attr($name) . '" value="' . esc_attr($term->slug) . '" ' . $checked . ' data-attribute_name="attribute_' . esc_attr(sanitize_title($attribute)) . '">';
                     $html .= '<span class="variation-radio-text">' . esc_html(apply_filters('woocommerce_variation_option_name', $term->name)) . '</span>';
                     $html .= '</label>';
+                    $first_option = false; // Only first option should be auto-selected
                 }
             }
 
             $html .= '</div>';
         } else {
             $html = '<div class="variation-radio-buttons ' . esc_attr($class) . '">';
+            $first_option = true; // Track first option for auto-selection
 
             foreach ($options as $option) {
+                // Check if this option is selected, or if it's the first option and no selection is made
                 $checked = sanitize_title($args['selected']) === sanitize_title($option) ? 'checked' : '';
+                if (empty($args['selected']) && $first_option) {
+                    $checked = 'checked';
+                }
+
                 $html .= '<label class="variation-radio-label">';
                 $html .= '<input type="radio" name="' . esc_attr($name) . '" value="' . esc_attr($option) . '" ' . $checked . ' data-attribute_name="attribute_' . esc_attr(sanitize_title($attribute)) . '">';
                 $html .= '<span class="variation-radio-text">' . esc_html(apply_filters('woocommerce_variation_option_name', $option)) . '</span>';
                 $html .= '</label>';
+                $first_option = false; // Only first option should be auto-selected
             }
 
             $html .= '</div>';
@@ -587,6 +601,34 @@ function variation_radio_buttons_script() {
             if ($form.length) {
                 // Initial state - disable button
                 $addToCartBtn.prop('disabled', true).addClass('disabled');
+
+                // Handle pre-selected radio buttons on page load
+                function triggerDefaultSelections() {
+                    $('.variation-radio-buttons input[type="radio"]:checked').each(function() {
+                        var $radio = $(this);
+                        var $currentForm = $radio.closest('form.variations_form');
+                        var attributeName = $radio.data('attribute_name');
+                        var value = $radio.val();
+
+                        // Find and update the hidden select element
+                        var $select = $currentForm.find('select[name="' + attributeName + '"]');
+                        if ($select.length === 0) {
+                            // If select doesn't exist, find by id
+                            $select = $currentForm.find('select[id*="' + attributeName.replace('attribute_', '') + '"]');
+                        }
+
+                        if ($select.length > 0) {
+                            $select.val(value).trigger('change');
+                        }
+                    });
+
+                    // Trigger WooCommerce variation check after setting all defaults
+                    $form.trigger('check_variations');
+                    $form.trigger('woocommerce_variation_select_change');
+                }
+
+                // Trigger default selections after a short delay to ensure WooCommerce is ready
+                setTimeout(triggerDefaultSelections, 100);
 
                 // Handle variation radio button changes
                 $(document).on('change', '.variation-radio-buttons input[type="radio"]', function() {
