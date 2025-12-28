@@ -499,6 +499,15 @@ add_action('woocommerce_thankyou', function($order_id){
     }
 });
 
+// Change download button text from product name to "DOWNLOAD"
+add_filter('woocommerce_customer_available_downloads', 'customize_download_button_text');
+function customize_download_button_text($downloads) {
+    foreach ($downloads as &$download) {
+        $download['download_name'] = 'DOWNLOAD';
+    }
+    return $downloads;
+}
+
 
 // // auto login after checkout
 // add_action('woocommerce_thankyou', function($order_id){
