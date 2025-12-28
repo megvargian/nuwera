@@ -472,8 +472,8 @@ add_action('woocommerce_email_after_order_table', function($order, $sent_to_admi
         if ($downloads) {
             echo '<h2>Your Downloads</h2><ul>';
             foreach ($downloads as $download) {
-                $download_name = 'download-' . sanitize_title($download['name']);
-                echo '<li><a href="'.esc_url($download['download_url']).'" name="'.esc_attr($download_name).'">Download</a></li>';
+                $download_name = 'download-' . sanitize_title('download');
+                echo '<li><a href="'.esc_url($download['download_url']).'" name="'.esc_attr($download_name).'">DOWNLOAD</a></li>';
             }
             echo '</ul>';
         }
@@ -531,6 +531,18 @@ function change_download_name_in_email($item_name, $item, $is_visible) {
         return 'DOWNLOAD';
     }
     return $item_name;
+}
+
+// Additional filter to ensure download text is changed in all WooCommerce contexts
+add_action('init', function() {
+    add_filter('woocommerce_get_item_downloads', 'force_download_name_change', 10, 3);
+});
+
+function force_download_name_change($item_downloads, $item, $order) {
+    foreach ($item_downloads as &$download) {
+        $download['name'] = 'DOWNLOAD';
+    }
+    return $item_downloads;
 }
 
 
