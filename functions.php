@@ -499,13 +499,38 @@ add_action('woocommerce_thankyou', function($order_id){
     }
 });
 
-// Change download button text from product name to "DOWNLOAD"
+// Change download button text from product name to "DOWNLOAD" in all contexts
 add_filter('woocommerce_customer_available_downloads', 'customize_download_button_text');
 function customize_download_button_text($downloads) {
     foreach ($downloads as &$download) {
         $download['download_name'] = 'DOWNLOAD';
     }
     return $downloads;
+}
+
+// Change download button text on thank you/order received page
+add_filter('woocommerce_order_get_downloadable_items', 'customize_order_download_text');
+function customize_order_download_text($downloads) {
+    foreach ($downloads as &$download) {
+        $download['name'] = 'DOWNLOAD';
+    }
+    return $downloads;
+}
+
+// Change download text in emails and other contexts
+add_filter('woocommerce_email_order_items_args', 'customize_email_download_args');
+function customize_email_download_args($args) {
+    if (isset($args['show_download_links']) && $args['show_download_links']) {
+        add_filter('woocommerce_order_item_name', 'change_download_name_in_email', 10, 3);
+    }
+    return $args;
+}
+
+function change_download_name_in_email($item_name, $item, $is_visible) {
+    if ($item->get_product() && $item->get_product()->is_downloadable()) {
+        return 'DOWNLOAD';
+    }
+    return $item_name;
 }
 
 
