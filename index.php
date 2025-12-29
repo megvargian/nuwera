@@ -10,7 +10,7 @@ get_header();
             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-Name-Only-White-500x132.webp"
             alt="Nuwera Logo">
         <img class="d-none d-md-block" id="nuwera-crowd-img"
-            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp" alt="NuweraCrowd">
+            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-2.WEBPwebp.webp" alt="NuweraCrowd">
     </section>
     <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container-xl">
@@ -258,14 +258,7 @@ get_header();
                         <h2>Our Story</h2>
                         <h3 class="pt-4">About Us</h3>
                         <p class="pb-3 pb-lg-5 pt-3">
-                            Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup
-                            comprises Denyo on vocals, lead, and rhythm, Angelo Zeidan on lead and rhythm guitars, Serge
-                            Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine
-                            Bayram on drums. Initially, the band consisted of entirely different members, most notably
-                            Raed Khairallah on drums and Garen Krikorian on bass. After some live events, Denyo shifted
-                            his musical focus to his newer project, 'Vahakn.' However, this dormant period served as the
-                            catalyst for Nuwera's revival in 2020, emerging with a renewed commitment and an entirely
-                            new lineup of dedicated musicians.
+                            Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup comprises Denyo on vocals, lead, and rhythm guitars, Serge Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums. Initially, the band consisted of entirely different members, most notably Raed Khairallah on drums and Garen Krikorian on bass. After some live events, the band entered a dormant period, which ultimately served as the catalyst for Nuwera's revival in 2020, emerging with a renewed commitment and an entirely new lineup of dedicated musicians. Nuwera has released three singles, Lord Fear, Am I Alive, and Groundless and is now moving toward the release of the album A New Era in 2026.
                         </p>
                         <h4 class="pt-5">Follow Us</h4>
                         <div class="row">
