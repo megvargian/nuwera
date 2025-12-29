@@ -10,7 +10,7 @@ get_header();
             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-Name-Only-White-500x132.webp"
             alt="Nuwera Logo">
         <img class="d-none d-md-block" id="nuwera-crowd-img"
-            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-2.WEBPwebp_compressed.webp" alt="NuweraCrowd">
+            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp" alt="NuweraCrowd">
     </section>
     <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container-xl">
