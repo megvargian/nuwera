@@ -176,7 +176,7 @@ $org = array(
         "https://www.instagram.com/nnuwera/"
     )
 );
-echo '<script type="application/ld+json">' . wp_json_encode( $org ) . '</script>\n';
+echo '<script type="application/ld+json">' . wp_json_encode( $org ) . '</script>';
 ?>
 
 <script>
