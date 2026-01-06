@@ -16,9 +16,11 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Nuwera is an active heavy metal band based in Lebanon, founded by Denyo in 2016. They are known for their energetic live performances and a sound that blends heavy metal with elements of groove, thrash, and nu metal.">
+    <meta name="description"
+        content="Nuwera is an active heavy metal band based in Lebanon, founded by Denyo in 2016. They are known for their energetic live performances and a sound that blends heavy metal with elements of groove, thrash, and nu metal.">
     <title><?php wp_title('-', true, 'right'); bloginfo('name'); ?></title>
-    <link rel="icon" href="https://nuwera.band/wp-content/uploads/2024/09/cropped-Nuwera-Logo-White-192x192.png" sizes="192x192">
+    <link rel="icon" href="https://nuwera.band/wp-content/uploads/2024/09/cropped-Nuwera-Logo-White-192x192.png"
+        sizes="192x192">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
@@ -28,7 +30,8 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site main_page_wrapper position-relative">
-        <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible" name="back-to-top" aria-label="Back to top">
+        <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible" name="back-to-top"
+            aria-label="Back to top">
             <span class="sr-only">Back to top</span>
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clippath="url(#clip0_77_1481)">
@@ -51,7 +54,7 @@
                     $menu_items = [
                         'Home' => '#home',
                         'Latest Single' => '#latest-single',
-                        'All Releases' => '#all-releases',
+                        'Releases' => '#all-releases',
                         'About Us' => '#about-us',
                         'Meet The Band' => '#meet-the-band',
                         'Shop Now' => '#shop-now'
