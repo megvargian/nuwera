@@ -7,10 +7,10 @@ get_header();
 <main id="main" class="site-main">
     <section id="home" style="text-align:center;">
         <img id="nuwera-logo"
-            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Test3_Nuwera-main-image_1.jpg"
+            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-Name-Only-White-500x132.webp"
             alt="Nuwera Logo">
         <img class="d-none d-md-block" id="nuwera-crowd-img"
-            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-main-image.webp" alt="Nuwera Band">
+            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Test3_Nuwera-main-image_1.jpg" alt="Nuwera Band">
     </section>
     <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container-xl">
