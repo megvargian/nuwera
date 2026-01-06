@@ -751,6 +751,9 @@ footer li {
   font-family: "AlbertSans-ExtraBold";
   font-size: 30px;
 }
+.single-release .single-release-product .release-cover-img {
+  width: 300px !important;
+}
 
 .woocommerce a {
   color: #ebe2d0 !important;
