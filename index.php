@@ -109,7 +109,7 @@ get_header();
     <section id="all-releases" class="albums py-5">
         <div class="container">
             <div class="row text-center pb-5">
-                <h2>All Releases</h2>
+                <h2>Releases</h2>
             </div>
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
