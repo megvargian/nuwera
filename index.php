@@ -109,7 +109,7 @@ get_header();
     <section id="all-releases" class="albums py-5">
         <div class="container">
             <div class="row text-center pb-5">
-                <h2>All Realeases</h2>
+                <h2>All Releases</h2>
             </div>
             <div class="row gap-x-4">
                 <div class="col-12 col-md-4 mb-md-0 mb-4">
@@ -258,13 +258,22 @@ get_header();
                         <h2>Our Story</h2>
                         <h3 class="pt-4">About Us</h3>
                         <p class="pb-3 pb-lg-5 pt-3">
-                            Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup comprises Denyo on vocals, lead, and rhythm guitars, Serge Achkarian on bass and backup vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums. Initially, the band consisted of entirely different members, most notably Raed Khairallah on drums and Garen Krikorian on bass. After some live events, the band entered a dormant period, which ultimately served as the catalyst for Nuwera's revival in 2020, emerging with a renewed commitment and an entirely new lineup of dedicated musicians. Nuwera has released three singles, Lord Fear, Am I Alive, and Groundless and is now moving toward the release of the album A New Era in 2026.
+                            Founded in 2016 by Denyo, Nuwera is a Heavy Metal band based in Lebanon. The current lineup
+                            comprises Denyo on vocals, lead, and rhythm guitars, Serge Achkarian on bass and backup
+                            vocals, Rick Garabedian on keyboards and synth, and Antoine Bayram on drums. Initially, the
+                            band consisted of entirely different members, most notably Raed Khairallah on drums and
+                            Garen Krikorian on bass. After some live events, the band entered a dormant period, which
+                            ultimately served as the catalyst for Nuwera's revival in 2020, emerging with a renewed
+                            commitment and an entirely new lineup of dedicated musicians. Nuwera has released three
+                            singles, Lord Fear, Am I Alive, and Groundless and is now moving toward the release of the
+                            album A New Era in 2026.
                         </p>
                         <h4 class="pt-5">Follow Us</h4>
                         <div class="row">
                             <ul class="px-0 pt-3">
                                 <li>
-                                    <a href="https://www.youtube.com/@nuwera" target="_blank" name="youtube-social" aria-label="Visit Nuwera on YouTube">
+                                    <a href="https://www.youtube.com/@nuwera" target="_blank" name="youtube-social"
+                                        aria-label="Visit Nuwera on YouTube">
                                         <span class="sr-only">Visit Nuwera on YouTube</span>
                                         <svg class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -299,7 +308,8 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.tiktok.com/@nuweraa" target="_blank" name="tiktok-social" aria-label="Follow Nuwera on TikTok">
+                                    <a href="https://www.tiktok.com/@nuweraa" target="_blank" name="tiktok-social"
+                                        aria-label="Follow Nuwera on TikTok">
                                         <span class="sr-only">Follow Nuwera on TikTok</span>
                                         <svg class="e-font-icon-svg e-fab-tiktok" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
@@ -310,8 +320,8 @@ get_header();
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.instagram.com/nnuwera/" target="_blank"
-                                        name="instagram-social" aria-label="Follow Nuwera on Instagram">
+                                    <a href="https://www.instagram.com/nnuwera/" target="_blank" name="instagram-social"
+                                        aria-label="Follow Nuwera on Instagram">
                                         <span class="sr-only">Follow Nuwera on Instagram</span>
                                         <svg class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512"
                                             xmlns="http://www.w3.org/2000/svg">
