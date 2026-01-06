@@ -747,6 +747,9 @@ footer li {
 .single-release .metal-encyclopedia-icon :hover svg {
   color: black;
 }
+.single-release .single-release-product h3 {
+  font-family: "AlbertSans-ExtraBold";
+}
 
 .woocommerce a {
   color: #ebe2d0 !important;
