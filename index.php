@@ -10,7 +10,8 @@ get_header();
             src="<?php echo get_template_directory_uri();?>/inc/assets/images/Nuwera-Name-Only-White-500x132.webp"
             alt="Nuwera Logo">
         <img class="d-none d-md-block" id="nuwera-crowd-img"
-            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Test3_Nuwera-main-image_1.jpg" alt="Nuwera Band">
+            src="<?php echo get_template_directory_uri();?>/inc/assets/images/Test3_Nuwera-main-image_1.jpg"
+            alt="Nuwera Band">
     </section>
     <section id="latest-single" class="align-content-center text-center py-5">
         <div class="container-xl">
@@ -448,7 +449,11 @@ get_header();
     </section>
     <section id="shop-now" class="shop-now py-5">
         <div class="container text-center">
-            <h2 class="mb-3">Shop Now</h2>
+            <a href="/shop" class="view-all-products-btn">
+                <h2 class="mb-3">
+                    Shop Now
+                </h2>
+            </a>
             <p class="mb-5" style="color:#000; font-size: 1.2rem;">Learn How to Play Our Songs</p>
 
             <div class="row justify-content-center gap-x-4">
