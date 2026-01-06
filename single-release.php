@@ -86,7 +86,9 @@ $get_all_fields = get_fields();
                 </ul>
             </div>
         </div>
-        <div class="col-12">
+    </div>
+    <div class="row">
+        <div class="col-12 text-white">
             <h3>Learn how to play Song Name Here:</h3>
         </div>
     </div>
