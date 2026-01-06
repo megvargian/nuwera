@@ -380,15 +380,6 @@ get_header();
                     </a>
                 </div>
                 <div class="col mb-4 mb-md-0">
-                    <div class="band-member" name="angelo-member">
-                        <img class="w-100 d-block"
-                            src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
-                            alt="Angelo Zeidan">
-                        <h3 class="my-3">Angelo Zeidan (Session)</h3>
-                        <p>Lead Guitar</p>
-                    </div>
-                </div>
-                <div class="col mb-4 mb-md-0">
                     <a href="<?php echo get_permalink(17650); ?>" class="band-member" name="rick-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.webp"
@@ -396,6 +387,15 @@ get_header();
                         <h3 class="my-3">Rick Garabedian</h3>
                         <p>Synth/Keys</p>
                     </a>
+                </div>
+                <div class="col mb-4 mb-md-0">
+                    <div class="band-member" name="angelo-member">
+                        <img class="w-100 d-block"
+                            src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
+                            alt="Angelo Zeidan">
+                        <h3 class="my-3">Angelo Zeidan (Session)</h3>
+                        <p>Lead Guitar</p>
+                    </div>
                 </div>
             </div>
             <div class="row justify-content-center gap-x-4 d-md-none d-flex">
