@@ -750,6 +750,7 @@ footer li {
 .single-release .single-release-product h3 {
   font-family: "AlbertSans-ExtraBold";
   font-size: 30px;
+  text-transform: uppercase;
 }
 .single-release .single-release-product img {
   width: 30rem !important;
