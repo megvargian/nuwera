@@ -89,7 +89,7 @@ $get_all_fields = get_fields();
     </div>
     <div class="row">
         <div class="col-12 text-white">
-            <h3>Learn how to play Song Name Here:</h3>
+            <h3 class="text-center">Learn how to play Song Name Here:</h3>
         </div>
     </div>
     <?php endwhile; ?>
