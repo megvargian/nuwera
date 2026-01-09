@@ -96,6 +96,18 @@ $get_all_fields = get_fields();
                 </div>
             </div>
         </div> -->
+        <?php
+                $args = array(
+                    'post_type' => 'product',
+                    'posts_per_page' => 1,
+                    'name'           => $slug = $post->post_name;
+                );
+                $products = new WP_Query($args);
+
+                if ($products->have_posts()) :
+                    while ($products->have_posts()) : $products->the_post();
+                        global $product;
+                        ?>
         <div class="col-12 col-md-4 mb-4 mb-md-0">
             <a href="<?php echo get_permalink(); ?>" class="shop-product-card">
                 <div class="product-image-wrapper">
@@ -112,6 +124,11 @@ $get_all_fields = get_fields();
                 </div>
             </a>
         </div>
+        <?php
+            endwhile;
+            wp_reset_postdata();
+        endif;
+        ?>
     </div>
     <?php endwhile; ?>
 </div>

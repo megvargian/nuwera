@@ -458,7 +458,6 @@ get_header();
 
             <div class="row justify-content-center gap-x-4">
                 <?php
-                // Get the 3 featured products
                 $args = array(
                     'post_type' => 'product',
                     'posts_per_page' => 3,
