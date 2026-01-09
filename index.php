@@ -46,8 +46,8 @@ get_header();
                             <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
                                 on Spotify</button>
                             <noscript>
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank"
-                                    rel="noopener">Open on Spotify</a>
+                                <a href="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
+                                    target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div>
                     </div>
