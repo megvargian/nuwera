@@ -771,9 +771,14 @@ footer li {
 }
 .single-release .release-cover-img img {
   width: 20rem !important;
+  height: auto;
 }
 .single-release .release-content {
   width: 20rem;
+}
+.single-release .product-image-wrapper img {
+  width: 20rem !important;
+  height: auto;
 }
 
 .woocommerce a {

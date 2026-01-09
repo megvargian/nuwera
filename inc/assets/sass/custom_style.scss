@@ -812,10 +812,17 @@ footer {
 		.release-cover-img {
 			img{
 				width: 20rem !important;
+				height: auto;
 			}
 		}
 		.release-content {
 			width: 20rem;
+		}
+		.product-image-wrapper{
+			img{
+				width: 20rem !important;
+				height: auto;
+			}
 		}
 }
 
