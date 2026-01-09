@@ -38,7 +38,7 @@ get_header();
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
                         <div class="spotify-embed-placeholder"
-                            data-src="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
+                            data-src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator"
                             data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp">
                             <div class="spotify-cover" aria-hidden="true"
                                 style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp');">
@@ -46,7 +46,7 @@ get_header();
                             <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
                                 on Spotify</button>
                             <noscript>
-                                <a href="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
+                                <a href="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator"
                                     target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div>
