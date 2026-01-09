@@ -97,10 +97,11 @@ $get_all_fields = get_fields();
             </div>
         </div> -->
         <?php
+        $release_slug = get_post_field('post_name', get_the_ID());
                 $args = array(
                     'post_type' => 'product',
                     'posts_per_page' => 1,
-                    'name'           => $slug = $post->post_name;
+                    'name'           => $release_slug,
                 );
                 $products = new WP_Query($args);
 
