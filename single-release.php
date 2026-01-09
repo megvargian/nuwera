@@ -8,7 +8,7 @@ $get_all_fields = get_fields();
         <div class="col-12 col-lg-5 mb-4 mb-lg-0">
             <?php if ( has_post_thumbnail() ) : ?>
             <div class="release-cover-img mt-4">
-                <?php the_post_thumbnail('large', ['class' => '']); ?>
+                <?php the_post_thumbnail('large', ['class' => 'img-fluid']); ?>
             </div>
             <?php endif; ?>
             <div class="release-info mt-4" style="color:#fff;">
