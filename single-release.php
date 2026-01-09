@@ -4,8 +4,8 @@ $get_all_fields = get_fields();
 ?>
 <div class="container py-5 single-release">
     <?php while ( have_posts() ) : the_post(); ?>
-    <div class="row align-items-start">
-        <div class="col-12 col-lg-5 mb-4 mb-lg-0">
+    <div class="row align-items-start justify-content-space-between r align-items-baseline">
+        <div class="col-12 col-lg-4 mb-4 mb-lg-0">
             <?php if ( has_post_thumbnail() ) : ?>
             <div class="release-cover-img mt-4">
                 <?php the_post_thumbnail('large', ['class' => 'img-fluid']); ?>
