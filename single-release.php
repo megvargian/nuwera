@@ -121,8 +121,10 @@ $get_all_fields = get_fields();
                 <div class="product-price text-center">
                     <span class="price"><?php echo $product->get_price_html(); ?></span>
                 </div>
-                <div class="shop-btn mt-3">
-                    <span class="btn-text">Learn More</span>
+                <div class="w-100 d-flex justify-content-center">
+                    <div class="shop-btn mt-3">
+                        <span class="btn-text">Learn More</span>
+                    </div>
                 </div>
             </a>
         </div>
