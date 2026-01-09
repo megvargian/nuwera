@@ -87,7 +87,7 @@ $get_all_fields = get_fields();
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row d-flex justify-content-center mt-5">
         <!-- <div class="col-12">
             <div class="d-flex flex-column align-items-center single-release-product">
                 <h3 class="p-5 text-white text-center">Learn how to play <?php the_title(); ?> Here:</h3>
