@@ -332,7 +332,7 @@ body.no-scroll {
 }
 
 #header i {
-  color: #EBE2D0;
+  color: #ebe2d0;
   font-size: 2rem;
 }
 #header #hamburger-icon {
@@ -440,7 +440,8 @@ body.no-scroll {
 #latest-single p {
   color: #ebe2d0;
 }
-#latest-single h2, #latest-single h3 {
+#latest-single h2,
+#latest-single h3 {
   text-transform: uppercase;
 }
 #latest-single h2 {
@@ -590,13 +591,18 @@ body.no-scroll {
   transform: scale(calc(1 + var(--about-us-scroll) / 10));
   transition: transform 0.1s linear 0s;
 }
-#about-us h2, #about-us h3, #about-us h4 {
+#about-us h2,
+#about-us h3,
+#about-us h4 {
   text-transform: uppercase;
 }
-#about-us p, #about-us h3, #about-us h4 {
+#about-us p,
+#about-us h3,
+#about-us h4 {
   color: #ebe2d0;
 }
-#about-us h3, #about-us h4 {
+#about-us h3,
+#about-us h4 {
   font-family: "AlbertSans-ExtraBold";
 }
 #about-us h3 {
@@ -623,7 +629,7 @@ body.no-scroll {
   margin-right: 0.8rem;
 }
 #about-us svg {
-  fill: #EBE2D0;
+  fill: #ebe2d0;
   width: 25px;
 }
 
@@ -759,7 +765,7 @@ footer li {
   background-color: white;
   color: black;
 }
-.single-release .single-release-product .shop-btn:hover {
+.single-release .single-release-product .shop-product-card:hover .shop-btn {
   background-color: #ff2b59;
   color: white;
 }
@@ -779,7 +785,12 @@ footer li {
 .woocommerce-page {
   background-color: #1b1b1b;
 }
-.woocommerce h1, .woocommerce h2, .woocommerce h3, .woocommerce h4, .woocommerce h5, .woocommerce h6,
+.woocommerce h1,
+.woocommerce h2,
+.woocommerce h3,
+.woocommerce h4,
+.woocommerce h5,
+.woocommerce h6,
 .woocommerce .woocommerce-breadcrumb,
 .woocommerce .product_title,
 .woocommerce .woocommerce-product-details__short-description,
@@ -798,7 +809,8 @@ footer li {
 .woocommerce .product-name,
 .woocommerce .cart-subtotal,
 .woocommerce .order-total,
-.woocommerce th, .woocommerce td,
+.woocommerce th,
+.woocommerce td,
 .woocommerce p,
 .woocommerce-page h1,
 .woocommerce-page h2,
@@ -830,7 +842,9 @@ footer li {
   color: #fff !important;
   font-family: "Poppins-Regular";
 }
-.woocommerce h1, .woocommerce h2, .woocommerce h3,
+.woocommerce h1,
+.woocommerce h2,
+.woocommerce h3,
 .woocommerce-page h1,
 .woocommerce-page h2,
 .woocommerce-page h3 {
@@ -919,7 +933,8 @@ footer li {
   background-color: #2a2a2a;
   border-color: #444 !important;
 }
-.woocommerce table th, .woocommerce table td,
+.woocommerce table th,
+.woocommerce table td,
 .woocommerce-page table th,
 .woocommerce-page table td {
   border-color: #444 !important;
@@ -1222,11 +1237,13 @@ footer li {
   border-color: #444 !important;
 }
 
-.wc-block-cart-items__header-image, .wc-block-cart-items__header-total {
+.wc-block-cart-items__header-image,
+.wc-block-cart-items__header-total {
   background-color: #1b1b1b !important;
 }
 
-.wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block, .wp-block-woocommerce-checkout.alignwide.wc-block-checkout {
+.wc-block-components-sidebar.wc-block-cart__sidebar.wp-block-woocommerce-cart-totals-block,
+.wp-block-woocommerce-checkout.alignwide.wc-block-checkout {
   color: #fff !important;
 }
 
@@ -1414,7 +1431,8 @@ footer li {
   }
 }
 @media (max-width: 600px) {
-  .woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text, .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
+  .woocommerce .variation-radio-buttons .variation-radio-label .variation-radio-text,
+  .woocommerce-page .variation-radio-buttons .variation-radio-label .variation-radio-text {
     display: flex !important;
     text-align: center !important;
   }
