@@ -19,19 +19,19 @@ get_header();
                 <div class="col-12 d-lg-none">
                     <h2>latest single</h2>
                     <h3 class="mb-4">god complex</h3>
-                    <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
+                    <p style="color:#ebe2d0;">Nuwera's Latest Single “God Complex” released on June 2023.</p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100">
                         <div id="vinyl-wrapper">
                             <img id="latest-single-vinyl-large-pic"
                                 src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
-                                alt="GROUNDLESS">
+                                alt="God Complex">
                             <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png"
                                 alt="Vinyl">
                             <img id="latest-single-vinyl-pic"
                                 src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
-                                alt="Groundless">
+                                alt="God Complex">
                         </div>
                     </div>
                 </div>
