@@ -54,16 +54,16 @@ get_header();
                     <div class="mt-4">
                         <ul>
                             <li class="my-2">
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37"
-                                    target="_blank" class="spotify" name="groundless-spotify-mobile">Spotify</a>
+                                <a href="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
+                                    target="_blank" class="spotify" name="god-complex-spotify-mobile">Spotify</a>
                             </li>
                             <li class="my-2">
-                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube"
-                                    name="groundless-youtube-mobile">YouTube</a>
+                                <a href="https://youtu.be/ezSUS8x1Muk?si=tJtPaPfMt894TM54" target="_blank"
+                                    class="youtube" name="god-complex-youtube-mobile">YouTube</a>
                             </li>
                             <li class="my-2">
-                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank"
-                                    class="apple-music" name="groundless-apple-mobile">Apple</a>
+                                <a href="https://music.apple.com/us/song/god-complex/1863260880" target="_blank"
+                                    class="apple-music" name="god-complex-apple-mobile">Apple</a>
                             </li>
                         </ul>
                     </div>
@@ -82,24 +82,24 @@ get_header();
                             <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
                                 on Spotify</button>
                             <noscript>
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc" target="_blank"
-                                    rel="noopener">Open on Spotify</a>
+                                <a href="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
+                                    target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div>
                     </div>
                     <div class="mt-4">
                         <ul>
                             <li class="me-3">
-                                <a href="https://open.spotify.com/track/7KYwVEnjw2kFVA97e4M2Rc?si=23d08345f54c4c37"
-                                    target="_blank" class="spotify" name="groundless-spotify-desktop">Spotify</a>
+                                <a href="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
+                                    target="_blank" class="spotify" name="god-complex-spotify-desktop">Spotify</a>
                             </li>
                             <li class="me-3">
-                                <a href="https://www.youtube.com/watch?v=7PBihNdhBX0" target="_blank" class="youtube"
-                                    name="groundless-youtube-desktop">YouTube</a>
+                                <a href="https://youtu.be/ezSUS8x1Muk?si=tJtPaPfMt894TM54" target="_blank"
+                                    class="youtube" name="god-complex-youtube-desktop">YouTube</a>
                             </li>
                             <li class="me-3">
-                                <a href="https://music.apple.com/us/album/groundless-single/1691621115" target="_blank"
-                                    class="apple-music" name="groundless-apple-desktop">Apple</a>
+                                <a href="https://music.apple.com/us/song/god-complex/1863260880" target="_blank"
+                                    class="apple-music" name="god-complex-apple-desktop">Apple</a>
                             </li>
                         </ul>
                     </div>
