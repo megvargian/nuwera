@@ -74,7 +74,7 @@ get_header();
                     <h3 class="mb-4">god complex</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single "God Complex" released on January 9 2026.</p>
                     <div class="mt-4">
-                        <div class="spotify-embed-placeholder"
+                        <!-- <div class="spotify-embed-placeholder"
                             data-src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator"
                             data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp">
                             <div class="spotify-cover" aria-hidden="true"
@@ -86,7 +86,8 @@ get_header();
                                 <a href="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
                                     target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
-                        </div>
+                        </div> -->
+                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                     </div>
                     <div class="mt-4">
                         <ul>
