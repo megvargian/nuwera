@@ -4,7 +4,7 @@ $get_all_fields = get_fields();
 ?>
 <div class="container py-5 single-release">
     <?php while ( have_posts() ) : the_post(); ?>
-    <div class="row justify-content-around align-items-center">
+    <div class="row justify-content-around align-items-start">
         <div class="col-12 col-lg-4 mb-4 mb-lg-0">
             <?php if ( has_post_thumbnail() ) : ?>
             <div class="release-cover-img mt-4">
