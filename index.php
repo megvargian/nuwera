@@ -39,9 +39,9 @@ get_header();
                     <div class="mt-4">
                         <div class="spotify-embed-placeholder"
                             data-src="https://open.spotify.com/track/4zWllwFaJhKLO3TnHxAQuw?si=ff9c039749d349b7"
-                            data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
+                            data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp">
                             <div class="spotify-cover" aria-hidden="true"
-                                style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');">
+                                style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp');">
                             </div>
                             <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
                                 on Spotify</button>
