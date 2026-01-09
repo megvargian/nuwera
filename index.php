@@ -18,7 +18,7 @@ get_header();
             <div class="row">
                 <div class="col-12 d-lg-none">
                     <h2>latest single</h2>
-                    <h3 class="mb-4">groundless</h3>
+                    <h3 class="mb-4">god complex</h3>
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
                 </div>
                 <div class="col-12 col-lg-6">
