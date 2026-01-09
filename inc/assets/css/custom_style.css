@@ -755,6 +755,10 @@ footer li {
 .single-release .single-release-product img {
   width: 30rem !important;
 }
+.single-release .single-release-product .shop-btn {
+  background-color: white;
+  color: black;
+}
 
 .woocommerce a {
   color: #ebe2d0 !important;
