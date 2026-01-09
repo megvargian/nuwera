@@ -25,12 +25,12 @@ get_header();
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100">
                         <div id="vinyl-wrapper">
                             <img id="latest-single-vinyl-large-pic"
-                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp"
+                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
                                 alt="GROUNDLESS">
                             <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png"
                                 alt="Vinyl">
                             <img id="latest-single-vinyl-pic"
-                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp"
+                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
                                 alt="Groundless">
                         </div>
                     </div>
