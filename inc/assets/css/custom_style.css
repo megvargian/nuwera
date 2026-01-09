@@ -769,6 +769,10 @@ footer li {
   background-color: #ff2b59;
   color: white;
 }
+.single-release .product-image-wrapper img {
+  width: 20rem !important;
+  height: auto;
+}
 
 .woocommerce a {
   color: #ebe2d0 !important;
