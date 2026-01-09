@@ -19,7 +19,7 @@ get_header();
                 <div class="col-12 d-lg-none">
                     <h2>latest single</h2>
                     <h3 class="mb-4">god complex</h3>
-                    <p style="color:#ebe2d0;">Nuwera's Latest Single “God Complex” released on January 2025.</p>
+                    <p style="color:#ebe2d0;">Nuwera's Latest Single “God Complex” released on January 9 2026.</p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100">
@@ -71,7 +71,7 @@ get_header();
                 <div class="d-none d-lg-block col-lg-6 text-left " id="latest-single-second-col-desktop">
                     <h2>latest single</h2>
                     <h3 class="mb-4">god complex</h3>
-                    <p style="color:#ebe2d0;">Nuwera's Latest Single "God Complex" released on June 2023.</p>
+                    <p style="color:#ebe2d0;">Nuwera's Latest Single "God Complex" released on January 9 2026.</p>
                     <div class="mt-4">
                         <div class="spotify-embed-placeholder"
                             data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc"
