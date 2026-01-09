@@ -30,7 +30,7 @@ $get_all_fields = get_fields();
             </div>
         </div>
         <div class="col-12 col-lg-5">
-            <div class="release-content d-flex justify-content-center" style="color:#fff;">
+            <div class="release-content" style="color:#fff;">
                 <div class="mt-4">
                     <div class="release-meta w-100" style="color:#fff;">
                         <?php
