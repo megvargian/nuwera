@@ -30,7 +30,7 @@ $get_all_fields = get_fields();
             </div>
         </div>
         <div class="col-12 col-lg-6">
-            <div class="release-content w-100" style="color:#fff;">
+            <div class="release-content d-flex justify-content-center" style="color:#fff;">
                 <div class="mt-4 w-100">
                     <div class="release-meta w-100" style="color:#fff;">
                         <?php
@@ -88,14 +88,6 @@ $get_all_fields = get_fields();
         </div>
     </div>
     <div class="row d-flex justify-content-center mt-5 single-release-product ">
-        <!-- <div class="col-12">
-            <div class="d-flex flex-column align-items-center ">
-                <h3 class="p-5 text-white text-center">Learn how to play <?php the_title(); ?> Here:</h3>
-                <div class="mt-4">
-                    <?php the_post_thumbnail('large', ['class' => 'img-fluid w-100']); ?>
-                </div>
-            </div>
-        </div> -->
         <h3 class="p-5 text-white text-center">Learn how to play <?php the_title(); ?> Here:</h3>
         <?php
         $release_slug = get_post_field('post_name', get_the_ID());

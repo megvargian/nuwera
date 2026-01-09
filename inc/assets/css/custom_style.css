@@ -769,6 +769,12 @@ footer li {
   background-color: #ff2b59;
   color: white;
 }
+.single-release .single-release-product .release-cover-img {
+  width: 20rem !important;
+}
+.single-release .single-release-product .release-content {
+  width: 20rem;
+}
 
 .woocommerce a {
   color: #ebe2d0 !important;
