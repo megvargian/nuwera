@@ -8,7 +8,7 @@ $get_all_fields = get_fields();
         <div class="col-12 col-lg-6 mb-4 mb-lg-0">
             <?php if ( has_post_thumbnail() ) : ?>
             <div class="release-cover-img mt-4">
-                <?php the_post_thumbnail('large', ['class' => 'img-fluid w-100']); ?>
+                <?php the_post_thumbnail('large', ['class' => 'img-fluid']); ?>
             </div>
             <?php endif; ?>
             <div class="release-info mt-4" style="color:#fff;">
@@ -31,7 +31,7 @@ $get_all_fields = get_fields();
         </div>
         <div class="col-12 col-lg-6">
             <div class="release-content d-flex justify-content-center" style="color:#fff;">
-                <div class="mt-4 w-100">
+                <div class="mt-4">
                     <div class="release-meta w-100" style="color:#fff;">
                         <?php
 							the_content();
