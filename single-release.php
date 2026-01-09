@@ -110,18 +110,18 @@ $get_all_fields = get_fields();
                     while ($products->have_posts()) : $products->the_post();
                         global $product;
                         ?>
-        <div class="col-12 col-md-4 mb-4 mb-md-0">
+        <div class="col-12 col-md-4 mb-4 mb-md-0 ">
             <a href="<?php echo get_permalink(); ?>" class="shop-product-card">
                 <div class="product-image-wrapper">
                     <?php if (has_post_thumbnail()) : ?>
                     <?php the_post_thumbnail('medium', array('class' => 'w-100')); ?>
                     <?php endif; ?>
                 </div>
-                <h3 class="my-3"><?php the_title(); ?></h3>
+                <h3 class="my-3 text-center"><?php the_title(); ?></h3>
                 <div class="product-price">
                     <span class="price"><?php echo $product->get_price_html(); ?></span>
                 </div>
-                <div class="shop-btn mt-3">
+                <div class="shop-btn mt-3 text-center">
                     <span class="btn-text">Learn More</span>
                 </div>
             </a>
