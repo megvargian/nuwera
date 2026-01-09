@@ -96,6 +96,7 @@ $get_all_fields = get_fields();
                 </div>
             </div>
         </div> -->
+        <h3 class="p-5 text-white text-center">Learn how to play <?php the_title(); ?> Here:</h3>
         <?php
         $release_slug = get_post_field('post_name', get_the_ID());
                 $args = array(
