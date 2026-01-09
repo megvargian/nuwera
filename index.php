@@ -70,14 +70,14 @@ get_header();
                 </div>
                 <div class="d-none d-lg-block col-lg-6 text-left " id="latest-single-second-col-desktop">
                     <h2>latest single</h2>
-                    <h3 class="mb-4">groundless</h3>
-                    <p style="color:#ebe2d0;">Nuwera's Latest Single “Groundless” released on June 2023.</p>
+                    <h3 class="mb-4">god complex</h3>
+                    <p style="color:#ebe2d0;">Nuwera's Latest Single "God Complex" released on June 2023.</p>
                     <div class="mt-4">
                         <div class="spotify-embed-placeholder"
                             data-src="https://open.spotify.com/embed/track/7KYwVEnjw2kFVA97e4M2Rc"
-                            data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp">
+                            data-img="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp">
                             <div class="spotify-cover" aria-hidden="true"
-                                style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/Groundless-Square-375x375.webp');">
+                                style="background-image: url('<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp');">
                             </div>
                             <button class="spotify-load-btn" type="button" aria-label="Load Spotify audio player">Play
                                 on Spotify</button>
