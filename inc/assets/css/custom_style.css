@@ -769,10 +769,10 @@ footer li {
   background-color: #ff2b59;
   color: white;
 }
-.single-release .single-release-product .release-cover-img {
+.single-release .release-cover-img {
   width: 20rem !important;
 }
-.single-release .single-release-product .release-content {
+.single-release .release-content {
   width: 20rem;
 }
 
