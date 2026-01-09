@@ -117,11 +117,11 @@ $get_all_fields = get_fields();
                     <?php the_post_thumbnail('medium', array('class' => 'w-100')); ?>
                     <?php endif; ?>
                 </div>
-                <h3 class="my-3 text-center"><?php the_title(); ?></h3>
-                <div class="product-price">
+                <h3 class="my-3 text-center text-white"><?php the_title(); ?></h3>
+                <div class="product-price text-center">
                     <span class="price"><?php echo $product->get_price_html(); ?></span>
                 </div>
-                <div class="shop-btn mt-3 text-center">
+                <div class="shop-btn mt-3">
                     <span class="btn-text">Learn More</span>
                 </div>
             </a>
