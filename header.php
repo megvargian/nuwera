@@ -30,11 +30,11 @@
 
 <body <?php body_class(); ?>>
     <div id="page" class="site main_page_wrapper position-relative">
-        <a href="#" id="back-to-top-link" class="scroll-to back-to-top-visible" name="back-to-top"
+        <a href="#" id="back-to-top-link" class="d-none scroll-to back-to-top-visible" name="back-to-top"
             aria-label="Back to top">
             <span class="sr-only">Back to top</span>
             <svg width="63" height="46" viewBox="0 0 63 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clippath="url(#clip0_77_1481)">
+                <g clippath=" url(#clip0_77_1481)">
                     <path d="M0.180725 23H62.1807" stroke="currentColor" stroke-width="2"></path>
                     <path d="M62.1807 23C49.3401 23 38.9307 12.7025 38.9307 0" stroke="currentColor" stroke-width="2">
                     </path>
@@ -95,7 +95,6 @@
             <script>
             jQuery(function($) {
                 // Hide #back-to-top-link when near the top
-                $('#back-to-top-link').fadeOut();
                 $(window).on('scroll', function() {
                     if ($(window).scrollTop() < 100) {
                         $('#back-to-top-link').fadeOut();
