@@ -22,22 +22,18 @@ get_header();
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “God Complex” released on January 9 2026.</p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <a href="<?php echo get_permalink(17699); ?>" name="god-complex-release">
-                        <div
-                            class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100">
-                            <div id="vinyl-wrapper">
-                                <img id="latest-single-vinyl-large-pic"
-                                    src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
-                                    alt="God Complex">
-                                <img id="vinyl"
-                                    src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png"
-                                    alt="Vinyl">
-                                <img id="latest-single-vinyl-pic"
-                                    src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
-                                    alt="God Complex">
-                            </div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100">
+                        <div id="vinyl-wrapper">
+                            <img id="latest-single-vinyl-large-pic"
+                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
+                                alt="God Complex">
+                            <img id="vinyl" src="<?php echo get_template_directory_uri();?>/inc/assets/images/vinyl.png"
+                                alt="Vinyl">
+                            <img id="latest-single-vinyl-pic"
+                                src="<?php echo get_template_directory_uri();?>/inc/assets/images/God-Complex.webp"
+                                alt="God Complex">
                         </div>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-12 d-lg-none">
                     <div class="mt-4">
