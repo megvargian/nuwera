@@ -22,7 +22,7 @@ get_header();
                     <p style="color:#ebe2d0;">Nuwera's Latest Single “God Complex” released on January 9 2026.</p>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100"
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start h-100 w-100 cursor-pointer"
                         onclick="redirectToProduct()">
                         <div id="vinyl-wrapper">
                             <img id="latest-single-vinyl-large-pic"
