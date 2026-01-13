@@ -50,7 +50,11 @@ get_header();
                                     target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div> -->
-                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe data-testid="embed-iframe" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator&theme=0"
+                            width="100%" height="152" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
                     </div>
                     <div class="mt-4">
                         <ul>
@@ -87,7 +91,11 @@ get_header();
                                     target="_blank" rel="noopener">Open on Spotify</a>
                             </noscript>
                         </div> -->
-                        <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                        <iframe data-testid="embed-iframe" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/track/4zWllwFaJhKLO3TnHxAQuw?utm_source=generator&theme=0"
+                            width="100%" height="152" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                            loading="lazy"></iframe>
                     </div>
                     <div class="mt-4">
                         <ul>
@@ -429,21 +437,21 @@ get_header();
                     </a>
                 </div>
                 <div class="col-12 mb-4 mb-md-0">
-                    <a href="<?php echo get_permalink(17648); ?>" class="band-member">
-                        <img class="w-100 d-block"
-                            src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
-                            alt="Angelo Zeidan">
-                        <h3 class="my-3">Angelo Zeidan</h3>
-                        <p>Lead Guitar</p>
-                    </a>
-                </div>
-                <div class="col-12 mb-4 mb-md-0">
                     <a href="<?php echo get_permalink(17650); ?>" class="band-member">
                         <img class="w-100 d-block"
                             src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/MIKE4328-1536x1024.webp"
                             alt="Rick Garabedian">
                         <h3 class="my-3">Rick Garabedian</h3>
                         <p>Synth/Keys</p>
+                    </a>
+                </div>
+                <div class="col-12 mb-4 mb-md-0">
+                    <a href="<?php echo get_permalink(17648); ?>" class="band-member">
+                        <img class="w-100 d-block"
+                            src="<?php echo get_template_directory_uri(); ?>/inc/assets/images/Angelo-Center-1536x1254.webp"
+                            alt="Angelo Zeidan">
+                        <h3 class="my-3">Angelo Zeidan (Session)</h3>
+                        <p>Lead Guitar</p>
                     </a>
                 </div>
             </div>
