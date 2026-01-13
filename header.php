@@ -96,10 +96,10 @@
             jQuery(function($) {
                 // Hide #back-to-top-link when near the top
                 $(window).on('scroll', function() {
-                    if ($(window).scrollTop() < 100) {
-                        $('#back-to-top-link').fadeOut();
+                    if ($(window).scrollTop() > 100) {
+                        $('#back-to-top-link').addClass('d-none');
                     } else {
-                        $('#back-to-top-link').fadeIn();
+                        $('#back-to-top-link').removeClass('d-none');
                     }
                 });
             });
