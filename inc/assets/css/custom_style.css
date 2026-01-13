@@ -309,6 +309,10 @@ header {
   z-index: 3;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 ::-moz-selection {
   background: #ff2b59;
   color: #ffffff;
