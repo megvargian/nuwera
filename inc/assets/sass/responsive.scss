@@ -2,91 +2,97 @@
 @charset "utf-8";
 
 @media (max-width: 1359px) {
-    #latest-single{
-        h3{
-            font-size: 50px;
-        }
-        h2{
-            font-size: 90px;
-        }
-    }
+	#latest-single {
+		h3 {
+			font-size: 50px;
+		}
+		h2 {
+			font-size: 90px;
+		}
+	}
 }
 
 @media (max-width: 1199px) {
-    #latest-single{
-        h3{
-            font-size: 45px;
-        }
-        h2{
-            font-size: 80px;
-        }
-    }
+	#latest-single {
+		h3 {
+			font-size: 45px;
+		}
+		h2 {
+			font-size: 80px;
+		}
+	}
 }
 
 @media screen and (max-width: 991px) {
-    #latest-single{
-        h3{
-            font-size: 40px;
-        }
-        h2{
-            font-size: 70px;
-        }
-        li{
-            width: 100%;
-        }
-    }
+	#latest-single {
+		h3 {
+			font-size: 40px;
+		}
+		h2 {
+			font-size: 70px;
+		}
+		li {
+			width: 100%;
+		}
+	}
 }
 
 @media (max-width: 767px) {
-    #home{
-        height: 30dvh;
-        #nuwera-logo {
-            width: 80%;
-        }   
-    }
-    
-    #latest-single{
-        h3{
-            font-size: 35px;
-        }
-        h2{
-            font-size: 60px;
-        }
-    }
+	#home {
+		height: 30dvh;
+		#nuwera-logo {
+			width: 80%;
+		}
+	}
 
-    .shop-now{
-        padding: 8rem;
-        h2 {
-            font-size: 2.5rem;
-        }
-    }
+	#latest-single {
+		h3 {
+			font-size: 35px;
+		}
+		h2 {
+			font-size: 60px;
+		}
+	}
+
+	.shop-now {
+		padding: 8rem;
+		h2 {
+			font-size: 2.5rem;
+		}
+	}
 }
 
 @media (max-width: 575px) {
-    .albums {
-        h2 {
-            font-size: 1.5rem;
-        }
-        h3 {
-            font-size: 1rem;
-        }
-    }
-    .meet-the-band {
-        h2 {
-            font-size: 1.5rem;
-        }
-    }
-    .shop-now{
-        padding: 8rem 0;
-        h2 {
-            font-size: 1.5rem;
-        }
-    }
-    footer {
-        a {
-            font-size: .85rem;
-        }
-    }
+	.albums {
+		h2 {
+			font-size: 1.5rem;
+		}
+		h3 {
+			font-size: 1rem;
+		}
+	}
+	.meet-the-band {
+		h2 {
+			font-size: 1.5rem;
+		}
+	}
+	.shop-now {
+		padding: 8rem 0;
+		h2 {
+			font-size: 1.5rem;
+		}
+	}
+	footer {
+		a {
+			font-size: 0.85rem;
+		}
+	}
+
+	#latest-single {
+		#latest-single-vinyl-pic {
+			width: 14.5vw;
+		}
+	}
 }
 
 @media (max-width: 470px) {

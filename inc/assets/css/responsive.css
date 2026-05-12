@@ -64,4 +64,7 @@
   footer a {
     font-size: 0.85rem;
   }
+  #latest-single #latest-single-vinyl-pic {
+    width: 14.5vw;
+  }
 }/*# sourceMappingURL=responsive.css.map */
