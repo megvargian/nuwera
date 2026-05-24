@@ -265,7 +265,7 @@ get_header();
     <section id="about-us" class="align-content-center text-white py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6 order-2 order-lg-1">
+                <div class="col-12 col-lg-6 order-last order-lg-first">
                     <div class="w-100 h-100 align-content-center">
                         <h2>Our Story</h2>
                         <h3 class="pt-4">About Us</h3>
@@ -348,7 +348,7 @@ get_header();
                     </div>
 
                 </div>
-                <div class="col-12 col-lg-6  order-1 order-lg-2 py-4">
+                <div class="col-12 col-lg-6  order-first order-lg-last py-4">
                     <div class="d-flex justify-content-center align-items-center w-100 h-100">
                         <img src="<?php echo get_template_directory_uri();?>/inc/assets/images/MIKE3972-scaled.webp"
                             alt="Nuwera" id="about-us-img">
